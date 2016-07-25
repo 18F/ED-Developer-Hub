@@ -1,0 +1,6 @@
+name: CFPB API Docs
+markdown: kramdown
+pygments: true
+safe: true
+baseurl: /api/
+exclude: ['.ruby-version', 'node_modules', 'package.json', 'bower.json']
