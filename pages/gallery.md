@@ -6,4 +6,4 @@ permalink: /gallery/
 ---
 
 
-...
+_Find and highlight examples of apps built on top of ED APIs_
