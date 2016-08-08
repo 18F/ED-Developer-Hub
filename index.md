@@ -15,7 +15,7 @@ Welcome to the Department of Education developer hub.  We've begun to rebuild th
 
 ##### Get started
 
-* Overview of available APIs 
-* Examples of projects using ED's APIs 
-* ...
+* [Overview of available APIs](https://pages.18f.gov/ED-Developer-Hub/basics/)
+* [Examples of projects using ED's APIs](https://pages.18f.gov/ED-Developer-Hub/gallery/)
+* [Other developer resources](https://pages.18f.gov/ED-Developer-Hub/other-resources/)
 
