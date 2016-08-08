@@ -32,5 +32,8 @@ _Public high school averaged freshman graduation rate (AFGR), by state or jurisd
 * By State - `?state=`  ([example](https://api.18f.gov/ed/data/public-hs-afgr?api_key=DEMO_KEY1&state=alaska))    
 
 
+#### [Legacy API Program](https://pages.18f.gov/ED-Developer-Hub/legacy/)
+
+Representing an earlier drive to provide APIs, these web services will stay live but are no longer actively supported.  
 
 <body id="basics"></body>
