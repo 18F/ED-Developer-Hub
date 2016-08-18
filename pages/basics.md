@@ -33,7 +33,7 @@ _Estimated average annual salary of teachers in public elementary and secondary 
 * Query By Multiple States - `?state=____&state=____`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&state=alaska&state=arizona)) 
 * Select Results Page - `?page=`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&page=2))  
 * Sort By Year - `?sort=year`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&sort=year))   
-* Return a Single Record - `/_index_number_ ([example](https://api.ed.gov/data/teacher-salary-2/15?api_key=DEMO_KEY1))  
+* Return a Single Record - `/_index_number_` ([example](https://api.ed.gov/data/teacher-salary-2/15?api_key=DEMO_KEY1))  
 
 
 #### High School Dropout Rates (Public, average freshman graduation rate)
