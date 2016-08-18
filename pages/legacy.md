@@ -47,8 +47,7 @@ These earlier APIs from the Department of Education will be maintained for the i
     <td><a href="https://inventory.data.gov/dataset/856103e8-8421-4064-bfe2-bb24f16b312d/resource/6c334124-f07f-4791-9fc6-d7f95eb9e7f5">Public Elementary/Secondary School Universe Survey</a></td>
     <td>2010-11</td>
     <td><a href="https://inventory.data.gov/dataset/856103e8-8421-4064-bfe2-bb24f16b312d/resource/6c334124-f07f-4791-9fc6-d7f95eb9e7f5/download/ncesccdpessunivsrvydata201011.csv" alt="CSV" border="0" align="left"/></a></td>
-    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=6c334124-f07f-4791-9fc6-d7f95eb9e7f5&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction
-"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></td>
+    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=6c334124-f07f-4791-9fc6-d7f95eb9e7f5&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></td>
      <td>&nbsp;</td>
   </tr>
   
@@ -75,7 +74,7 @@ These earlier APIs from the Department of Education will be maintained for the i
     <td><a href="https://inventory.data.gov/dataset/c25ae6bf-66c3-4a7d-867f-2cceeba5c039/resource/c9a98ee3-e3b3-4b0b-ac26-8378c18b4550">State Education Data Profiles: 2002, 2007, 2009, 2011</a></td>
     <td>2002, 2007, 2009, 2011</td>
     <td><a href="https://inventory.data.gov/dataset/c25ae6bf-66c3-4a7d-867f-2cceeba5c039/resource/c9a98ee3-e3b3-4b0b-ac26-8378c18b4550/download/userssharedsdfncessedpnaep2002200720092011.csv"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/csv.png" alt="CSV" border="0" align="left"/></a></td>
-    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=c9a98ee3-e3b3-4b0b-ac26-8378c18b4550&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></a></td>
+    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=c9a98ee3-e3b3-4b0b-ac26-8378c18b4550&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></td>
     <td>&nbsp;</td>
   </tr>
   
@@ -86,7 +85,7 @@ These earlier APIs from the Department of Education will be maintained for the i
     <td><a href="https://inventory.data.gov/dataset/27a1a391-a8fa-46dc-bcae-a23ba741cb78/resource/d7c214da-cb07-4437-a6f4-ba89d1d9aca3">Leading Indicators for the SIG Program</a></td>
     <td>2010-2011</td>
     <td><a href="https://inventory.data.gov/dataset/27a1a391-a8fa-46dc-bcae-a23ba741cb78/resource/d7c214da-cb07-4437-a6f4-ba89d1d9aca3/download/userssharedsdfleadingindtrsschlimprvgrntprogsy201011.csv"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/csv.png" alt="CSV" border="0" align="left"/></a></td>
-    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=d7c214da-cb07-4437-a6f4-ba89d1d9aca3&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></a></td>
+    <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=d7c214da-cb07-4437-a6f4-ba89d1d9aca3&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></td>
     <td>&nbsp;</td>
   </tr>
   
