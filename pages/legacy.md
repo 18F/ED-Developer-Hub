@@ -46,7 +46,7 @@ These earlier APIs from the Department of Education will be maintained for the i
   <tr>
     <td><a href="https://inventory.data.gov/dataset/856103e8-8421-4064-bfe2-bb24f16b312d/resource/6c334124-f07f-4791-9fc6-d7f95eb9e7f5">Public Elementary/Secondary School Universe Survey</a></td>
     <td>2010-11</td>
-    <td><a href="https://inventory.data.gov/dataset/856103e8-8421-4064-bfe2-bb24f16b312d/resource/6c334124-f07f-4791-9fc6-d7f95eb9e7f5/download/ncesccdpessunivsrvydata201011.csv" alt="CSV" border="0" align="left"/></a></td>
+    <td><a href="https://inventory.data.gov/dataset/856103e8-8421-4064-bfe2-bb24f16b312d/resource/6c334124-f07f-4791-9fc6-d7f95eb9e7f5/download/ncesccdpessunivsrvydata201011.csv" alt="CSV" border="0" align="left"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/csv.png" alt="CSV" border="0" align="left"/></a></td>
     <td><a href="https://inventory.data.gov/api/1/util/snippet/api_info.html?resource_id=6c334124-f07f-4791-9fc6-d7f95eb9e7f5&datastore_root_url=https%3A%2F%2Finventory.data.gov%2Fapi%2Faction"><img src="https://pages.18f.gov/ED-Developer-Hub/static/img/api.png" alt="API" border="0"  align="left"/></a></td>
      <td>&nbsp;</td>
   </tr>
