@@ -23,9 +23,9 @@ A robust API for financial aid data from higher education.
 
 _Estimated average annual salary of teachers in public elementary and secondary schools, by state: Selected years, 1969-70 through 2014-15. For more information and the raw dataset, [see here](https://nces.ed.gov/programs/digest/d15/tables/dt15_211.60.asp?current=yes)._
 
-*Endpoint*: [https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1)
+**Endpoint**: [https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1)
 
-*Query Parameters*:    
+**Query Parameters**:    
 * Query By Year - `?year=`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&year=1999-2000))   
 * Query By State - `?state=`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&state=alaska))    
 * Query By State and Year - `?state=____&year=____`  ([example](https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&state=alaska&year=1999-2000))  
@@ -42,9 +42,9 @@ _Estimated average annual salary of teachers in public elementary and secondary 
 
 _Public high school averaged freshman graduation rate (AFGR), by state or jurisdiction: Selected years, 1990-91 through 2012-13. For more information and the raw dataset, [see here](https://nces.ed.gov/programs/digest/d15/tables/dt15_219.35.asp?current=yes)._ 
 
-*Endpoint*: [https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1)  
+**Endpoint**: [https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1)  
 
-*Query Parameters*:    
+**Query Parameters**:    
 * By Year - `?year=`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&year=1999-2000))   
 * By State - `?state=`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&state=alaska))    
 * Query By State and Year - `?state=____&year=____`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&state=alaska&year=1999-2000))  
