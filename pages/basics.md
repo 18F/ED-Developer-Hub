@@ -59,3 +59,4 @@ _Public high school averaged freshman graduation rate (AFGR), by state or jurisd
 
 Representing an earlier drive to provide APIs, these web services will stay live but are no longer actively supported.  
 
+<body id="basics"></body>
