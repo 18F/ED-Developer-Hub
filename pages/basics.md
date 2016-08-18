@@ -49,7 +49,7 @@ _Public high school averaged freshman graduation rate (AFGR), by state or jurisd
 * Query By Multiple States - `?state=____&state=____`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&state=alaska&state=arizona)) 
 * Select Results Page - `?page=`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&page=2))  
 * Sort By Year - `?sort=year`  ([example](https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&sort=year))   
-* Return a Single Record - `/_index_number_ ([example](https://api.ed.gov/data/public-hs-afgr/15?api_key=DEMO_KEY1))  
+* Return a Single Record - `/_index_number_` ([example](https://api.ed.gov/data/public-hs-afgr/15?api_key=DEMO_KEY1))  
 
 
   
