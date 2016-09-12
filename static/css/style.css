@@ -983,6 +983,7 @@ button.expandable_header {
     .header .logo {
         float: left;
         vertical-align: middle;
+        padding-right: 30px;
     }
     .header h1 {
         float: left;
