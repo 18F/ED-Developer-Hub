@@ -354,7 +354,7 @@ a.action-arrow i {
 /* NAVIGATION */
 
  nav {
-   top-padding: 135px;
+   top-padding: 125px;
  }
 
  nav a {
@@ -984,7 +984,7 @@ button.expandable_header {
         float: left;
         vertical-align: middle;
         padding-right: 30px;
-        padding-top: 12px;
+        padding-top: 13px;
     }
     .header h1 {
         float: left;
