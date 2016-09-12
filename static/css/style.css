@@ -355,7 +355,7 @@ a.action-arrow i {
 
  nav a {
     display: block;
-    padding: 10px;
+    padding: 125 10px 10px 10 10px;
     -webkit-transition: .4s;
        -moz-transition: .4s;
             transition: .4s;
@@ -364,16 +364,20 @@ a.action-arrow i {
 nav a,
 nav a:link,
 nav a:visited {
+  color: #68C5F7;
+  text-decoration: none;
 }
 
 nav li:hover {
     color: #F25454;
     background-color: transparent;
+    text-decoration: none;
 }
 
 nav li:active {
     color: #fff;
     padding-left: 0;
+    text-decoration: none;
 }
 
 
@@ -392,28 +396,19 @@ nav li {
 }
 
 
-
-
-
-
-  nav a {
-      color: #68C5F7;
-  }
-
-  nav a:visited {
-      color: #68C5F7;
-  }
-
   nav a:hover {
       color: #F25454;
+      text-decoration: none;
   }
 
   nav a:focus {
       color: #F25454;
+      text-decoration: none;
   }
 
   nav a:active {
       color: #fff;
+      text-decoration: none;
   }
 
 
