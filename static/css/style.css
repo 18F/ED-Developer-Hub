@@ -383,7 +383,7 @@ nav li:active {
 
 nav ul {
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 0;
 }
 
 nav li {
@@ -1009,8 +1009,7 @@ button.expandable_header {
     footer {
     padding-top: .75em;
     padding-bottom: 1em;
-    border-top: 2px solid #BABBBD;
-    background: #F1F2F2;
+    background: #003176;
     font-family: "Avenir Next", Arial, sans-serif;
     width: 100%;
     position: absolute;
