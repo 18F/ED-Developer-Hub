@@ -289,7 +289,7 @@ dt {
     font-family: "Avenir Next Demi", Arial, sans-serif;
 }
 
-/* LINKS */
+/* LINKS
 a {
     border-bottom: 1px dotted #0072CE;
     color: #0072CE;
@@ -320,6 +320,8 @@ a:active {
     color: #002D72;
     text-decoration: none;
 }
+
+*/
 
 a.call-to-action {
     font-family: "Avenir Next", Arial, sans-serif;
