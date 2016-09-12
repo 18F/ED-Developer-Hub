@@ -387,7 +387,7 @@ nav li:active {
 
 nav ul {
     margin: 0;
-    padding: 50px 0 0 0;
+    padding: 75px 0 0 0;
 }
 
 nav li {
@@ -984,7 +984,7 @@ button.expandable_header {
         float: left;
         vertical-align: middle;
         padding-right: 30px;
-        padding-top: 13px;
+        padding-top: 12.5px;
     }
     .header h1 {
         float: left;
