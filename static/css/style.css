@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Carrois+Gothic+SC:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:300,400,700");
+
 @import "normalize.css";
 @import "fonts.css";
 @import ""
+
 
 /*
 Normalize the box model - Thanks, Paul Irish!
@@ -21,9 +25,12 @@ body, html {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Avenir Next", Arial, sans-serif;
-    line-height: 1.375;
-    color: #101820; /* CFPB black */
+    background-color: #174C96;
+    font-family: "Anonymous Pro", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+
 
     /* Improve default text rendering, handling of kerning pairs and ligatures */
     -webkit-font-smoothing: antialiased;
@@ -42,21 +49,21 @@ body {
 }
 /* IE7 and older can't resize px-based text */
 
-p, 
-blockquote, 
-q, 
-pre, 
-address, 
-hr, 
-code, 
-samp, 
-dl, 
-ol, 
-ul, 
-form, 
-table, 
-fieldset, 
-menu, 
+p,
+blockquote,
+q,
+pre,
+address,
+hr,
+code,
+samp,
+dl,
+ol,
+ul,
+form,
+table,
+fieldset,
+menu,
 img {
 
     margin:0;
@@ -355,23 +362,15 @@ a.action-arrow i {
 nav a,
 nav a:link,
 nav a:visited {
-    border-bottom: none;
-    color: #75787b;
 }
 
 nav li:hover {
-    color: #75787b;
-    border-left: 4px solid #2CB34A;
+    color: #F25454;
     background-color: transparent;
-    border-bottom: 1px solid #d0d0ce;
-    padding-left: 0;
 }
 
 nav li:active {
-    color: #75787b;
-    border-left: 4px solid #2CB34A;
-    background-color: transparent;
-    border-bottom: 1px solid #d0d0ce;
+    color: #fff;
     padding-left: 0;
 }
 
@@ -379,18 +378,20 @@ nav li:active {
 nav ul {
     margin: 0;
     padding: 0;
-    border-top: 1px solid #d0d0ce;
 }
 
 nav li {
     list-style: none;
-    border-bottom: 1px solid #d0d0ce;
-    font-size: 1.125em;
-    padding-left: 4px;
+    font-family: 'Carrois Gothic SC';
+    font-size: 14px;
+    color: #68C5F7;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
+
 #basics a.basics,
-#console a.console, 
+#console a.console,
 #queries a.queries,
 #fields a.fields,
 #contribute a.contribute,
@@ -454,21 +455,21 @@ ul.repo-list.no-padding {
 
 .wrap {
         max-width: 960px;
-        min-width: 320px; 
+        min-width: 320px;
 }
 
 /* offset the fixed position header for jump links */
 .anchor {
-    display: block; 
-    height: 4.375em; 
+    display: block;
+    height: 4.375em;
     margin-top: -4.375em;
     visibility: hidden;
 }
 
 .header {
-    border-bottom: 4px solid #2CB34A;
     width: 100%;
-    background-color: #fff;
+    height: 79px;
+    background-color: #F25454;
     /*position: fixed;*/
     top: 0;
     z-index: 99999;
@@ -476,23 +477,26 @@ ul.repo-list.no-padding {
 }
 
 .header h1 {
-    color: #75787B;
-    font-size: 1em;
-    line-height: 1.75em;
     margin: 1em;
     margin-left: .75em;
     float: left;
+    font-family: 'Carrois Gothic SC', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #F6EBF9;
+    letter-spacing: 3.92px;
 }
 
 .header h1 span {
-    font-family: "Avenir Next Demi", Arial, sans-serif;
+    font-family: 'Carrois Gothic SC', Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
 .header .logo {
-    width: 100px;
+    width: 55px;
+    height: 55px;
     display: block;
-    margin: 1.25em 1em;
+    margin: auto;
 }
 
 .page-title {
@@ -548,8 +552,7 @@ ul.repo-list.no-padding {
 
 footer {
     padding: 0;
-    border-top: 2px solid #BABBBD;
-    background: #F1F2F2;
+    background: #003176;
     font-family: "Avenir Next", Arial, sans-serif;
     width: 100%;
     position: absolute;
@@ -1020,7 +1023,7 @@ button.expandable_header {
         float: right;
     }
 
-} 
+}
 
 
 /* DESKTOP STYLES 640px */
@@ -1091,7 +1094,7 @@ button.expandable_header {
 }
 
 #fields .main-content {
-    height:auto !important\9; 
+    height:auto !important\9;
 }
 
 #documentation .main-content {
@@ -1105,7 +1108,7 @@ button.expandable_header {
 @media only screen and (min-width: 46.5em) {
     nav {
         text-align: left;
-    } 
+    }
 
     .footer .footer-oss {
         width: 67%;
@@ -1133,7 +1136,7 @@ button.expandable_header {
     .page-title br {
     display: block;
     }
-} 
+}
 
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP (1024PX) */
 /* full header design */
@@ -1162,7 +1165,7 @@ button.expandable_header {
     line-height: 1;
     margin-bottom: 1.375em;
     margin-left: 0;
-    }  
+    }
 
     .header .logo {
     float: right;
@@ -1170,20 +1173,20 @@ button.expandable_header {
     width: 210px;
     display: block;
     }
-} 
+}
 
 
 @media only screen and (min-width: 80em) {
 
 }
-/* DESKTOP 
+/* DESKTOP
 
 
 /*    W I D E S C R E E N    */
 /* Increased body size for legibility */
 @media only screen and (min-width: 87.5em) {
     body {
-        
+
     }
 }
 
