@@ -177,8 +177,8 @@ sub {
 
 /* CODE */
 pre, code {
-    background-color: #f1f2f2;
-    border: 1px solid #e3e4e5;
+    background-color: #003176;
+    border: 1px solid #68C5F7;
     border-radius: 0.250em;
     overflow-x: auto;
     padding: 0.125em 0.250em;
@@ -1086,8 +1086,7 @@ button.expandable_header {
 
     footer {
        padding: 2em 0;
-       border-top: 2px solid #BABBBD;
-       background: #F1F2F2;
+       background: #003176;
        font-family: "Avenir Next", Arial, sans-serif;
     }
 
