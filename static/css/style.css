@@ -355,7 +355,7 @@ a.action-arrow i {
 
  nav a {
     display: block;
-    padding: 125 10px 10px 10 10px;
+    padding: 10px;
     -webkit-transition: .4s;
        -moz-transition: .4s;
             transition: .4s;
@@ -383,7 +383,7 @@ nav li:active {
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding: 50px 0 0 0;
 }
 
 nav li {
