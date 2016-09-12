@@ -984,6 +984,7 @@ button.expandable_header {
         float: left;
         vertical-align: middle;
         padding-right: 30px;
+        padding-top: 10px;
     }
     .header h1 {
         float: left;
