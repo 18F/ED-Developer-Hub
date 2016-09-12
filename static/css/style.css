@@ -392,6 +392,32 @@ nav li {
 }
 
 
+
+
+
+
+  nav a {
+      color: #68C5F7;
+  }
+
+  nav a:visited {
+      color: #68C5F7;
+  }
+
+  nav a:hover {
+      color: #F25454;
+  }
+
+  nav a:focus {
+      color: #F25454;
+  }
+
+  nav a:active {
+      color: #fff;
+  }
+
+
+
 #basics a.basics,
 #console a.console,
 #queries a.queries,
