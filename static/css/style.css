@@ -982,7 +982,9 @@ button.expandable_header {
 @media only screen and (min-width: 30em) {
     .header .logo {
         float: left;
-        margin: 5px 25px 5px 0px;
+        padding-top: 5px;
+        padding-right: 30px;
+        padding-bottom: 5px;
     }
     .header h1 {
         float: left;
