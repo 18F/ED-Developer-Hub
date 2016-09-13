@@ -6,26 +6,15 @@ permalink: /basics/
 
 ### API basics
 
-
-<table style="width:100%">
-  <tr>
-    <td>College Scorecard API</td>
-    <td>High School Dropout Rate</td> 
-  </tr>
-  <tr>
-    <td>College Enrollment Rate</td>
-    <td>College Graduation Rate</td> 
-  </tr>
-  <tr>
-    <td>STEM Degrees</td>
-    <td>Disconnected Youth</td> 
-  </tr>
-  <tr>
-    <td>Labor Force Participation Rates</td>
-    <td>Imprisonment Rates</td> 
-  </tr>
-</table>
-
+* College Scorecard API  
+* High School Dropout Rate  
+* College Enrollment Rate  
+* College Graduation Rate  
+* STEM Degrees  
+* Disconnected Youth  
+* Labor Force Participation Rates  
+* Imprisonment Rates  
+  
   
 #### [College Scorecard API](https://collegescorecard.ed.gov/data/documentation/)  
 
