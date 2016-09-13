@@ -140,7 +140,6 @@ p  {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 0px;
-  margin-top: 100px;
   position:relative;
   z-index: 1;
 }
@@ -1284,7 +1283,7 @@ button.expandable_header {
     }
 
     .main-content {
-        margin-top: 8em;
+        margin-top: 13em;
         margin-left: 0;
     }
 
@@ -1401,7 +1400,7 @@ button:: -moz-focus-inner, input::-moz-focus-inner {
 /* Chip Lines SVG */
 
 .chipLines {
-  padding-top: 5px;
+  margin-top: -82px;
   padding-left: 180px;
   position:absolute;
   z-index:0;
