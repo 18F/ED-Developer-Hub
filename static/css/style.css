@@ -474,6 +474,11 @@ nav li:hover {
     text-decoration: none;
 }
 
+nav li:hover:after {
+    content: '<';
+    color: #fff;
+}
+
 nav li:active {
     color: #fff;
     padding-left: 0;
