@@ -6,8 +6,6 @@ permalink: /legacy/
 ---
 
 
-### _Under Construction_
-
 These earlier APIs from the Department of Education will be maintained for the indefinite future but will eventually be redundant with the new API program.  
 
 
