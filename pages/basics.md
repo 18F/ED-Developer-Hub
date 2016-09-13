@@ -9,8 +9,8 @@ permalink: /basics/
 
 <table style="width:100%">
   <tr>
-    <th>College Scorecard API</th>
-    <th>High School Dropout Rate</th> 
+    <td>College Scorecard API</td>
+    <td>High School Dropout Rate</td> 
   </tr>
   <tr>
     <td>College Enrollment Rate</td>
