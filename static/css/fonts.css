@@ -3,16 +3,16 @@
    @font-face Declarations
    ========================================================================== */
 
-/* 
+/*
  * CSS as specified in the following article until IE8 support is dropped:
  * http://coding.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration/
  *
- * Only the esential variants are on, by default. Uncomment any others if 
+ * Only the esential variants are on, by default. Uncomment any others if
  * you determine that you truly need them.
  *
- * Using Demi in place of Bold, by default. If using both Demi and Bold, set 
+ * Using Demi in place of Bold, by default. If using both Demi and Bold, set
  * Avenir Next Demi's weight back to 600.
- * 
+ *
  * Formats:
  * .eot - IE9 compatibility modes
  * .eot#iefix - IE6-IE8
@@ -20,6 +20,16 @@
  * .ttf - Safari, Android, iOS
  * .svg - Legacy iOS
  */
+
+ @font-face {
+     font-family: 'Didot';
+     src: url('../fonts/Didot.ttc');
+ }
+
+ @font-face {
+     font-family: 'TheanoDidot-Regular';
+     src: url('../fonts/TheanoDidot-Regular.ttf');
+ }
 
  @font-face {
   font-family: 'CFPB Minicons';
