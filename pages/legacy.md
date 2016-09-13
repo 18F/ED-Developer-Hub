@@ -8,10 +8,6 @@ permalink: /legacy/
 
 ### _Under Construction_
 
-_This site is a pilot project.  If you have feedback or questions, [let us know](https://github.com/18F/ED-Developer-Hub/issues)!_
-
-
-
 These earlier APIs from the Department of Education will be maintained for the indefinite future but will eventually be redundant with the new API program.  
 
 
