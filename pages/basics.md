@@ -4,7 +4,7 @@ title: API Basics
 permalink: /basics/
 ---
 
-### API basics
+### API Listing
 
 * College Scorecard API  
 * High School Dropout Rate  
