@@ -41,7 +41,7 @@
 						<img class="logo" src="static/img/redEdLogo.svg" alt="Department of Education logo">
 				</a>
 
-			<a href="https://pages.18f.gov/ED-Developer-Hub/" target="_blank"><h1><span>U.S. DEPARTMENT OF EDUCATION /DEVELOPER_HUB</span></h1></a>
+			<a href="https://pages.18f.gov/ED-Developer-Hub/" target="_blank"><h1><span>U.S. DEPARTMENT OF EDUCATION /developer_hub</span></h1></a>
 
 
 
@@ -80,18 +80,104 @@
 <p> Welcome to the U.S. Department of Education’s Developer Hub, where we’ve gathered the Department’s developer resources.</p>
 
 
-<p>Build with us—and transform the education sector.</p>
-<br>
-<p>Welcome to the Department of Education developer hub.  We’ve begun to rebuild the agency’s public web services and would love your help.  Please <a href="https://pages.18f.gov/ED-Developer-Hub/basics.html">check out the current offerings</a> and <a href="https://github.com/18F/ED-Developer-Hub/issues">let us know</a> how we can improve.  We’ll be regularly adding new APIs and improving the site to make it more developer-friendly, so check back often.  Thanks!</p>
+<p>Build with us—and transform the education sector. :)</p>
 
-<h5 id="get-started">Get started_</h5>
+<h5 id="get-started">Get_started</h5>
 
 <ul>
   <li><a href="https://pages.18f.gov/ED-Developer-Hub/basics/">Check out available APIs</a></li>
   <li><a href="https://pages.18f.gov/ED-Developer-Hub/api-key/">Register an API Key</a></li>
-  <li><a href="https://github.com/18F/ED-Developer-Hub/issues">Give Us Feedback</a></li>
-  <li><a href="https://groups.google.com/forum/#!forum/dept-of-education-developer-updates">Sign Up For Updates</a></li>
+  <li><a href="https://github.com/18F/ED-Developer-Hub/issues">Give us feedback</a></li>
+  <li><a href="https://groups.google.com/forum/#!forum/dept-of-education-developer-updates">Sign up for updates</a></li>
 </ul>
+
+<h1 class="displayFont1">Discover</h1>
+<h2 class="displayFont2">
+  /our_data
+</h2>
+
+<section class="whiteCard">
+
+
+<h4 id="teacher-salaries">/teacher_salaries</h4>
+
+<p class="description"><em>Estimated average annual salary of teachers in public elementary and secondary schools, by state: Selected years, 1969-70 through 2014-15. For more information and the raw dataset, <a href="https://nces.ed.gov/programs/digest/d15/tables/dt15_211.60.asp?current=yes">see here</a>.</em></p>
+
+<p><strong>Endpoint</strong>: <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1">https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1</a></p>
+
+<p><strong>Query Parameters</strong>:  <br>
+* Query By Year - <code>?year=</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;year=1999-2000">example</a> <br>
+* Query By State - <code>?state=</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;state=alaska">example</a>  <br>
+* Query By State and Year - <code>?state=____&amp;year=____</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;state=alaska&amp;year=1999-2000">example</a><br>
+* Query By Multiple States - <code>?state=____&amp;state=____</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;state=alaska&amp;state=arizona">example</a> <br>
+* Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;per_page=30">example</a>  <br>
+* Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+* Sort By Year - <code>?sort=year</code>  <a href="https://api.ed.gov/data/teacher-salary-2?api_key=DEMO_KEY1&amp;sort=year">example</a> <br>
+* Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/teacher-salary-2/15?api_key=DEMO_KEY1">example</a></p>
+
+<p><br></p>
+
+<h4 id="high-school-dropout-rates-public-average-freshman-graduation-rate">/high_school_dropout_rates</h4>
+
+<p class="description"><em>Public high school averaged freshman graduation rate (AFGR), by state or jurisdiction: Selected years, 1990-91 through 2012-13. For more information and the raw dataset, <a href="https://nces.ed.gov/programs/digest/d15/tables/dt15_219.35.asp?current=yes">see here</a>.</em></p>
+
+<p><strong>Endpoint</strong>: <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1">https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1</a></p>
+
+<p><strong>Query Parameters</strong>:  <br>
+* By Year - <code>?year=</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;year=1999-2000">example</a> <br>
+* By State - <code>?state=</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;state=alaska">example</a>  <br>
+* Query By State and Year - <code>?state=____&amp;year=____</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;state=alaska&amp;year=1999-2000">example</a><br>
+* Query By Multiple States - <code>?state=____&amp;state=____</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;state=alaska&amp;state=arizona">example</a> <br>
+* Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;per_page=30">example</a>  <br>
+* Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+* Sort By Year - <code>?sort=year</code>  <a href="https://api.ed.gov/data/public-hs-afgr?api_key=DEMO_KEY1&amp;sort=year">example</a> <br>
+* Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/public-hs-afgr/15?api_key=DEMO_KEY1">example</a></p>
+
+<p><br></p>
+
+<h4 id="college-scorecard-apihttpscollegescorecardedgovdatadocumentation">/the_college_scorecard</h4>
+
+<p class="description">...</p>
+
+
+</section>
+
+    </section>
+
+    </div>
+  </div> <!--wrap-->
+
+    <footer class="footer cf" role="contentinfo">
+      <div class="wrap">
+
+            <section class="footer-oss">
+                <h4>Open source</h4>
+                <p>
+                    As a work of the United States Government, source code released by 18F is in the public
+                    domain by default within the United States.
+                    <a href="https://github.com/18F/open-source-policy/blob/master/policy.md">
+                        View our full source code policy.
+                    </a>
+                </p>
+            </section>
+
+
+            <section class="footer-links">
+                <ul>
+                    <li>
+                        <a href="http://www.ed.gov/">ed.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/18F">github.com/18F</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/basics/">Work with us</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/basics/">Contact us</a>
+                    </li>
+                </ul>
+            </section>
 
 
     </section>
