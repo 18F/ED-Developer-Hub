@@ -104,9 +104,11 @@ h4 {
 
 h5 {
     margin: 3em 0 1.25em 0;
-    font: 600 0.875em/1.57142857142857 "Avenir Next Demi", Arial, sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-size: 24px;
+    color: #5ADB92;
+    font-family: 'Anonymous Pro';
+    font-weight: normal;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 
@@ -123,6 +125,27 @@ p  {
     margin: .75em 0;
     font-size: 1em;
     line-height: 1.375em;
+}
+
+.displayFont1 {
+  font-family: 'AnonymousPro';
+  font-size: 24px;
+  color: #F25454;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 100px;
+  position:relative;
+  z-index: 1;
+}
+
+.displayFont2 {
+  font-family: 'Didot';
+  font-size: 64px;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  position:relative;
+  z-index: 1;
 }
 
 ul, blockquote, pre, td, th, label {
@@ -289,39 +312,43 @@ dt {
     font-family: "Avenir Next Demi", Arial, sans-serif;
 }
 
-/* LINKS
-a {
-    border-bottom: 1px dotted #0072CE;
-    color: #0072CE;
+
+.main-content a {
+    background-color: #003176;
+    color: #fff;
     text-decoration: none;
 }
 
+.main-content a:hover {
+    background-color: #68C5F7;
+    color: #003176;
+    text-decoration: none;
+}
+
+/*
 a:visited {
-    border-bottom: 1px solid #005E5D;
     color: #005E5D;
     text-decoration: none;
 }
 
+*/
+
 a:hover {
-    border-bottom: 1px solid #7eb8dd;
     color: #7eb8dd;
     text-decoration: none;
 }
 
 a:focus {
-    border-bottom: 1px solid #0072ce;
-    outline: thin dotted;
     color: #0072ce;
     text-decoration: none;
 }
 
 a:active {
-    border-bottom: 1px solid #002D72;
     color: #002D72;
     text-decoration: none;
 }
 
-*/
+
 
 a.call-to-action {
     font-family: "Avenir Next", Arial, sans-serif;
@@ -549,6 +576,7 @@ ul.repo-list.no-padding {
 
 .main-content ul, ol {
     padding: 0;
+    list-style: square;
     list-style-position: inside;
 }
 
@@ -1292,6 +1320,15 @@ button:: -moz-focus-inner, input::-moz-focus-inner {
     padding:0;
 }
 
+/* Chip Lines SVG */
+
+.chipLines {
+  padding-top: 5px;
+  padding-left: 180px;
+  position:absolute;
+  z-index:0;
+
+}
 
 /* QUOTES */
 
