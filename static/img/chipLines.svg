@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="274px" height="217px" viewBox="0 0 274 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="275px" height="217px" viewBox="0 0 275 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Lines</title>
     <desc>Created with Sketch.</desc>
@@ -31,22 +31,23 @@
                     <circle id="Oval" fill="#174C96" cx="177" cy="127" r="4"></circle>
                     <circle id="Oval" fill="#174C96" cx="46" cy="141" r="4"></circle>
                 </g>
-                <g transform="translate(145.500000, 72.500000) scale(-1, 1) translate(-145.500000, -72.500000) translate(19.000000, 0.000000)">
-                    <circle id="Oval" fill="#174C96" cx="80" cy="25" r="4"></circle>
-                    <path d="M79.875,30.5 L79.875,82.5013504" id="Line" stroke-linecap="square"></path>
-                    <path d="M130.410172,63.3860857 L95.8928808,97.9033775" id="Line" stroke-linecap="square"></path>
-                    <path d="M131.000001,48.490939 L131.000001,62.2907495" id="Line" stroke-linecap="square"></path>
-                    <path d="M202.432434,1.36382353 L100.502996,103.293262" id="Line" stroke-linecap="square"></path>
-                    <path d="M176.907652,93.3638235 L143.567566,126.70391" id="Line" stroke-linecap="square" transform="translate(160.237609, 110.033867) scale(-1, 1) translate(-160.237609, -110.033867) "></path>
-                    <path d="M202.432434,11.3638235 L105.905294,107.890969" id="Line" stroke-linecap="square"></path>
-                    <path d="M203,58.6287727 L203,11" id="Line" stroke-linecap="square"></path>
-                    <path d="M250.628773,59 L203,59" id="Line" stroke-linecap="square"></path>
-                    <path d="M92.5014191,122 L4.45785558,122" id="Line" stroke-linecap="square"></path>
-                    <circle id="Oval" fill="#174C96" cx="4" cy="123" r="4"></circle>
-                    <circle id="Oval" fill="#174C96" cx="249" cy="59" r="4"></circle>
-                    <circle id="Oval" fill="#174C96" cx="144" cy="93" r="4"></circle>
-                    <circle id="Oval" fill="#174C96" cx="131" cy="45" r="4"></circle>
-                    <g id="Group" transform="translate(166.599976, 71.199997) scale(-1, 1) translate(-166.599976, -71.199997) translate(86.599976, 0.199997)">
+                <g transform="translate(146.000000, 72.500000) scale(-1, 1) translate(-146.000000, -72.500000) translate(19.000000, 0.000000)">
+                    <circle id="Oval" fill="#174C96" cx="81" cy="25" r="4"></circle>
+                    <path d="M80.875,30.5 L80.875,82.5013504" id="Line" stroke-linecap="square"></path>
+                    <path d="M131.410172,63.3860857 L96.8928808,97.9033775" id="Line" stroke-linecap="square"></path>
+                    <path d="M132.000001,48.490939 L132.000001,62.2907495" id="Line" stroke-linecap="square"></path>
+                    <path d="M203.432434,1.36382353 L101.502996,103.293262" id="Line" stroke-linecap="square"></path>
+                    <path d="M177.907652,93.3638235 L144.567566,126.70391" id="Line" stroke-linecap="square" transform="translate(161.237609, 110.033867) scale(-1, 1) translate(-161.237609, -110.033867) "></path>
+                    <path d="M203.432434,11.3638235 L106.905294,107.890969" id="Line" stroke-linecap="square"></path>
+                    <path d="M204,58.6287727 L204,11" id="Line" stroke-linecap="square"></path>
+                    <path d="M251.628773,59 L204,59" id="Line" stroke-linecap="square"></path>
+                    <path d="M93.5014191,122 L71.4489262,122" id="Line" stroke-linecap="square"></path>
+                    <path d="M69.5020503,119 L8.48660844,119" id="Line" stroke-linecap="square"></path>
+                    <circle id="Oval" fill="#174C96" cx="4" cy="119" r="4"></circle>
+                    <circle id="Oval" fill="#174C96" cx="250" cy="59" r="4"></circle>
+                    <circle id="Oval" fill="#174C96" cx="145" cy="93" r="4"></circle>
+                    <circle id="Oval" fill="#174C96" cx="132" cy="45" r="4"></circle>
+                    <g id="Group" transform="translate(167.599976, 71.199997) scale(-1, 1) translate(-167.599976, -71.199997) translate(87.599976, 0.199997)">
                         <path d="M17.4101715,1.38608566 L4.79600447,14.0002527" id="Line" stroke-linecap="square"></path>
                         <g id="Group-2" transform="translate(146.000000, 121.800003)" stroke-linecap="square">
                             <path d="M7.41017151,0.386085659 L1.29490408,6.50135326" id="Line"></path>
@@ -55,8 +56,8 @@
                         <path d="M43.6287727,1 L18.4950261,1" id="Line" stroke-linecap="square"></path>
                         <circle id="Oval" fill="#174C96" cx="4" cy="15" r="4"></circle>
                     </g>
-                    <circle id="Oval" fill="#174C96" cx="177" cy="127" r="4"></circle>
-                    <g id="Group-3" transform="translate(6.700012, 137.000000)">
+                    <circle id="Oval" fill="#174C96" cx="178" cy="127" r="4"></circle>
+                    <g id="Group-3" transform="translate(7.700012, 137.000000)">
                         <path d="M80.5,4 L8.79824442,4" id="Line" stroke-linecap="square"></path>
                         <circle id="Oval" fill="#174C96" cx="4" cy="4" r="4"></circle>
                     </g>
