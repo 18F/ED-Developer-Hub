@@ -26,7 +26,7 @@ permalink: /api-key/
    // This can be any API endpoint on your server, and you can use the
    // special {{api_key}} variable to automatically substitute in the API
    // key the user just signed up for.
-   exampleApiUrl: 'https://api.ed.gov/data/teacher-salary-2?api_key={{api_key}}'
+   exampleApiUrl: 'https://api.ed.gov/data/less-than-highschool_2015?api_key={{api_key}}'
 
    // OPTIONAL: Provide extra content to display on the signup confirmation
    // page. This will be displayed below the user's API key and the example
