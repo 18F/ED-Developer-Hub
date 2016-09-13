@@ -108,9 +108,9 @@ h4 {
 }
 
 h5 {
-    margin: 3em 0 1.25em 0;
+    margin: 3em 0 .7em 0;
     font-size: 24px;
-    color: #5ADB92;
+    color: #F25454;
     font-family: 'Space Mono';
     font-weight: normal;
     letter-spacing: 1.5px;
@@ -381,15 +381,16 @@ dt {
 
 
 .main-content a {
-    background-color: #003176;
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #5ADB92;
 }
 
 .main-content a:hover {
     background-color: #68C5F7;
     color: #003176;
     text-decoration: none;
+    border-bottom: 2px solid #68C5F7;
 }
 
 /*
