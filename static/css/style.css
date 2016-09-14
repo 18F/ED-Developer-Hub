@@ -257,22 +257,26 @@ pre {
   font-size: 12px;
 }
 
-.whiteCard a:hover {
-    color: #F25454;
-    text-decoration: none;
+.whiteCard .blueLink a:link, .whiteCard .blueLink a:active, .whiteCard .blueLink a:visited
+{
+  background-color: rgba(255, 0, 0, 0);
+  color: #003176;
+  border-bottom: 2px solid #68C5F7;
+  font-size: 12px;
 }
 
-.whiteCard a:hover {
-    color: #F25454;
-    text-decoration: none;
+.whiteCard .blueLink a:hover {
+  background-color: #68C5F7;
+  color: #003176;
+  border-bottom: 2px solid #68C5F7;
+  font-size: 12px;
 }
+
 
 .whiteCard .description {
   font-family: "Space Mono", Arial, sans-serif;
   font-size: 12px;
-  margin-bottom: 25px;
   line-height: 22px;
-  color: #818FA2;
 }
 
 .whiteCard h4 {
@@ -280,14 +284,15 @@ pre {
   margin: 0;
   margin-bottom: 1em;
   font-family: 'Space Mono', Arial, sans-serif;
-  color: #F6EBF9;
+  color: #003176;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 26px;
   text-transform: lowercase;
-  background-color: #F25454;
-  -webkit-box-shadow: 0px 1px 0px 4px rgba(242,84,84,1);
--moz-box-shadow: 0px 1px 0px 4px rgba(242,84,84,1);
-box-shadow: 0px 1px 0px 4px rgba(242,84,84,1);
+  text-align: left;
+  background-color: #68C5F7;
+  -webkit-box-shadow: 0px 1px 0px 4px #68C5F7;
+-moz-box-shadow: 0px 1px 0px 4px #68C5F7;
+box-shadow: 0px 1px 0px 4px #68C5F7;
 
 }
 
@@ -474,7 +479,7 @@ nav li:hover {
 }
 
 nav li:hover:after {
-    content: '<';
+/*    content: "<"; */
     color: #fff;
 }
 
@@ -1406,6 +1411,8 @@ button:: -moz-focus-inner, input::-moz-focus-inner {
   z-index:0;
 
 }
+
+
 
 /* QUOTES */
 

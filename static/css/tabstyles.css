@@ -1,0 +1,78 @@
+
+
+/*****************************/
+/* Triangle and line */
+/*****************************/
+
+.tabs-style-linetriangle li {
+	font-family: 'Space Mono';
+	text-transform: uppercase;
+	color: #758293;
+	font-size: 14px;
+	letter-spacing: 5px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.tabs-style-linetriangle nav ul li a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
+	color: #787C83;
+  text-decoration: none;
+}
+
+.tabs-style-linetriangle nav ul li a:hover,
+.tabs-style-linetriangle nav ul li a:focus {
+	color: #787C83;
+	background-color: #fff;
+}
+
+.tabs-style-linetriangle nav a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
+	overflow: visible;
+	border-bottom: 1px solid #F25454;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.tabs-style-linetriangle nav a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
+	overflow: visible;
+	border-bottom: 1px solid #F25454;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.tabs-style-linetriangle nav a span {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1em;
+}
+
+.tabs-style-linetriangle nav li.tab-current a:after,
+.tabs-style-linetriangle nav li.tab-current a:before {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: solid transparent;
+	content: '';
+	pointer-events: none;
+}
+
+.tabs-style-linetriangle nav li.tab-current a:after {
+	margin-left: -10px;
+	border-width: 10px;
+	border-top-color: #fff;
+}
+
+.tabs-style-linetriangle nav li.tab-current a:before {
+	margin-left: -11px;
+	border-width: 11px;
+	border-top-color: #F25454;
+}
+
+@media screen and (max-width: 58em) {
+	.tabs-style-linetriangle nav {
+		font-size: 0.6em;
+	}
+}
