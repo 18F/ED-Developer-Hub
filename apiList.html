@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://pages.18f.gov/ED-Developer-Hub/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="static/css/normalize.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="static/css/tabs.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/tabstyles.css" />
+    <script src="static/js/modernizr.custom.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if IE]>
+  <link rel="stylesheet" href="/ED-Developer-Hub/static/css/for-ie-only.css">
+  <![endif]-->
+
+  <title>Department of Education - Developer Resources</title>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style>
+</head>
+<body>
+  <!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+
+  <header class="header cf" role="banner">
+      			<div class="wrap">
+
+				<a href="http://www.ed.gov/" target="_blank">
+						<img class="logo" src="static/img/redEdLogo.svg" alt="Department of Education logo">
+				</a>
+
+			<a href="https://pages.18f.gov/ED-Developer-Hub/" target="_blank"><h1><span>U.S. DEPARTMENT OF EDUCATION /developer_hub</span></h1></a>
+
+
+
+        	</div>
+
+  </header>
+
+  <div class="wrap">
+    <div class="content">
+
+    <aside>
+
+    <nav>
+        <ul>
+          <li><a href="https://pages.18f.gov/ED-Developer-Hub" class="overview">Overview</a></li>
+          <li><a href="https://pages.18f.gov/ED-Developer-Hub/basics/" class="basics">API List</a></li>
+          <li><a href="https://pages.18f.gov/ED-Developer-Hub/api-key/" class="basics">API Keys</a></li>
+          <li><a href="https://pages.18f.gov/ED-Developer-Hub/api-key/" class="basics">Gallery</a></li>
+          <li><a href="https://github.com/18F/ED-Developer-Hub/issues" class="queries">Feedback</a></li>
+          <li><a href="https://pages.18f.gov/ED-Developer-Hub/contact/" class="basics">Contact</a></li>
+        </ul>
+    </nav>
+
+    </aside>
+
+
+    <section class="main-content" role="main">
+
+
+
+
+      <img class="chipLines" src="static/img/chipLines.svg" alt="Computer Chip Lines Graphic">
+<h1 class="displayFont1" style="color: #5ADB92;">Discover</h1>
+<h2 class="displayFont2">
+  /our_apis
+</h2>
+
+<section class="whiteCard">
+
+<!-- API 1 HS Dropout Rates -->
+
+<h4 id="hs-dropout-rates">/high_school_dropout_rates</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014. For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+      <br><br><b>Endpoint</b>: <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1">https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1></a></p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+<!-- API 2 College Enrollment Rates-->
+
+<h4 id="">/college_enrollment_rates</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Percentage of 18- to 24-year-olds enrolled in 2- and 4-year colleges by sex and race/ethnicity, 2000–2013. For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="https://api.ed.gov/data/college-enrollment-rates_2015?api_key=DEMO_KEY1">https://api.ed.gov/data/college-enrollment-rates_2015?api_key=DEMO_KEY1</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+<!-- API 3 College Graduation Rates -->
+
+<h4 id="">/college_graduation_rates</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Percentage of 18- to 24-year-olds who have completed a bachelor’s or higher degree by sex and race/ethnicity, 2000–2014. For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="https://api.ed.gov/data/bachelors-or-higher-degrees-among-young-adults_2015?api_key=DEMO_KEY1">https://api.ed.gov/data/bachelors-or-higher-degrees-among-young-adults_2015?api_key=DEMO_KEY1</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+<!-- API 4 Disconnected Youth-->
+
+<h4 id="">/disconnected_youth</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Percentage of 18- to 24-year-olds who were neither enrolled in school nor working by sex and race/ethnicity, 2000–2014 (so-called disconnected youth). For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="https://api.ed.gov/data/youth-neither-enrolled-in-school-nor-working_2015?api_key=DEMO_KEY1">https://api.ed.gov/data/youth-neither-enrolled-in-school-nor-working_2015?api_key=DEMO_KEY1</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+
+<!-- API 5 Labor Force Participation-->
+
+<h4 id="">/labor_force_participation</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Labor force participation rates for young adults ages 18–24 by age, sex, and race/ethnicity, 1980–2013 annual averages. For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="https://api.ed.gov/data/lfpr_rates_verfied_2014_0731_1335?api_key=DEMO_KEY1">https://api.ed.gov/data/lfpr_rates_verfied_2014_0731_1335?api_key=DEMO_KEY1</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+
+
+<!-- API 6 -->
+
+<h4 id="">/imprisonment_rates</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Imprisonment rates of 18- to 24-year-olds sentenced to more than 1 year under the jurisdiction of state correctional authorities per 100,000 by sex and race/ethnicity, 2000–2012. For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="https://api.ed.gov/data/userssharedsdfimprisonmentratesof1824yosre20002012?api_key=DEMO_KEY1">https://api.ed.gov/data/userssharedsdfimprisonmentratesof1824yosre20002012?api_key=DEMO_KEY1</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+          * Select Number of Results Per Page - <code>?per_page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">example</a><br>
+          * Select Results Page - <code>?page=</code>  <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">example</a><br>
+          * Sort By <em>Columnx</em> - <code>?sort=Columnx</code> or <code>?sort=-Columnx</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">example1</a> <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=-Year">example2</a><br>
+          * Return a Single Record - <code>/_index_number_</code> <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> - <code>?Columnx=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by <em>ColumnX</em> and <em>ColumnY</em> - <code>?Columnx=[]&amp;ColumnY=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">example</a><br>
+          * Filter by multiple values in <em>ColumnX</em> - <code>?Columnx=[]&amp;ColumnX=</code> <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">example</a><br>
+        </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+<!-- API 7 -->
+
+<h4 id="">/the_college_scorecard</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Get the data behind <a href="https://collegescorecard.ed.gov/">the College Scorecard</a>, which provides insights about student demographics, outcomes, and costs among schools eligible to receive federal financial aid. For more information and the raw dataset, <a href="https://collegescorecard.ed.gov/data/documentation/">see here</a>.
+
+
+      <br><br><b>Endpoint</b>:<a href="http://api.data.gov/ed/collegescorecard">http://api.data.gov/ed/collegescorecard</a>
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+        The basic structure of an API call is year.dev-category.dev-friendly-variable-name, except that the school category has no year and id, ope6_id, ope8_id and location have no category or year.
+        For more information, <a href="https://collegescorecard.ed.gov/data/documentation/">see here</a>.
+
+      </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+
+<!-- API 8 -->
+
+<h4 id="">/legacy_APIs</h4>
+
+<div class="tabs-style-linetriangle tabs">
+  <nav>
+    <ul class="linetriangle">
+      <li><a href="#section-linetriangle-1"><span>Overview</span></a></li>
+      <li><a href="#section-linetriangle-2"><span>Queries</span></a></li>
+    </ul>
+  </nav>
+  <div class="content-wrap">
+    <section id="section-linetriangle-1">
+
+      <p class="description blueLink">Representing an earlier drive to provide APIs, <a href="https://pages.18f.gov/ED-Developer-Hub/legacy/">these legacy web services</a> will stay live but are no longer actively supported.
+
+
+
+      </p>
+
+
+</section>
+    <section id="section-linetriangle-2">
+
+      <p class="blueLink">
+      For more information, <a href="https://pages.18f.gov/ED-Developer-Hub/legacy/">see here</a>.
+
+      </p>
+    </section>
+  </div><!-- /content -->
+</div><!-- /tabs -->
+
+</section>
+
+    </section>
+
+    </div>
+  </div> <!--wrap-->
+
+    <footer class="footer cf" role="contentinfo">
+      <div class="wrap">
+
+            <section class="footer-oss">
+                <h4>Open source</h4>
+                <p>
+                    As a work of the United States Government, source code released by 18F is in the public
+                    domain by default within the United States.
+                    <a href="https://github.com/18F/open-source-policy/blob/master/policy.md">
+                        View our full source code policy.
+                    </a>
+                </p>
+            </section>
+
+
+            <section class="footer-links">
+                <ul>
+                    <li>
+                        <a href="http://www.ed.gov/">ed.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/18F">github.com/18F</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/basics/">Work with us</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/basics/">Contact us</a>
+                    </li>
+                </ul>
+            </section>
+
+
+    </section>
+
+    </div>
+  </div> <!--wrap-->
+
+    <footer class="footer cf" role="contentinfo">
+      <div class="wrap">
+
+            <section class="footer-oss">
+                <h4>Open source</h4>
+                <p>
+                    As a work of the United States Government, source code released by 18F is in the public
+                    domain by default within the United States.
+                    <a href="https://github.com/18F/open-source-policy/blob/master/policy.md">
+                        View our full source code policy.
+                    </a>
+                </p>
+            </section>
+
+
+            <section class="footer-links">
+                <ul>
+                    <li>
+                        <a href="http://www.ed.gov/">ed.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/18F">github.com/18F</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/">Work with us</a>
+                    </li>
+                    <li>
+                        <a href="https://pages.18f.gov/ED-Developer-Hub/">Contact us</a>
+                    </li>
+                </ul>
+            </section>
+
+
+
+
+      </div>
+    </footer>
+  <script type="text/javascript" src="static/js/expandables.js"></script>
+  <script src="static/js/cbpFWTabs.js"></script>
+  <script>
+    (function() {
+
+      [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+        new CBPFWTabs( el );
+      });
+
+    })();
+  </script>
+
+</body></html>
