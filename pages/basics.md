@@ -30,7 +30,7 @@ Each of the APIs for the My Brother's Keeper Datasets have similar query options
 
 * Select Number of Results Per Page - `?per_page=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&per_page=30))    
 * Select Results Page - `?page=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&page=2))  
-* Sort By Year - `?sort=year`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=year))   
+* Sort By Year - `?sort=Year` or `?sort=-Year` ([example1](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=Year)) ([example2](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=-Year)) 
 * Return a Single Record - `/_index_number_` ([example](https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1))  
 
 
