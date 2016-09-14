@@ -473,12 +473,12 @@ nav a:visited {
 }
 
 nav li:hover {
-    color: #F25454;
+    color: #5ADB92;
     background-color: transparent;
     text-decoration: none;
 }
 
-nav li:hover:after {
+nav li:focus:after {
 /*    content: "<"; */
     color: #fff;
 }
@@ -507,12 +507,12 @@ nav li {
 
 
   nav a:hover {
-      color: #F25454;
+      color: #5ADB92;
       text-decoration: none;
   }
 
   nav a:focus {
-      color: #F25454;
+      color: #5ADB92;
       text-decoration: none;
   }
 
