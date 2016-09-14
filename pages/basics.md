@@ -19,7 +19,7 @@ permalink: /basics/
   
 ### College Scorecard API
 
-The [College Scorecard API](https://collegescorecard.ed.gov/data/documentation/) provides a robust set of web services to query financial aid data for higher education.  The project site offers [further information and bulk downloads of the data](https://collegescorecard.ed.gov/data/).  
+The [College Scorecard API](https://collegescorecard.ed.gov/data/documentation/){:target="_blank"} provides a robust set of web services to query financial aid data for higher education.  The project site offers [further information and bulk downloads of the data](https://collegescorecard.ed.gov/data/).  
 
 <br>
   
