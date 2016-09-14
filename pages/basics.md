@@ -11,7 +11,6 @@ permalink: /basics/
   * [High School Dropout Rate](#high-school-dropout-rate)  
   * [College Enrollment Rate](#college-enrollment-rate)  
   * [College Graduation Rate](#college-graduation-rate)  
-  * [STEM Degrees](#stem-degrees)  
   * [Disconnected Youth](#disconnected-youth)  
   * [Labor Force Participation Rates](#labor-force-participation-rates)  
   * [Imprisonment Rates](#imprisonment-rates)  
@@ -57,13 +56,6 @@ _Percentage of 18- to 24-year-olds enrolled in 2- and 4-year colleges by sex and
 _Percentage of 18- to 24-year-olds who have completed a bachelor’s or higher degree by sex and race/ethnicity, 2000–2014. For more information and the raw dataset, [see here](http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html)._ 
 
 **Endpoint**: [https://api.ed.gov/data/bachelors-or-higher-degrees-among-young-adults_2015?api_key=DEMO_KEY1](https://api.ed.gov/data/bachelors-or-higher-degrees-among-young-adults_2015?api_key=DEMO_KEY1)  
-
-
-#### STEM Degrees
-
-_Percentage of U.S. resident bachelor’s degrees conferred in science, technology, engineering, and mathematics by sex and race/ethnicity, 1999–2000 through 2011–13. For more information and the raw dataset, [see here](http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html)._ 
-
-**Endpoint**: [https://api.ed.gov/data/stem-bachelors-degrees_2015?api_key=bNoA8XxhBXQjcBmTsIcqFEgDdPU8jJVOpMG7makC](https://api.ed.gov/data/stem-bachelors-degrees_2015?api_key=bNoA8XxhBXQjcBmTsIcqFEgDdPU8jJVOpMG7makC)  
 
 
 #### Disconnected Youth
