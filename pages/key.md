@@ -5,8 +5,8 @@ nav: key
 permalink: /api-key/
 ---
 
-<img class="chipLines" src="static/img/chipLines.svg" alt="Computer Chip Lines Graphic">
-<h1 class="displayFont1" style="color: #5ADB92;">unlock</h1>
+<img class="chipLines" src="https://pages.18f.gov/ED-Developer-Hub/static/img/chipLines4.svg" alt="Computer Chip Lines Graphic">
+<h1 class="displayFont1">unlock</h1>
 <h2 class="displayFont2">
   /our_data
 </h2>
