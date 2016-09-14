@@ -20,7 +20,6 @@ permalink: /basics/
 
 The [College Scorecard API](https://collegescorecard.ed.gov/data/documentation/){:target="_blank"} provides a robust set of web services to query financial aid data for higher education.  The project site offers [further information and bulk downloads of the data](https://collegescorecard.ed.gov/data/){:target="_blank"}.  
 
-<br>
   
   
 ### APIs for My Brother's Keeper Datasets  
@@ -41,7 +40,6 @@ _Percentage of 18- to 24-year-olds who have not completed high school by sex and
 
 **Endpoint**: [https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1)
 
-<br>
 
 #### College Enrollment Rate
 
@@ -77,7 +75,6 @@ _Imprisonment rates of 18- to 24-year-olds sentenced to more than 1 year under t
 **Endpoint**: [https://api.ed.gov/data/userssharedsdfimprisonmentratesof1824yosre20002012?api_key=DEMO_KEY1](https://api.ed.gov/data/userssharedsdfimprisonmentratesof1824yosre20002012?api_key=DEMO_KEY1)  
 
 
-<br>
 
   
 ### Legacy APIs
