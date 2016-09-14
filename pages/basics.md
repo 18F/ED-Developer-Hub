@@ -29,19 +29,17 @@ Each of the APIs for the My Brother's Keeper Datasets have similar query options
 
 * Select Number of Results Per Page - `?per_page=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&per_page=30))    
 * Select Results Page - `?page=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&page=2))  
-* Sort By Year - `?sort=Year` or `?sort=-Year` ([example1](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=Year)) ([example2](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=-Year)) 
+* Sort By _Columnx_ - `?sort=Columnx` or `?sort=-Columnx` ([example1](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=Year)) ([example2](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&sort=-Year)) 
 * Return a Single Record - `/_index_number_` ([example](https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1))  
-
+* Filter by _ColumnX_ - `?Columnx=` ([example](https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&api_key=DEMO_KEY1))  
+* Filter by _ColumnX_ and _ColumnY_ - `?Columnx=[]&ColumnY=` ([example](https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&Year=2004&api_key=DEMO_KEY1)) 
+* Filter by multiple values in _ColumnX_ - `?Columnx=[]&ColumnX=` ([example](https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&Sex=Females&api_key=DEMO_KEY1)) 
 
 #### High School Dropout Rate
 
 _Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014. For more information and the raw dataset, [see here](http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html)._
 
 **Endpoint**: [https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1)
-
-**Query Parameters**:    
-* Query By Year - `?Year=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&Year=2002))   
-* Query By Sex - `?Sex=`  ([example](https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&Sex=Female))    
 
 <br>
 
