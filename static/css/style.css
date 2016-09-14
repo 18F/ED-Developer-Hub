@@ -688,7 +688,7 @@ footer {
     background: #003176;
     font-family: "Anonymous Pro", Arial, sans-serif;
     font-size: 14px;
-    color: #fff;
+    color: #68C5F7;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -737,7 +737,7 @@ footer a:visited {
 }
 
 footer a:hover {
-    border-bottom: 1px dotted #0072CE;
+    border-bottom: 1px dotted #68C5F7;
 }
 
 .mobile-warning {
