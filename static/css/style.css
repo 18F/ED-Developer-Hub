@@ -212,7 +212,7 @@ sub {
 pre, code {
     background-color: #fff;
     border-radius: 0.250em;
-    border: 1px solid #F25454;
+    border: 1px solid #003176;
     overflow-x: auto;
     padding: 0.125em 0.250em;
     white-space: nowrap;
@@ -220,7 +220,7 @@ pre, code {
 
 pre, code, kbd, samp {
     font-size: 12px;
-    color: #F25454;
+    color: #003176;
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
