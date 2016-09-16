@@ -105,7 +105,7 @@ h4 {
     margin: 0;
     margin-bottom: 1em;
     font-family: 'Space Mono', Arial, sans-serif;
-    color: #F25454;
+    color: #5ADB92;
     font-weight: normal;
     font-size: 24px;
     text-transform: lowercase;
@@ -114,7 +114,7 @@ h4 {
 h5 {
     margin: 3em 0 .7em 0;
     font-size: 24px;
-    color: #F25454;
+    color: #5ADB92;
     font-family: 'Space Mono';
     font-weight: normal;
     letter-spacing: 1.5px;
@@ -140,7 +140,7 @@ p  {
 .displayFont1 {
   font-family: 'Space Mono';
   font-size: 24px;
-  color: #F25454;
+  color: #5ADB92;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-bottom: 0px;
@@ -212,7 +212,7 @@ sub {
 pre, code {
     background-color: #fff;
     border-radius: 0.250em;
-    border: 1px solid #F25454;
+    border: 1px solid #5ADB92;
     overflow-x: auto;
     padding: 0.125em 0.250em;
     white-space: nowrap;
@@ -220,7 +220,7 @@ pre, code {
 
 pre, code, kbd, samp {
     font-size: 12px;
-    color: #F25454;
+    color: #5ADB92;
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
@@ -279,6 +279,9 @@ pre {
   line-height: 22px;
 }
 
+.whiteCard .endpoint {
+   letter-spacing: normal;
+}
 
 
 .whiteCard h4 {
@@ -386,11 +389,26 @@ dt {
     font-family: "Space Mono Demi", Arial, sans-serif;
 }
 
+.blink_me {
+    animation: blink-animation .9s steps(5, start) infinite;
+    -webkit-animation: blink-animation .9s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
 
 .main-content a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 2px solid #5ADB92;
+  border-bottom: 2px solid #9C83FF;
 }
 
 .main-content a:hover {
@@ -475,7 +493,7 @@ nav a:visited {
 }
 
 nav li:hover {
-    color: #5ADB92;
+    color: #9C83FF;
     background-color: transparent;
     text-decoration: none;
 }
@@ -509,12 +527,12 @@ nav li {
 
 
   nav a:hover {
-      color: #5ADB92;
+      color: #9C83FF;
       text-decoration: none;
   }
 
   nav a:focus {
-      color: #5ADB92;
+      color: #9C83FF;
       text-decoration: none;
   }
 
@@ -604,7 +622,7 @@ ul.repo-list.no-padding {
 .header {
     width: 100%;
     height: 79px;
-    background-color: #F25454;
+    background-color: #1A1C20;
     /*position: fixed;*/
     top: 0;
     z-index: 99999;
@@ -617,7 +635,7 @@ ul.repo-list.no-padding {
     float: left;
     font-family: 'Space Mono', Helvetica, Arial, sans-serif;
     font-size: 11px;
-    color: #F6EBF9;
+    color: #fff;
     letter-spacing: 3.92px;
 }
 
@@ -627,8 +645,8 @@ ul.repo-list.no-padding {
 }
 
 .header .logo {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     display: block;
     margin: auto;
 }
@@ -744,7 +762,7 @@ footer a:visited {
 
 footer a:hover {
     border-bottom: 1px dotted #68C5F7;
-    color: #F25454;
+    color: #5ADB92;
 }
 
 .mobile-warning {
@@ -1124,7 +1142,7 @@ button.expandable_header {
 @media only screen and (min-width: 37.5em) {
 
     body {
-        padding-bottom: 13.5em;
+            padding: 0;
     }
 
     footer {
@@ -1304,7 +1322,7 @@ button.expandable_header {
     }
 
     .header h1 {
-    color: #F6EBF9;
+    color: #fff;
     margin-top: 35px;
     font-size: 11px;
     line-height: 1;
