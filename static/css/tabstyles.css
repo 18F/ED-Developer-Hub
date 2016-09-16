@@ -8,7 +8,7 @@
 	font-family: 'Space Mono';
 	text-transform: uppercase;
 	color: #758293;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 5px;
 	font-weight: normal;
 	text-decoration: none;
@@ -17,12 +17,14 @@
 .tabs-style-linetriangle nav ul li a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
 	color: #787C83;
   text-decoration: none;
+	font-size: 12px;
 }
 
 .tabs-style-linetriangle nav ul li a:hover,
 .tabs-style-linetriangle nav ul li a:focus {
-	color: #787C83;
+	color: #F25454;
 	background-color: #fff;
+	font-size: 12px;
 }
 
 .tabs-style-linetriangle nav a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {

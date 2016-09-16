@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Carrois+Gothic+SC:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Space+Mono:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700");
+
+@import url("https://fonts.googleapis.com/css?family=Abel:300,400,700");
 
 @import "normalize.css";
 @import "fonts.css";
@@ -27,7 +30,8 @@ body, html {
     padding: 0;
     margin: 0;
     background-color: #174C96;
-    font-family: "Space Mono", Arial, sans-serif;
+    font-family: "Abel", Arial, sans-serif;
+    letter-spacing: 1.8px;
     font-size: 16px;
     line-height: 22px;
     color: #fff;
@@ -220,6 +224,7 @@ pre, code, kbd, samp {
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
+    letter-spacing: normal;
 }
 
 pre {
@@ -236,17 +241,12 @@ pre {
 
 .whiteCard {
   background-color: #fff;
-  font-family: "Space Mono", Arial, sans-serif;
-  font-size: 12px;
-  color: #003176;
   padding: 50px 25px 50px 25px;
   margin: 0;
 }
 
 .whiteCard p  {
     margin: .75em 0;
-    font-size: 1em;
-    line-height: 2em;
 }
 
 .whiteCard a:link, .whiteCard a:active, .whiteCard a:visited
@@ -254,7 +254,7 @@ pre {
   background-color: rgba(255, 0, 0, 0);
   color: #003176;
   border-bottom: 2px solid #68C5F7;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .whiteCard .blueLink a:link, .whiteCard .blueLink a:active, .whiteCard .blueLink a:visited
@@ -262,22 +262,24 @@ pre {
   background-color: rgba(255, 0, 0, 0);
   color: #003176;
   border-bottom: 2px solid #68C5F7;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .whiteCard .blueLink a:hover {
   background-color: #68C5F7;
   color: #003176;
   border-bottom: 2px solid #68C5F7;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 
 .whiteCard .description {
-  font-family: "Space Mono", Arial, sans-serif;
-  font-size: 12px;
+  font-family: "Abel", Arial, sans-serif;
+  font-size: 14px;
   line-height: 22px;
 }
+
+
 
 .whiteCard h4 {
 
