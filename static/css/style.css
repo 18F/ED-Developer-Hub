@@ -31,7 +31,7 @@ body, html {
     margin: 0;
     background-color: #174C96;
     font-family: "Abel", Arial, sans-serif;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.3px;
     font-size: 16px;
     line-height: 22px;
     color: #fff;
@@ -262,22 +262,22 @@ pre {
   background-color: rgba(255, 0, 0, 0);
   color: #003176;
   border-bottom: 2px solid #68C5F7;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .whiteCard .blueLink a:hover {
   background-color: #68C5F7;
   color: #003176;
   border-bottom: 2px solid #68C5F7;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
 .whiteCard .description {
   font-family: "Abel", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
-  letter-spacing: normal;
+  letter-spacing: 1.3px;
 }
 
 .whiteCard .endpoint {
