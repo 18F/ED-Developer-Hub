@@ -621,7 +621,7 @@ ul.repo-list.no-padding {
 
 .header {
     width: 100%;
-    height: 79px;
+    height: 50px;
     background-color: #1A1C20;
     /*position: fixed;*/
     top: 0;
@@ -630,7 +630,7 @@ ul.repo-list.no-padding {
 }
 
 .header h1 {
-    margin: 1em;
+    margin-top: 5px;
     margin-left: .75em;
     float: left;
     font-family: 'Space Mono', Helvetica, Arial, sans-serif;
@@ -645,8 +645,8 @@ ul.repo-list.no-padding {
 }
 
 .header .logo {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: block;
     margin: auto;
 }
@@ -1113,10 +1113,10 @@ button.expandable_header {
 
 @media only screen and (min-width: 30em) {
     .header .logo {
-        float: left;
+        float: right;
         vertical-align: middle;
         padding-right: 30px;
-        padding-top: 12.5px;
+        padding-top: 5px;
     }
     .header h1 {
         float: left;
@@ -1323,17 +1323,17 @@ button.expandable_header {
 
     .header h1 {
     color: #fff;
-    margin-top: 35px;
+    margin-top: 20px;
     font-size: 11px;
     line-height: 1;
-    margin-bottom: 35px;
     margin-left: 0;
     }
 
     .header .logo {
     float: left;
     /*margin: 1.25em 1em;*/
-    width: 55px;
+    margin-top: 4.5px;
+    width: 35px;
     display: block;
     }
 }
