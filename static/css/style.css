@@ -212,7 +212,7 @@ sub {
 pre, code {
     background-color: #fff;
     border-radius: 0.250em;
-    border: 1px solid #6F72D6;
+    border: 1px solid #7377EC;
     overflow-x: auto;
     padding: 0.125em 0.250em;
     white-space: nowrap;
@@ -220,7 +220,7 @@ pre, code {
 
 pre, code, kbd, samp {
     font-size: 12px;
-    color: #6F72D6;
+    color: #7377EC;
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
@@ -410,7 +410,7 @@ dt {
 .main-content a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 2px solid #6F72D6;
+  border-bottom: 2px solid #7377EC;
 }
 
 .main-content a:hover {
@@ -495,7 +495,7 @@ nav a:visited {
 }
 
 nav li:hover {
-    color: #6F72D6;
+    color: #7377EC;
     background-color: transparent;
     text-decoration: none;
 }
@@ -529,12 +529,12 @@ nav li {
 
 
   nav a:hover {
-      color: #6F72D6;
+      color: #7377EC;
       text-decoration: none;
   }
 
   nav a:focus {
-      color: #6F72D6;
+      color: #7377EC;
       text-decoration: none;
   }
 
