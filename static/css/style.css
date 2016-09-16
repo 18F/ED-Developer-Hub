@@ -252,7 +252,7 @@ pre {
 .whiteCard a:link, .whiteCard a:active, .whiteCard a:visited
 {
   background-color: rgba(255, 0, 0, 0);
-  color: #003176;
+  color: #1A1C20;
   border-bottom: 2px solid #68C5F7;
   font-size: 14px;
 }
@@ -260,14 +260,14 @@ pre {
 .whiteCard .blueLink a:link, .whiteCard .blueLink a:active, .whiteCard .blueLink a:visited
 {
   background-color: rgba(255, 0, 0, 0);
-  color: #003176;
+  color: #1A1C20;
   border-bottom: 2px solid #68C5F7;
   font-size: 14px;
 }
 
 .whiteCard .blueLink a:hover {
   background-color: #68C5F7;
-  color: #003176;
+  color: #1A1C20;
   border-bottom: 2px solid #68C5F7;
   font-size: 14px;
 }
@@ -278,6 +278,7 @@ pre {
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 1.3px;
+  color: #1A1C20;
 }
 
 .whiteCard .endpoint {
@@ -631,7 +632,7 @@ ul.repo-list.no-padding {
 }
 
 .header h1 {
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: .75em;
     float: left;
     font-family: 'Space Mono', Helvetica, Arial, sans-serif;
@@ -1120,6 +1121,7 @@ button.expandable_header {
     }
     .header h1 {
         float: left;
+        margin-top: 25px;
     }
 
     .wrap {
