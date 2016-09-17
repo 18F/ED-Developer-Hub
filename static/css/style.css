@@ -212,7 +212,7 @@ sub {
 pre, code {
     background-color: #fff;
     border-radius: 0.250em;
-    border: 1px solid #7377EC;
+    border: 1px solid #F25454;
     overflow-x: auto;
     padding: 0.125em 0.250em;
     white-space: nowrap;
@@ -220,7 +220,7 @@ pre, code {
 
 pre, code, kbd, samp {
     font-size: 12px;
-    color: #7377EC;
+    color: #F25454;
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
@@ -410,7 +410,7 @@ dt {
 .main-content a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 2px solid #7377EC;
+  border-bottom: 2px solid #F25454;
 }
 
 .main-content a:hover {
@@ -495,7 +495,7 @@ nav a:visited {
 }
 
 nav li:hover {
-    color: #7377EC;
+    color: #F25454;
     background-color: transparent;
     text-decoration: none;
 }
@@ -529,12 +529,12 @@ nav li {
 
 
   nav a:hover {
-      color: #7377EC;
+      color: #F25454;
       text-decoration: none;
   }
 
   nav a:focus {
-      color: #7377EC;
+      color: #F25454;
       text-decoration: none;
   }
 
@@ -647,8 +647,8 @@ ul.repo-list.no-padding {
 }
 
 .header .logo {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     display: block;
     margin: auto;
 }
@@ -1115,9 +1115,8 @@ button.expandable_header {
 
 @media only screen and (min-width: 30em) {
     .header .logo {
-        float: left;
-        padding-right: 30px;
-        padding-top: 9px;
+        float: right;
+        padding-top: 25px;
     }
     .header h1 {
         float: left;
@@ -1332,7 +1331,7 @@ button.expandable_header {
     }
 
     .header .logo {
-    float: left;
+    float: right;
     /*margin: 1.25em 1em;*/
     display: block;
     }
