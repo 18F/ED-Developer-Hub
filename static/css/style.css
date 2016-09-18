@@ -529,12 +529,12 @@ nav li {
 
 
   nav a:hover {
-      color: #F25454;
+      color: #fff;
       text-decoration: none;
   }
 
   nav a:focus {
-      color: #F25454;
+      color: #fff;
       text-decoration: none;
   }
 
@@ -543,6 +543,41 @@ nav li {
       text-decoration: none;
   }
 
+  /* Effect 1: Brackets */
+  .cl-effect-1 a::before,
+  .cl-effect-1 a::after {
+  	display: inline-block;
+  	opacity: 0;
+  	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  	transition: transform 0.3s, opacity 0.2s;
+  }
+
+  .cl-effect-1 a::before {
+  	margin-right: 5px;
+  	content: '<';
+  	-webkit-transform: translateX(20px);
+  	-moz-transform: translateX(20px);
+  	transform: translateX(20px);
+  }
+
+  .cl-effect-1 a::after {
+  	margin-left: 5px;
+  	content: '>';
+  	-webkit-transform: translateX(-20px);
+  	-moz-transform: translateX(-20px);
+  	transform: translateX(-20px);
+  }
+
+  .cl-effect-1 a:hover::before,
+  .cl-effect-1 a:hover::after,
+  .cl-effect-1 a:focus::before,
+  .cl-effect-1 a:focus::after {
+  	opacity: 1;
+  	-webkit-transform: translateX(0px);
+  	-moz-transform: translateX(0px);
+  	transform: translateX(0px);
+  }
 
 
 #basics a.basics,
@@ -635,15 +670,17 @@ ul.repo-list.no-padding {
     margin-top: 25px;
     margin-left: .75em;
     float: left;
-    font-family: 'Space Mono', Helvetica, Arial, sans-serif;
-    font-size: 11px;
+    font-family: 'Anonymous Pro', Helvetica, Arial, sans-serif;
+    font-size: 13px;
     color: #fff;
     letter-spacing: 3.92px;
+
 }
 
 .header h1 span {
-    font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+    font-family: 'Anonymous Pro', Helvetica, Arial, sans-serif;
     font-weight: bold;
+
 }
 
 .header .logo {
@@ -1325,7 +1362,7 @@ button.expandable_header {
     .header h1 {
     color: #fff;
     margin-top: 25px;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1;
     margin-left: 0;
     }
