@@ -7,7 +7,7 @@
 .tabs-style-linetriangle li {
 	font-family: 'Space Mono';
 	text-transform: uppercase;
-	color: #F25454;
+	color: #8463C9;
 	font-size: 11px;
 	letter-spacing: 5px;
 	font-weight: normal;
@@ -15,34 +15,34 @@
 }
 
 .tabs-style-linetriangle nav ul li a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
-	color: #F25454;
+	color: #8463C9;
   text-decoration: none;
 	font-size: 11px;
 }
 
 .tabs-style-linetriangle nav ul li a:hover {
-	color: #F25454;
+	color: #8463C9;
 	background-color: #fff;
 	font-size: 11px;
 	font-weight: bold;
 }
 
 .tabs-style-linetriangle nav ul li a:focus {
-	color: #F25454;
+	color: #8463C9;
 	background-color: #fff;
 	font-size: 11px;
 }
 
 .tabs-style-linetriangle nav a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
 	overflow: visible;
-	border-bottom: 1px solid #F25454;
+	border-bottom: 1px solid #8463C9;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
 
 .tabs-style-linetriangle nav a:link, .tabs-style-linetriangle a:active, .tabs-style-linetriangle a:visited {
 	overflow: visible;
-	border-bottom: 1px solid #F25454;
+	border-bottom: 1px solid #8463C9;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
@@ -76,7 +76,7 @@
 .tabs-style-linetriangle nav li.tab-current a:before {
 	margin-left: -11px;
 	border-width: 11px;
-	border-top-color: #F25454;
+	border-top-color: #8463C9;
 }
 
 @media screen and (max-width: 58em) {

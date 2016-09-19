@@ -212,7 +212,7 @@ sub {
 pre, code {
     background-color: #fff;
     border-radius: 0.250em;
-    border: 1px solid #F25454;
+    border: 1px solid #174C96;
     overflow-x: auto;
     padding: 0.125em 0.250em;
     white-space: nowrap;
@@ -220,7 +220,7 @@ pre, code {
 
 pre, code, kbd, samp {
     font-size: 12px;
-    color: #F25454;
+    color: #174C96;
     line-height: 1.375;
     margin-bottom: 1.375em;
     font-family: 'Anonymous Pro', "Courier New", monospace;
@@ -291,15 +291,15 @@ pre {
   margin: 0;
   margin-bottom: 1em;
   font-family: 'Space Mono', Arial, sans-serif;
-  color: #003176;
+  color: #fff;
   font-weight: normal;
   font-size: 26px;
   text-transform: lowercase;
   text-align: left;
-  background-color: #68C5F7;
-  -webkit-box-shadow: 0px 1px 0px 4px #68C5F7;
--moz-box-shadow: 0px 1px 0px 4px #68C5F7;
-box-shadow: 0px 1px 0px 4px #68C5F7;
+  background-color: #9978DF;
+  -webkit-box-shadow: 0px 1px 0px 4px #9978DF;
+-moz-box-shadow: 0px 1px 0px 4px #9978DF;
+box-shadow: 0px 1px 0px 4px #9978DF;
 
 }
 
@@ -316,7 +316,7 @@ table {
 
 .table-code code {
     background-color: #ffffff;
-    border: 1px solid #e3e4e5;
+    border: 1px solid #174C96;
     border-radius: 0.250em;
     overflow-x: auto;
     padding: 0.125em 0.250em;
@@ -410,7 +410,7 @@ dt {
 .main-content a {
   color: #fff;
   text-decoration: none;
-  border-bottom: 2px solid #F25454;
+  border-bottom: 2px solid #9978DF;
 }
 
 .main-content a:hover {
@@ -495,7 +495,7 @@ nav a:visited {
 }
 
 nav li:hover {
-    color: #F25454;
+    color: #9978DF;
     background-color: transparent;
     text-decoration: none;
 }
