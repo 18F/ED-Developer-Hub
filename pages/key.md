@@ -38,7 +38,7 @@ permalink: /api-key/
 
    // OPTIONAL: Provide a URL to your own contact page to link to for user
    // support. Defaults to "https://api.data.gov/contact/"
-   // contactUrl: 'https://agency.gov/example',
+  contactUrl: 'https://pages.18f.gov/ED-Developer-Hub/contact/',
 
    // OPTIONAL: Set to true to verify the user's e-mail address by only
    // sending them their API key via e-mail, and not displaying it on the
