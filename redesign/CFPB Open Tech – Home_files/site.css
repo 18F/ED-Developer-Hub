@@ -8,8 +8,6 @@
     src: url(./FjordOne-Regular.otf) format("opentype");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Abel|Montserrat');
-
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:before, *:after {
