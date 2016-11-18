@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Fjord";
-    src: url(./fonts/FjordOne-Regular.otf) format("opentype");
+    src: url(./FjordOne-Regular.otf) format("opentype");
 }
 
 @import url("https://fonts.googleapis.com/css?family=Abel:300");
