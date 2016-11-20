@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>HMDA API documentation - CFPB Open Tech</title>
+  <link rel="stylesheet" href="./CFPB Open Tech – Home_files/0a274127-32a9-474a-bbdb-f23f410e88c5.css">
+  <link rel="stylesheet" href="./CFPB Open Tech – Home_files/site.css">
+
+  <link rel="alternate" type="application/rss+xml" title=" » Feed" href="https://cfpb.github.io/feed/">
+  <link rel="canonical" href="https://cfpb.github.io/">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if IE]>
+  <link rel="stylesheet" href="../static/css/for-ie-only.css">
+  <![endif]-->
+</head>
+<body>
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVLMCF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVLMCF');</script>
+<!-- End Google Tag Manager -->
+
+  <header class="header cf" role="banner">
+      			<div class="wrap">
+
+			<a href="http://cfpb.github.io/" target="_blank"><h1><span>CFPB</span> Open Tech</h1></a>
+
+            <a href="http://www.consumerfinance.gov/" target="_blank">
+                <img class="logo" src="../static/img/logo_210.png" alt="Consumer Financial Protection Bureau logo">
+            </a>
+
+        	</a>
+        	</div>
+
+  </header>
+
+  <div class="wrap">
+    <div class="content">
+
+    <aside>
+
+<h1 class="page-title"><a href="index.html">HMDA <br>API docs</a></h1>
+      <p class="intro">Build your own tools using our API to access HMDA public data.</p>
+    <nav>
+        <ul>
+          <li><a href="index.html" class="overview">Overview</a></li>
+          <li><a href="basics.html" class="basics">API basics</a></li>
+          <li><a href="console/" class="console">API calls</a></li>
+          <li><a href="queries.html" class="queries">Query language</a></li>
+          <li><a href="fields.html" class="fields">Field reference</a></li>
+          <li><a href="contribute.html" class="contribute">Contribute</a></li>
+        </ul>
+    </nav>
+
+    </aside>
+
+    <section class="main-content" role="main">
+      <h3 id="overview">Overview</h3>
+
+<p>Each year thousands of banks and other financial institutions report data about mortgages to the public as part of the <a href="http://www.consumerfinance.gov/hmda/#video">Home Mortgage Disclosure Act (HMDA)</a>. This data is important because:</p>
+
+<ul>
+  <li>It helps show whether lenders are serving the housing needs of their communities;</li>
+  <li>It gives public officials insight that helps them make informed decisions about policies; and</li>
+  <li>It sheds light on lending patterns that could be discriminatory</li>
+</ul>
+
+<p>The CFPB provides every year of the Loan Application Register (LAR) data since 2007. That adds up to about 15 to 20 million records every year, and we think that you could build something really cool with it.</p>
+
+<h5 id="get-started">Get started</h5>
+<p>We built the API to be as self-documenting as possible, but if you find yourself overwhelmed, we organized this site into four major areas.</p>
+
+<ul>
+  <li><a href="basics.html">API basics</a> introduces you to the operations offered by the API.</li>
+  <li><a href="console/">API calls</a> gives you a hands-on experience of those operations with an interactive console.</li>
+  <li><a href="queries.html">Query language</a> contains a comprehensive listing of all the API’s types, functions, and enumerations.</li>
+  <li><a href="fields.html">Field reference</a> lists and describes the type of information reported in the LAR.</li>
+</ul>
+
+<h5 id="the-hmda-api-and-qu">The HMDA API and Qu</h5>
+
+<p><a href="http://www.consumerfinance.gov/hmda">HMDA</a> is the CFPB’s first dataset to publish using <a href="http://cfpb.github.io/qu/">Qu</a>, an in-progress data platform created to serve public data.</p>
+
+<p>Qu is the first CFPB project built from the beginning on <a href="https://github.com/cfpb/">GitHub</a>, too. If you think you can make the API better–or just want to take a look under the hood–check it out, and learn about how you can host your own datasets or contribute to the project.</p>
+
+<ul class="repo-list">
+  <li class="list-icon">
+    <p class="image-wrap">
+      <img src="../static/img/octocat.png" width="25px" title="Github" />
+    </p>
+  </li>
+  <li>
+    <a href="https://github.com/cfpb/qu">
+     <h4>Qu</h4>
+      <p>The open source software that runs the platform</p>
+    </a>
+  </li>
+</ul>
+<body id="overview"></body>
+
+<p>Not interested in programming? You can still get the data! Visit the <a href="http://www.consumerfinance.gov/hmda/explore">explore the data</a> section of our HMDA site, where you can create <a href="http://consumerfinance.gov/hmda/explore.html">custom data sets</a> for download.</p>
+
+    </section>
+
+    </div>
+  </div> <!--wrap-->
+
+    <footer class="footer cf" role="contentinfo">
+      <div class="wrap">
+
+            <section class="footer-oss">
+                <h4>Open source</h4>
+                <p>
+                    As a work of the United States Government, source code released by the CFPB is in the public
+                    domain by default within the United States.
+                    <a href="https://cfpb.github.io/source-code-policy/">
+                        View our full source code policy.
+                    </a>
+                </p>
+            </section>
+
+
+            <section class="footer-links">
+                <ul>
+                    <li>
+                        <a href="http://www.consumerfinance.gov/">consumerfinance.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/cfpb">github.com/cfpb</a>
+                    </li>
+                    <li>
+                        <a href="http://www.consumerfinance.gov/jobs/">Work with us</a>
+                    </li>
+                    <li>
+                        <a href="mailto:tech@consumerfinance.gov">Contact us</a>
+                    </li>
+                </ul>
+            </section>
+
+
+
+
+      </div>
+    </footer>
+  <script src="../static/js/docs.min.js"></script>
+  <script type="text/javascript" src="../static/js/expandables.js"></script>
+</body>
+</html>

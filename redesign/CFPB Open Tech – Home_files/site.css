@@ -3,10 +3,7 @@
 @import "icons.min.css";
 @import "afontgarde.css";
 
-@font-face {
-    font-family: "Fjord";
-    src: url(../FjordOne-Regular.otf) format("opentype");
-}
+
 
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -24,7 +21,7 @@ body {
 
 body {
     color: #2A2F33; /* PPSS Black */
-    font-family: 'Fjord', "Times New Roman", serif;
+    font-family: 'Fjord One', "Times New Roman", serif;
     line-height: 1.375;
     background-color: #FFF;
 
@@ -316,7 +313,7 @@ a:active {
 }
 
 a.home {
-    color: #43484E;
+    color: #000;
     border: 0;
 }
 a.home:hover,
@@ -619,7 +616,7 @@ hr {
 /* Author Byline Styles */
 
 .by {
-  font-family: 'Fjord';
+  font-family: 'Fjord One';
   font-style: italic;
   font-weight: bold;
   font-size: 14px;
@@ -627,7 +624,7 @@ hr {
 }
 
 .featured-entries a {
-  font-family: 'Fjord';
+  font-family: 'Fjord One';
   font-size: 24px;
 }
 
@@ -637,7 +634,7 @@ hr {
 }
 
 .openQuestion p {
-  font-family: 'Fjord';
+  font-family: 'Fjord One';
   font-size: 24px;
 }
 
@@ -661,26 +658,86 @@ hr {
 
 .header {
     overflow: auto;
+    background-color: #F8F8F8;
+    height: 50px;
 }
 
 .header .logo {
     display: block;
-    margin: 1em 0;
+    height: 10px;
 }
 
 .header h1 {
-    margin: 1em 0 0 0;
-    font-family: 'Fjord';
-    font-style: italic;
-    font-weight: bold;
-    font-size: 14px;
+    margin-top: 20px;
     margin-right: .2em;
+    font-family: 'Abel',Arial, sans-serif;
+    color: #2A2F33;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
 
 }
 
 .header h1 span {
-    font-family: "Avenir Next W01", Arial, sans-serif;
+    font-family: 'Montserrat',Arial, sans-serif;
     font-weight: bold;
+    color: #2A2F33;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.header ul {
+  float: right;
+  font-family: 'Montserrat',Arial, sans-serif;
+  color: #3BC782;
+  font-size: 11px;
+  letter-spacing: .2em;
+  list-style: none;
+}
+
+.header ul li {
+  float: left;
+  text-align: center;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.header ul a {
+  color: #3BC782;
+  border-bottom: none;
+  margin: 0;
+}
+
+.header .social {
+
+float: right;
+margin-left: 25px;
+display: inline-block;
+color: #EE855A;
+font-size: 11px;
+
+}
+
+.header ul div:hover {
+  background-color: #3BC782;
+  color: #fff;
+}
+
+#activeNav {
+ background-color: #3BC782;
+ color: #fff;
+}
+
+.header .homeNav {
+  border-left: 1px solid #3BC782;
+}
+
+.header ul div {
+  border-right: 1px solid #3BC782;
+  float: left;
+  height: 50px;
+  margin-top:-20px;
 }
 
 .content-body {
@@ -805,7 +862,7 @@ hr {
 
 .sidebar_list_item_head {
     margin-bottom: 0.5em;
-    font-family: "Fjord", Arial, sans-serif;
+    font-family: "Fjord One", Arial, sans-serif;
     line-height: 28px;
     font-size: 1em;
 }
