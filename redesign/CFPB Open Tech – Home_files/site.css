@@ -710,7 +710,7 @@ hr {
   width: 100px;
   margin-bottom: 0;
   height: 50px;
-  padding-top: 17px;
+  padding-top: 16.5px;
 }
 
 .header ul a {
@@ -737,12 +737,12 @@ hr {
 }
 
 .header .social {
-padding-top: 17px;
+padding-top: 17.5px;
 float: right;
 margin-left: 25px;
 display: inline-block;
 color: #EE855A;
-font-size: 12px;
+font-size: 11px;
 
 }
 
