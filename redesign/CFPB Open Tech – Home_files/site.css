@@ -657,8 +657,8 @@ hr {
 }
 
 .header {
-    overflow: auto;
-    background-color: #F8F8F8;
+    overflow: hidden;
+    background-color: #fff;
     height: 50px;
 }
 
@@ -668,13 +668,17 @@ hr {
 }
 
 .header h1 {
-    margin-top: 20px;
+    padding-top: 17.5px;
+    margin-bottom: 0px;
     margin-right: .2em;
     font-family: 'Abel',Arial, sans-serif;
     color: #2A2F33;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .2em;
     text-transform: uppercase;
+    position:relative;
+    overflow: hidden;
+    line-height: normal;
 
 }
 
@@ -682,51 +686,42 @@ hr {
     font-family: 'Montserrat',Arial, sans-serif;
     font-weight: bold;
     color: #2A2F33;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .2em;
     text-transform: uppercase;
+    line-height: normal;
 }
 
 .header ul {
+  padding: 0;
   float: right;
   font-family: 'Montserrat',Arial, sans-serif;
   color: #3BC782;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: .2em;
   list-style: none;
+  position:relative;
+  overflow: hidden;
 }
 
 .header ul li {
   float: left;
   text-align: center;
   width: 100px;
-  margin-top: 20px;
+  margin-bottom: 0;
+  height: 50px;
+  padding-top: 17px;
 }
 
 .header ul a {
   color: #3BC782;
   border-bottom: none;
-  margin: 0;
-}
-
-.header .social {
-
-float: right;
-margin-left: 25px;
-display: inline-block;
-color: #EE855A;
-font-size: 11px;
-
-}
-
-.header ul div:hover {
-  background-color: #3BC782;
-  color: #fff;
 }
 
 #activeNav {
  background-color: #3BC782;
  color: #fff;
+ border-right: 1px solid #3BC782;
 }
 
 .header .homeNav {
@@ -734,11 +729,29 @@ font-size: 11px;
 }
 
 .header ul div {
-  border-right: 1px solid #3BC782;
+  border-right: 1px solid #D0D0CE;
   float: left;
-  height: 50px;
-  margin-top:-20px;
+  height: 100%;
+  position:relative;
+  overflow: hidden;
 }
+
+.header .social {
+padding-top: 17px;
+float: right;
+margin-left: 25px;
+display: inline-block;
+color: #EE855A;
+font-size: 12px;
+
+}
+
+.header ul div:hover {
+  background-color: #3BC782;
+  color: #fff;
+  border-right: 1px solid #3BC782;
+}
+
 
 .content-body {
     margin: 1em 5%;
@@ -1142,7 +1155,7 @@ font-size: 11px;
         margin: 1em 0 0 0;
     }
     .header h1 {
-        margin-bottom: .5em;
+        margin-bottom: 0;
     }
     .entry__single h2 {
         font-size: 1.375em;
