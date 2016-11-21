@@ -778,7 +778,26 @@ font-size: 11px;
     }
 
 
+.hero .seal {
+  width:600px;
+  opacity:.4;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0em;
+}
 
+@media (max-width: 1023px) {
+  .hero .seal {
+    width: 500px;
+    bottom: 119px;
+  }
+}
+
+@media (max-width: 843px) {
+  .hero .seal {
+    display: none;
+  }
+}
 
 .hero section {
     padding: 1.5em 0;
