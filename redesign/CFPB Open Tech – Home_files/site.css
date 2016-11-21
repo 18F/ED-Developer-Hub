@@ -313,7 +313,7 @@ a:active {
 }
 
 a.home {
-    color: #000;
+    color: #2A2F33;
     border: 0;
 }
 a.home:hover,
@@ -697,7 +697,7 @@ hr {
   float: right;
   font-family: 'Montserrat',Arial, sans-serif;
   color: #3BC782;
-  font-size: 12px;
+  font-size: 11.5px;
   letter-spacing: .2em;
   list-style: none;
   position:relative;
@@ -707,10 +707,10 @@ hr {
 .header ul li {
   float: left;
   text-align: center;
-  width: 100px;
+  width: 93px;
   margin-bottom: 0;
   height: 50px;
-  padding-top: 16.5px;
+  padding-top: 17.5px;
 }
 
 .header ul a {
@@ -736,12 +736,14 @@ hr {
   overflow: hidden;
 }
 
+
 .header .social {
 padding-top: 17.5px;
 float: right;
 margin-left: 25px;
 display: inline-block;
-color: #EE855A;
+opacity: .5;
+color: #2A2F33;
 font-size: 11px;
 
 }
@@ -793,10 +795,6 @@ font-size: 11px;
 	color: #FFF;
 }
 
-.accentColor {
-  color: #EF6122;
-}
-
 [class*="call-to-action"] {
   background-image: none;
   font-family: Montserrat;
@@ -806,16 +804,24 @@ font-size: 11px;
   font-size: 10px;
   width: 120px;
   display: block;
-  margin: 0 auto 0;
-  padding: 16px 0;
+  margin-left: -2px;
+  margin-right: -2px;
   border: 1px solid #EE855A;
   color: #EE855A;
   padding: 10px;
   display: inline-block;
   font-size: 11px;
   letter-spacing: 0.2em;
-
 }
+
+.featured-project .call-to-action {
+    border-right: none;
+}
+
+.featured-project .button2 {
+  border-right: 1px solid #EE855A;
+}
+
 .call-to-action__icon,
 .call-to-action__icon:visited,
 .call-to-action__icon:hover,
