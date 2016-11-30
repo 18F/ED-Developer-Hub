@@ -760,7 +760,52 @@ font-size: 11px;
     margin: 1em 5%;
 }
 
+.usa-disclaimer {
+    height: 40px;
+    padding-top: 11px;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    background-color: #EBEBEB;
+    font-size: 13px;
+    text-align: center;
+}
 
+.usa-disclaimer-official {
+    display: inline-block;
+}
+
+.usa-disclaimer-official a {
+    border-bottom: 1px solid;
+}
+
+.usa-disclaimer-official a:hover {
+    background-image: none;
+    color: inherit;
+}
+
+.usa
+
+.usa-disclaimer-stage {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: none;
+    float: right;
+}
+
+.usa-grid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.usa-disclaimer img {
+    max-width: 1.5em;
+}
+
+.usa-disclaimer-official img {
+    float: left;
+    margin-right: 0.7rem;
+    margin-top: 1px;
+    width: 2rem;
+}
 
 
 
