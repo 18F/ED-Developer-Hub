@@ -1,0 +1,46 @@
+{
+    "agency": "DoED",
+    "organization": "Office of Planning, Evaluation and Policy Development",
+    "projects": [
+        {
+            "name": "usedgov.github.io",
+            "description": "Official developer hub of the U.S. Department of Education",
+            "license": "null",
+            "openSourceProject": 1,
+            "governmentWideReuseProject": 0,
+            "tags": [
+              "developer",
+              "website",
+              "education",
+              "hub"
+            ],
+            "contact": {
+              "email": "",
+              "name": "",
+              "URL": "",
+              "phone": ""
+            },
+            "status": "Beta",
+            "vcs": "git",
+            "repository": "https://github.com/usedgov/usedgov.github.io",
+            "homepage": "https://usedgov.github.io/",
+            "downloadURL": "https://github.com/usedgov/usedgov.github.io/archive/master.zip",
+            "languages": [
+              "",
+              ""
+            ],
+            "partners": [
+                {
+                    "name": "",
+                    "email": ""
+                }
+            ],
+            "exemption": null,
+            "updated": {
+                "lastCommit": "",
+                "metadataLastUpdated": "",
+                "lastModified": ""
+            }
+        }
+    ]
+}
