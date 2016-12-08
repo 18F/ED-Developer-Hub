@@ -361,8 +361,14 @@ dt {
 .hub-menu-main li:first-child > a {
   background-color: #2EC880;
   padding: 0;
+  padding-top: 9.75px;
+  padding-right: .25px;
   color: #fff;
-  font-size: 28px;
+}
+
+.hub-menu-main img {
+  width:55px;
+  height:55px;
 }
 
 .hub-menu-main > li:last-child > a {
@@ -433,7 +439,6 @@ transition:.15s;
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
-    font-family: 'ecoicons';
     line-height: 1;
     speak: none;
     -webkit-font-smoothing: antialiased;
