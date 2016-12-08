@@ -15,7 +15,7 @@
     <link rel="alternate" type="application/rss+xml" title=" » Feed" href="https://cfpb.github.io/feed/">
 -->
     <link rel="canonical" href="https://usedgov.github.io/">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Fjord+One|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro" rel="stylesheet">
 
 <!--[if lt IE 9]>
     <link rel="stylesheet" href="/css/ie8.css">
@@ -43,16 +43,7 @@
         <a class="visuallyhidden focusable" href="https://usedgov.github.io/#content">Skip to Main Content</a>
     </div>
 
-        <div class="usa-disclaimer">
-      <div class="wrap">
-      <div class="usa-grid">
-        <span class="usa-disclaimer-official">
-          <img alt="U.S. flag" src="./assets/img/us_flag_small.png">
-          The official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a>. In beta.
-        </span>
-      </div>
-    </div>
-  </div>
+
 
 
 
@@ -65,12 +56,15 @@
 
               <ul class="hub-menu-main">
                 <li class="hub-trigger">
-                  <a class="hub-icon" href="https://usedgov.github.io/"><i style="color: #fff;" class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></a>
+                  <a class="hub-icon" href="https://usedgov.github.io/"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
                 </li>
                 <li><a class="" href="#APIs">APIs</a></li>
-                <li><a href="http://github.com/usedgov" target="_blank"><span>Repos</span></a></li>
+                <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
+                <li><a href="http://github.com/usedgov" target="_blank">News</a></li>
 
               </ul>
+              <p id="officialDisclaimer" style="font-size: 18px; margin:0; z-index: 199;">The official developer hub of the <a href="http://github.com/usedgov" target="_blank">U.S. Department of Education</a> (in beta)</p>
+
 
                 <div class="wrap">
 
@@ -83,15 +77,14 @@
                               View Source Code Policy
                           </a>-->
                       </li>
-                        <h1>Build <span id='text'></span><div class='console-underscore' id='console'>_</div></h1>
-                        <img class="seal" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal">
+                      <img class="seal" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal">
 
 
 
                     </section>
-                    <section style="margin-top: 155px;" class="sidebar openQuestion">
-                        <h2 style="color: #fff;" class="sidebar_head">Open Question</h2>
-                        <p style="font-size: 24px; color: #fff;">What is the next API we should build?</p>
+                    <section style="margin-top: 80px; float: right;" class="sidebar openQuestion">
+                        <h2 class="sidebar_head">Open Question<span class="blinking-cursor">_</span></h2>
+                        <p>What is the next API we should build?</p>
                         <a href="https://github.com/usedgov/API-Program/issues/1" target="_blank" id="tellUs">Tell us</a>
                     </section>
                 </div>
@@ -99,39 +92,43 @@
 
             <section class="featured-projects">
 
+
                 <ul style="margin-top: 1.5em;" class="wrap nav-list">
+                  <h2>Featured<span class="blinking-cursor">_</span></h2>
+
                     <li class="featured-project">
                         <div class="featured-project_img__eregs"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 20px;">
+                        <h3 class="featured-project_head">
                             <a href="http://usg-website-templates.github.io/developer-hub/" class="btn-draw">MBK APIs</a>
                         </h3>
-                        <p class="featured-project_desc">Explore life outcomes among boys and men of color. Data curated by the My Brother’s Keeper Initiative.</p>
+                        <p class="featured-project_desc">View life outcomes data for boys of color and peers compiled by the My Brother's Keeper Initiative.</p>
                             <div class="featured-project_links">
+                                <a class="call-to-action outline" href="https://usedgov.github.io/mbk-api/">API Docs</a>
                                 <a class="call-to-action" href="https://github.com/usedgov/mbk-api" target="_blank">Repo</a>
-                                <a class="call-to-action button2" href="https://usedgov.github.io/mbk-api/">API Docs</a>
+
                             </div>
                     </li>
                     <a name="APIs"><li class="featured-project">
                         <div class="featured-project_img__pdp"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 20px;">
+                        <h3 class="featured-project_head">
                             <a href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">College Scorecard API</a>
                         </h3>
-                        <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about costs and student earnings.</p>
+                        <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about student costs and earnings.</p>
                             <div class="featured-project_links">
+                              <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">API Docs</a>
                                 <a class="call-to-action" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
-                                <a class="call-to-action button2" href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">API Docs</a>
-                            </div>
+                                    </div>
                     </li></a>
                     <li class="featured-project .thirdfeature">
                         <div class="featured-project_img__ccdb"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 20px;">
+                        <h3 class="featured-project_head">
                             <a href="http://usg-website-templates.github.io/developer-hub/crdc-api" target="_blank">CRDC APIs</a>
                         </h3>
-                        <p class="featured-project_desc">Analyze slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
+                        <p class="featured-project_desc">Access slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
                         <div class="featured-project_links">
+                          <a class="call-to-action outline" href="https://usedgov.github.io/crdc-api/">API Docs</a>
                             <a class="call-to-action" href="https://github.com/usedgov">Repo</a>
-                            <a class="call-to-action button2" href="https://usedgov.github.io/crdc-api/">API Docs</a>
-                        </div>
+                                    </div>
                     </li>
                 </ul>
             </section>
@@ -173,57 +170,7 @@
     </script>
     <script>
 
-    // function([string1, string2],target id,[color1,color2])
-     consoleText(['with us.', 'a better world for students.'], 'text',['#fff','#fff','#fff']);
 
-    function consoleText(words, id, colors) {
-      if (colors === undefined) colors = ['#fff'];
-      var visible = true;
-      var con = document.getElementById('console');
-      var letterCount = 1;
-      var x = 1;
-      var waiting = false;
-      var target = document.getElementById(id)
-      target.setAttribute('style', 'color:' + colors[0])
-      window.setInterval(function() {
-
-        if (letterCount === 0 && waiting === false) {
-          waiting = true;
-          target.innerHTML = words[0].substring(0, letterCount)
-          window.setTimeout(function() {
-            var usedColor = colors.shift();
-            colors.push(usedColor);
-            var usedWord = words.shift();
-            words.push(usedWord);
-            x = 1;
-            target.setAttribute('style', 'color:' + colors[0])
-            letterCount += x;
-            waiting = false;
-          }, 700)
-        } else if (letterCount === words[0].length + 1 && waiting === false) {
-          waiting = true;
-          window.setTimeout(function() {
-            x = -1;
-            letterCount += x;
-            waiting = false;
-          }, 700)
-        } else if (waiting === false) {
-          target.innerHTML = words[0].substring(0, letterCount)
-          letterCount += x;
-        }
-      }, 60)
-      window.setInterval(function() {
-        if (visible === true) {
-          con.className = 'console-underscore hidden'
-          visible = false;
-
-        } else {
-          con.className = 'console-underscore'
-
-          visible = true;
-        }
-      }, 400)
-    }
 
     </script>
 
