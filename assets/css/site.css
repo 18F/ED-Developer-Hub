@@ -400,7 +400,8 @@ dt {
 
 #officialDisclaimer {
 		float: right;
-    font-family: 'Teko-Light', Arial, sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 12px;
     text-transform: none;
     letter-spacing: .1px;
     padding-top: 25;
@@ -409,7 +410,7 @@ dt {
     background: transparent;
     border-bottom: none;
     height: 74px;
-    padding-top: 25px;
+    padding-top: 26px;
     padding-right: 30px;
     font-size: 18px;
 }
@@ -425,7 +426,7 @@ dt {
     text-decoration: none;
     border-bottom: 2px solid #fff;
     display: inline-block;
-    height: 1.3em;
+    height: 1.5em;
 }
 
 #officialDisclaimer a:hover {
