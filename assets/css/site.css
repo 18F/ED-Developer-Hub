@@ -304,9 +304,7 @@ dt {
 
 .hub-menu-main {
   position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
+  float: left;
   width: auto;
   height: 74px;
   font-size: 18px;
