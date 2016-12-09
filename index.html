@@ -22,11 +22,9 @@
     <script src="https://cfpb.github.io/js/respond.min.js" media="all"></script>
 <![endif]-->
 
-    <style>
 
 
-
-</style></head>
+</head>
 
 <body>
     <!-- Google Tag Manager -->
@@ -56,12 +54,11 @@
 
               <ul class="hub-menu-main">
                 <li class="hub-trigger">
-                  <a class="hub-icon" href="https://usedgov.github.io/">  <img src="https://usedgov.github.io/assets/img/edsealgreen.svg"  alt="U.S. Department of Education Seal"></a>
+                  <a id="colorChange" style="padding: 0; padding-top: 6px;" class="hub-icon" href="https://usedgov.github.io/">  <i style="font-size: 30px; padding-left: 3px;" class="fa fa-graduation-cap" aria-hidden="true"></i></a>
                 </li>
                 <li><a class="" href="#APIs">APIs</a></li>
                 <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
                 <li><a href="http://github.com/usedgov" target="_blank">News</a></li>
-
               </ul>
               <p id="officialDisclaimer" style="font-size: 18px; margin:0; z-index: 199;">The official developer hub of the <a href="http://github.com/usedgov" target="_blank">U.S. Department of Education</a> (in beta)</p>
 
@@ -96,10 +93,14 @@
                 <ul style="margin-top: 1.5em;" class="wrap nav-list">
                   <h2>Featured<span class="blinking-cursor">_</span></h2>
 
+
+
                     <li class="featured-project">
-                        <div class="featured-project_img__eregs"></div>
-                        <h3 class="featured-project_head">
-                            <a href="http://usg-website-templates.github.io/developer-hub/" class="btn-draw">MBK APIs</a>
+                        <div class="featured-project_img__mbk"></div>
+                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
+                            <a class="link link--mallki" href="http://usg-website-templates.github.io/developer-hub/">MBK APIs<span data-letters="MBK APIs"></span><span data-letters="MBK APIs"></span></a>
+
+
                         </h3>
                         <p class="featured-project_desc">View life outcomes data for boys of color and peers compiled by the My Brother's Keeper Initiative.</p>
                             <div class="featured-project_links">
@@ -108,21 +109,27 @@
 
                             </div>
                     </li>
-                    <a name="APIs"><li class="featured-project">
-                        <div class="featured-project_img__pdp"></div>
-                        <h3 class="featured-project_head">
-                            <a href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">College Scorecard API</a>
+
+                    <li class="featured-project">
+                        <div class="featured-project_img__scorecard"></div>
+                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
+                            <a class="link link--mallki" href="https://collegescorecard.ed.gov/data/documentation/">College Scorecard API<span data-letters="College Scorecard API"></span><span data-letters="College Scorecard API"></span></a>
+
+
                         </h3>
                         <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about student costs and earnings.</p>
                             <div class="featured-project_links">
-                              <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/" target="_blank">API Docs</a>
+                                <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/">API Docs</a>
                                 <a class="call-to-action" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
-                                    </div>
-                    </li></a>
+
+                            </div>
+                    </li>
+
                     <li class="featured-project .thirdfeature">
-                        <div class="featured-project_img__ccdb"></div>
-                        <h3 class="featured-project_head">
-                            <a href="http://usg-website-templates.github.io/developer-hub/crdc-api" target="_blank">CRDC APIs</a>
+                        <div class="featured-project_img__crdc"></div>
+                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
+                          <a class="link link--mallki" href="http://usg-website-templates.github.io/developer-hub/crdc-api">CRDC APIs<span data-letters="CRDC APIs"></span><span data-letters="CRDC APIs"></span></a>
+
                         </h3>
                         <p class="featured-project_desc">Access slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
                         <div class="featured-project_links">
@@ -167,14 +174,21 @@
         if ( window.console && window.console.log ) {
           console.log(consoleText, consoleCSSBold, consoleCSSNorm);
         }
+
     </script>
     <script>
-
-
-
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 100) {
+                $("#colorChange").addClass("scrolled");
+            } else {
+                $("#colorChange").removeClass("scrolled");
+            }
+        });
+    });
     </script>
 
-    <script src="./CFPB Open Tech – Home_files/site.js"></script>
+    <script src="./assets/js/site.js"></script>
 
 
 
