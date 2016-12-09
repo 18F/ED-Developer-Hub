@@ -383,7 +383,8 @@ dt {
 
 #officialDisclaimer p {
 		float: right;
-    font-family: 'Teko-Light', Arial, sans-serif;
+    font-family: 'Teko', Arial, sans-serif;
+    font-weight: 300;
     text-transform: none;
     letter-spacing: .1px;
     padding-top: 25;
