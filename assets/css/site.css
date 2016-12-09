@@ -3,7 +3,10 @@
 @import "icons.min.css";
 @import "afontgarde.css";
 
-
+@font-face {
+  font-family: 'Teko-Light';
+  src: url('Teko-Light.tff');
+}
 
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
