@@ -843,10 +843,10 @@ hr {
 }
 
 .usa-disclaimer {
-    height: 28px;
+    height: 29px;
     font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
     background-color: #fff;
-    font-size: 11px;
+    font-size: 12px;
     text-align: right;
     color: #909BA9;
 }
@@ -859,7 +859,7 @@ hr {
     border-bottom: none;
     margin-right: 10px;
     padding: 0;
-    line-height: 28px;
+    line-height: 29px;
 }
 
 .usa-disclaimer-official a:hover {
@@ -875,7 +875,7 @@ hr {
 .usa-disclaimer-official img {
     text-align: right;
     float: right;
-    height: 28px;
+    height: 29px;
 }
 
 
