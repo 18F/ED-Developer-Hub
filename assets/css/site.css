@@ -599,7 +599,7 @@ del {
 
 #tellUs {
   background-image: none;
-  background-color: #378FEE;
+  background-color: #1C1F2D;
   font-family: 'Teko', Arial, Sans serif;
   font-size: 14.5px;
   text-transform: uppercase !important;
@@ -607,7 +607,7 @@ del {
   width: 114px;
   margin: 0;
   padding: 0;
-  border: 1px solid #378FEE;
+  border: 1px solid #1C1F2D;
   color: #fff;
   display: inline-block;
   letter-spacing: 1.98px;
@@ -615,9 +615,9 @@ del {
 }
 
 #tellUs:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #1C1F2D;
+  background-color: #378FEE;
+  border-color: #378FEE;
+  color: #fff;
 
 }
 
@@ -843,12 +843,12 @@ hr {
 }
 
 .usa-disclaimer {
-    height: 37px;
-    padding-top: 9px;
+    height: 28px;
     font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-    background-color: #F3F3F3;
-    font-size: 13px;
+    background-color: #fff;
+    font-size: 11px;
     text-align: right;
+    color: #909BA9;
 }
 
 .usa-disclaimer-official {
@@ -856,19 +856,15 @@ hr {
 }
 
 .usa-disclaimer-official a {
-    border-bottom: 1px solid;
+    border-bottom: none;
+    margin-right: 10px;
+    padding: 0;
+    line-height: 28px;
 }
 
 .usa-disclaimer-official a:hover {
     background-image: none;
-    color: inherit;
-}
-
-.usa-disclaimer-stage {
-    margin-bottom: 0;
-    margin-top: 0;
-    display: none;
-    float: right;
+    color: #308DF1;
 }
 
 .usa-grid {
@@ -876,15 +872,10 @@ hr {
     padding-left: 0;
 }
 
-.usa-disclaimer img {
-    max-width: 1.5em;
-}
-
 .usa-disclaimer-official img {
-    float: left;
-    margin-right: 0.7rem;
-    margin-top: 1px;
-    width: 2rem;
+    text-align: right;
+    float: right;
+    height: 28px;
 }
 
 
