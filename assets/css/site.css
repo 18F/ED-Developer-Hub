@@ -599,7 +599,7 @@ del {
 
 #tellUs {
   background-image: none;
-  background-color: #1C1F2D;
+  background-color: #378FEE;
   font-family: 'Teko', Arial, Sans serif;
   font-size: 14.5px;
   text-transform: uppercase !important;
@@ -607,7 +607,7 @@ del {
   width: 114px;
   margin: 0;
   padding: 0;
-  border: 1px solid #1C1F2D;
+  border: 1px solid #378FEE;
   color: #fff;
   display: inline-block;
   letter-spacing: 1.98px;
@@ -615,9 +615,9 @@ del {
 }
 
 #tellUs:hover {
-  background-color: #378FEE;
-  border-color: #378FEE;
-  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  color: #1C1F2D;
 
 }
 
