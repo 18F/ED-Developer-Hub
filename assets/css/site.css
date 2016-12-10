@@ -857,7 +857,7 @@ hr {
 
 .usa-disclaimer-official a {
     border-bottom: none;
-    margin-right: 10px;
+    margin-right: 0;
     padding: 0;
     line-height: 29px;
 }
@@ -874,6 +874,7 @@ hr {
 
 .usa-disclaimer-official img {
     text-align: right;
+    margin-left: 10px;
     float: right;
     height: 29px;
 }
