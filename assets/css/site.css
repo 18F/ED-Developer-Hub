@@ -874,9 +874,10 @@ hr {
 
 .usa-disclaimer-official img {
     text-align: right;
+    margin-top: 6px;
     margin-left: 10px;
     float: right;
-    height: 29px;
+    height: 17px;
 }
 
 
