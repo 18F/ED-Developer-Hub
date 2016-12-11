@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <link rel="stylesheet" href="/assets/css/site.css">
+      <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 <!--
     <link rel="alternate" type="application/rss+xml" title=" » Feed" href="https://cfpb.github.io/feed/">
@@ -52,14 +53,20 @@
 
             <section class="hero">
 
-              <ul class="hub-menu-main">
+
+              <div id="homeButton">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+        </div>
+              <ul id="menu-main" class="hub-menu-main animated">
                 <li class="hub-trigger">
-                  <a id="colorChange" style="padding: 0; padding-top: 6px;" class="hub-icon" href="https://usedgov.github.io/">  <i style="font-size: 30px; padding-left: 3px;" class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                  <a class="hub-icon"></a>
                 </li>
+
                 <li><a class="" href="#APIs">APIs</a></li>
                 <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
                 <li><a href="http://usedgov.github.io/masterdesign" target="_blank">News</a></li>
+
               </ul>
+
 
               <div class="usa-disclaimer">
             <div class="wrap">
@@ -113,7 +120,7 @@
                         </h3>
                         <p class="featured-project_desc">View life outcomes data for boys of color and peers compiled by the My Brother's Keeper Initiative.</p>
                             <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://usedgov.github.io/mbk-api/">API Docs</a>
+                                <a class="call-to-action outline" href="https://usedgov.github.io/mbk-api/">Docs</a>
                                 <a class="call-to-action" href="https://github.com/usedgov/mbk-api" target="_blank">Repo</a>
 
                             </div>
@@ -128,7 +135,7 @@
                         </h3>
                         <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about student costs and earnings.</p>
                             <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/">API Docs</a>
+                                <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/">Docs</a>
                                 <a class="call-to-action" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
 
                             </div>
@@ -142,7 +149,7 @@
                         </h3>
                         <p class="featured-project_desc">Access slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
                         <div class="featured-project_links">
-                          <a class="call-to-action outline" href="https://usedgov.github.io/crdc-api/">API Docs</a>
+                          <a class="call-to-action outline" href="https://usedgov.github.io/crdc-api/">Docs</a>
                             <a class="call-to-action" href="https://github.com/usedgov">Repo</a>
                                     </div>
                     </li>
@@ -166,38 +173,25 @@
 
         </main>
     </section>
-
-    <script src="./CFPB Open Tech – Home_files/jquery.min.js"></script>
-    <script src="./CFPB Open Tech – Home_files/afontgarde.js"></script>
-    <script>
-        AFontGarde( 'CFPB_Icons', '\uE600\uE601\uE602\uE605' );
-        var consoleText = 'Hey! If you\'re viewing this, you should %capply() %cto our Technology and Innovation Fellowship. http://www.consumerfinance.gov/jobs/technology-innovation-fellows/';
-        var consoleCSSBold = 'font-weight: bold';
-        var consoleCSSNorm = 'font-weight: normal';
-
-        function apply() {
-          console.log('Here we go!');
-          window.location.href = 'http://www.consumerfinance.gov/jobs/technology-innovation-fellows/';
-        }
-
-        if ( window.console && window.console.log ) {
-          console.log(consoleText, consoleCSSBold, consoleCSSNorm);
-        }
-
-    </script>
+    <script src="assets/js/site.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script>
     $(document).ready(function () {
         $(window).scroll(function () {
             if ($(document).scrollTop() > 100) {
-                $("#colorChange").addClass("scrolled");
+                $("#menu-main").addClass("slideOutLeft");
             } else {
-                $("#colorChange").removeClass("scrolled");
+                $("#menu-main").removeClass("slideOutLeft");
             }
         });
     });
-    </script>
 
-    <script src="./assets/js/site.js"></script>
+    $(function() {
+      $('#menu-main').addClass('slideInLeft');
+    });
+
+
+    </script>
 
 
 
