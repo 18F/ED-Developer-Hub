@@ -352,12 +352,37 @@ dt {
     letter-spacing: 2.45px;
 }
 
+/*
+
 .hub-menu-main li:first-child > a {
   padding: 0;
   background-color: #1FC97E;
   padding-top: 9.75px;
   padding-right: .25px;
   color: #fff;
+}
+
+*/
+
+#homeButton {
+  position: fixed;
+  float: left;
+  width: auto;
+  height: 74px;
+  padding: 0;
+  width: 74px;
+  background-color: #1FC97E;
+  padding-top: 18px;
+  padding-left: 18px;
+  color: #fff;
+  z-index: 300;
+}
+
+#homeButton a {
+  border-bottom: none;
+  color: #fff;
+  font-size: 30px;
+  margin: auto;
 }
 
 .colorChange {
@@ -1112,6 +1137,12 @@ hr {
   color: #1C1F2D;
   border-right: none;
 }
+
+.featured-project .outline:hover {
+  color: #378FEE;
+}
+
+308DF1
 
 .call-to-action__icon,
 .call-to-action__icon:visited,
