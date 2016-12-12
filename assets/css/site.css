@@ -1259,12 +1259,11 @@ hr {
 }
 .featured-project_head a {
     margin-bottom: 0em;
-    font-family: 'Teko', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
     color: #909BA9;
     border-bottom: none;
-    font-size: 34px;
+    font-size: 24px;
     margin-bottom: 10px;
-    letter-spacing: .25px;
 }
 
 .docs1 a:hover {
