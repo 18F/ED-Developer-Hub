@@ -407,63 +407,6 @@ dt {
 		padding-right: 30px;
 }
 
-#officialDisclaimer p {
-		float: right;
-    font-family: 'Source Sans Pro', Arial, sans-serif;
-    font-weight: 300;
-    text-transform: none;
-    letter-spacing: .1px;
-    padding-top: 25;
-    margin-right: 25;
-    color: #1C1F2D;
-    background: transparent;
-    border-bottom: none;
-    height: 74px;
-    padding-top: 25px;
-    padding-right: 30px;    font-size: 18px;
-}
-
-#officialDisclaimer {
-		float: right;
-    font-family: 'Source Sans Pro', Arial, sans-serif;
-    font-size: 12px;
-    text-transform: none;
-    letter-spacing: .1px;
-    padding-top: 25;
-    margin-right: 25;
-    color: #1C1F2D;
-    background: transparent;
-    border-bottom: none;
-    height: 74px;
-    padding-top: 26px;
-    padding-right: 30px;
-    font-size: 18px;
-}
-
-#officialDisclaimer p a:visited {
-    border-bottom: 1.5px solid #fff;
-    color: #1C1F2D;
-    text-decoration: none;
-}
-
-#officialDisclaimer a {
-    color: #05090E;
-    text-decoration: none;
-    border-bottom: 2px solid #fff;
-    display: inline-block;
-    height: 1.5em;
-}
-
-#officialDisclaimer a:hover {
-    color: #fff;
-    background-color: transparent;
-    -o-transition:.15s;
--ms-transition:.15s;
--moz-transition:.15s;
--webkit-transition:.15s;
-transition:.15s;
-}
-
 
 .hub-icon::before {
     display: inline-block;
