@@ -832,7 +832,7 @@ hr {
 
 .usa-disclaimer-official a:hover {
     background-image: none;
-    color: #308DF1;
+    color: #378FEE;
 }
 
 .usa-grid {
@@ -848,6 +848,45 @@ hr {
     height: 17px;
 }
 
+.usa-disclaimer-official img {
+    text-align: right;
+    margin-top: 6px;
+    margin-left: 10px;
+    float: right;
+    height: 17px;
+}
+
+.beta-disclaimer {
+    text-align: center;
+    color: #1C1F2D;
+}
+
+.beta-disclaimer i {
+  font-size: 15px;
+}
+
+.beta-disclaimer p {
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-size: 15px;
+    color: #909BA9;
+}
+
+.beta-disclaimer span {
+  color: ##909BA9;
+}
+
+.informed-disclaimer {
+    text-align: center;
+}
+
+.informed-disclaimer i {
+  font-size: 15px;
+}
+
+.informed-disclaimer p {
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-size: 15px;
+}
 
 /* Mallki - beautiful hover effect by Codrops! */
 
@@ -962,6 +1001,35 @@ hr {
         background-attachment: fixed;
     }
 
+    .hero-project {
+
+          background-color: #F3F6F9;
+          height: 296px;
+
+    /*
+
+    /*
+          background-image: linear-gradient(rgba(0, 75, 140, 0.6), rgba(0, 75, 140, 0.6)),
+                         url('../img/hero.jpg');
+    */
+            background-size: cover;
+            -o-background-size: cover;
+            -ms-background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .hero-project p {
+            text-align: center;
+            line-height: 222px;
+            margin-bottom: 0;
+            font-family: 'Oswald', Arial, sans-serif;
+            font-size: 36px;
+            color: #1C1F2D;
+        }
 
 .blinking-cursor {
   -webkit-animation: 1s blink step-end infinite;
@@ -1015,8 +1083,6 @@ hr {
     color: black;
   }
 }
-
-
 
 .hero .seal {
   width:700px;
@@ -1084,8 +1150,6 @@ hr {
 .featured-project .outline:hover {
   color: #378FEE;
 }
-
-308DF1
 
 .call-to-action__icon,
 .call-to-action__icon:visited,
@@ -1155,15 +1219,6 @@ hr {
 .featured-projects {
     padding: 1em 0;
     background-color: #fff;
-    background-blend-mode: soft-light;
-    background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .featured-project {
     margin: 2em 0;
