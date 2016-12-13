@@ -1023,13 +1023,18 @@ hr {
         }
 
         .hero-project p {
-            text-align: center;
-            line-height: 222px;
-            margin-bottom: 0;
+            position: absolute;
+            z-index: 2;
+            margin-top: 148px;
+            left: 50%;
+            transform: translate(-50%,0);
             font-family: 'Oswald', Arial, sans-serif;
-            font-size: 36px;
+            line-height: auto;
+            font-size: 48px;
             color: #1C1F2D;
         }
+
+
 
 .blinking-cursor {
   -webkit-animation: 1s blink step-end infinite;

@@ -10,6 +10,8 @@
 
       <link rel="stylesheet" href="/assets/css/site.css">
       <link rel="stylesheet" href="/assets/css/animate.css">
+      <link rel="stylesheet" href="/assets/css/tabs.css">
+      <link rel="stylesheet" href="/assets/css/skeleton.css">
       <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
       <link rel="canonical" href="https://usedgov.github.io/">
       <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro|Oswald" rel="stylesheet">
@@ -20,6 +22,7 @@
       <link rel="manifest" href="/manifest.json">
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
       <meta name="theme-color" content="#ffffff">
+      <script src="assets/js/modernizr.custom.js"></script>
 
 </head>
 
@@ -66,10 +69,11 @@
           </div>
         </div>
 
-          <center><img class="seal" style="height: 294px; padding-top: 54px;" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal"></center>
+
+              <p>My Brother's Keeper APIs</p>
 
 
-
+          <center><img class="seal" style="height: 294px; padding-top: 54px; position: relative;" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal"></center>
 
 
             </section> <!-- /.hero -->
@@ -77,66 +81,59 @@
             <section class="featured-projects">
 
                 <ul style="margin-top: 1.5em;" class="wrap nav-list">
-                  <h2>Docs<span class="blinking-cursor">_</span></h2>
+                  <h2>Introduction<span class="blinking-cursor">_</span></h2>
 
+<p>To encourage analyses of important life outcomes for boys and young men of color (and their peers), the My Brother’s Keeper (MBK) Task Force compiled statistical indicators from relevant federal data sources and made them available for download. The Department's My Brother’s Keeper APIs provide additional access points to several of these indicators. Specifically, ED’s MBK APIs provide access to information on 18- to 24-year-olds by race/ethnicity and sex, including high school dropout rates; college enrollment and graduation rates; rates of disconnected youth (who are neither working nor in school); imprisonment rates; and labor force participation rates.</p>
 
-
-                    <li class="featured-project">
-                        <div class="featured-project_img__mbk"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                            <a class="link link--mallki" href="https://usedgov.github.io/mbk-api/">MBK APIs<span data-letters="MBK APIs"></span><span data-letters="MBK APIs"></span></a>
-
-
-                        </h3>
-                        <p class="featured-project_desc">View life outcomes data for boys of color and peers compiled by the My Brother's Keeper Initiative.</p>
-                            <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://usedgov.github.io/mbk-api/">Docs</a>
-                                <a class="call-to-action" href="https://github.com/usedgov/mbk-api" target="_blank">Repo</a>
-
-                            </div>
-                    </li>
-
-                    <li class="featured-project">
-                        <div class="featured-project_img__scorecard"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                            <a class="link link--mallki" href="https://collegescorecard.ed.gov/data/documentation/">College Scorecard API<span data-letters="College Scorecard API"></span><span data-letters="College Scorecard API"></span></a>
-
-
-                        </h3>
-                        <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about student costs and earnings.</p>
-                            <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/">Docs</a>
-                                <a class="call-to-action" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
-
-                            </div>
-                    </li>
-
-                    <li class="featured-project .thirdfeature">
-                        <div class="featured-project_img__crdc"></div>
-                        <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                          <a class="link link--mallki" href="http://usg-website-templates.github.io/developer-hub/crdc-api">CRDC APIs<span data-letters="CRDC APIs"></span><span data-letters="CRDC APIs"></span></a>
-
-                        </h3>
-                        <p class="featured-project_desc">Access slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
-                        <div class="featured-project_links">
-                          <a class="call-to-action outline" href="https://usedgov.github.io/crdc-api/">Docs</a>
-                            <a class="call-to-action" href="https://github.com/usedgov">Repo</a>
-                                    </div>
-                    </li>
-                </ul>
             </section>
 
             <section class="articles wrap" style="margin-top: 5.5em; margin-bottom: 5.5em;">
                 </section>
 
+                <section class="wrap">
+
+                <div class="container">
+
+                  <!-- columns should be the immediate child of a .row -->
 
 
+                  <!-- just use a number and class 'column' or 'columns' -->
+                  <div class="row">
+                    <div class="three columns" style="border-right: 2px solid #000;">
+                      <p style="font-family: Oswald;">High School Dropout Rates</p>
+                    </div>
+                    <div class="nine columns"><div class="tabs tabs-style-line">
+            					<nav>
+            						<ul>
+            							<li><a href="#section-line-1"><span>Overview</span></a></li>
+            							<li><a href="#section-line-2"><span>Queries</span></a></li>
+            							<li><a href="#section-line-3"><span>Fields</span></a></li>
+            						</ul>
+            					</nav>
+            					<div class="content-wrap">
+            						<section id="section-line-1"><p>Overview</p></section>
+            						<section id="section-line-2"><p>Queries</p></section>
+            						<section id="section-line-3"><p>Fields</p></section>
+            					</div><!-- /content -->
+            				</div><!-- /tabs --></div>
+                  </div>
 
-
+                </div>
+              </section>
         </main>
     </section>
     <script src="assets/js/site.js"></script>
     <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
     <script>
     $(document).ready(function () {
         $(window).scroll(function () {
