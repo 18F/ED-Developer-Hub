@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html class=" supports-js supports-fontface supports-generatedcontent CFPB_Icons"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>U.S. Department of Education: Developer Hub | Home</title>
+
+    <meta name="description" content="Learn about the U.S. Department of Education's developer resources and technology work.">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="/assets/css/site.css">
+      <link rel="stylesheet" href="/assets/css/animate.css">
+      <link rel="stylesheet" href="/assets/css/tabs.css">
+      <link rel="stylesheet" href="/assets/css/skeleton.css">
+      <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+      <link rel="canonical" href="https://usedgov.github.io/">
+      <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro|Oswald" rel="stylesheet">
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+      <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+      <link rel="manifest" href="/manifest.json">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="theme-color" content="#ffffff">
+      <script src="assets/js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+    <!-- Google Tag Manager -->
+    <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-MVLMCF"
+    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MVLMCF');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <section id="content" class="content">
+        <main role="main">
+
+            <section class="hero-project">
+
+
+              <div id="homeButton">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+        </div>
+              <ul id="menu-main" class="hub-menu-main animated">
+                <li class="hub-trigger">
+                  <a class="hub-icon"></a>
+                </li>
+
+                <li><a class="" href="#APIs">APIs</a></li>
+                <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
+                <li><a href="http://github.com/usedgov" target="_blank">News</a></li>
+
+              </ul>
+
+
+              <div class="usa-disclaimer">
+            <div class="wrap">
+            <div class="usa-grid">
+              <span class="usa-disclaimer-official">
+                Official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a> (BETA)
+              <a href="http://www.ed.gov/" target="_blank"><img alt="U.S. flag" src="./assets/img/usflag.svg"></a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+
+              <p>CRDC APIs</p>
+
+
+          <center><img class="seal" style="height: 294px; padding-top: 54px; position: relative;" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal"></center>
+
+
+            </section> <!-- /.hero -->
+
+            <section class="featured-projects">
+
+                <ul style="margin-top: 1.5em;" class="wrap nav-list">
+                  <h2>Introduction<span class="blinking-cursor">_</span></h2>
+
+<p>Since 1968, the U.S. Department of Education (ED) has conducted the Civil Rights Data Collection (CRDC) to collect data on key education and civil rights issues in our nation's public schools. The 2013-14 collection includes equity data from every public school and public school district in the nation. The following APIs provide access to several CRDC indicators.</p>
+<p>Sign up for an API key <a href="https://api.data.gov/signup/" target="_blank">here.</a></p>
+            </section>
+<div style="background-color: #fff;">
+
+                <section class="wrap">
+
+                <div class="container">
+
+                  <!-- columns should be the immediate child of a .row -->
+
+
+                  <!-- just use a number and class 'column' or 'columns' -->
+                  <div class="row apiSummary" style="padding-top: 35px; margin-bottom: 50px;">
+
+                    <div class="twelve columns">
+
+                      <h3>Public School Enrollment in 2013-14</h3>
+                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc-enrollment-2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc-enrollment-2013-14?api_key=DEMO_KEY1</a><p>
+                      <div class="tabs tabs-style-line">
+                      <nav>
+                        <ul>
+                          <li><a href="#section-line-1"><span>Overview</span></a></li>
+                          <li><a href="#section-line-2"><span>Queries</span></a></li>
+                          <li><a href="#section-line-3"><span>Fields</span></a></li>
+                        </ul>
+                      </nav>
+                      <div class="content-wrap">
+                        <section id="section-line-1"><p>Public school and district-level information on the number of students enrolled in public education in 2013-14 by race/ethnicity and sex.</p></section>
+                        <section id="section-line-2"><table class="table-code">
+
+                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+                          font-size: 17px;">
+                        <tr>
+                        <td><code>?per_page=</code></td>
+                        <td>Select number of results per page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?page=</code></td>
+                        <td>Select results page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
+                        <td>Sort by Columnx.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>/_index_number_</code></td>
+                        <td>Return a single record.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx and Columny. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=[]&amp;ColumnX=</code></td>
+                        <td>Filter by multiple values in Columnx. </td>
+                        </tr>
+
+                        </tbody>
+                        </table></section>
+                        <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/about/offices/list/ocr/data.html">see here</a>.</p></section>
+                      </div><!-- /content -->
+                    </div><!-- /tabs --></div>
+
+                  </div>
+
+                  <div class="row apiSummary" style="margin-bottom: 50px">
+
+                    <div class="twelve columns">
+
+                      <h3>Chronic Absenteeism in 2013-14</h3>
+                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc-absenteeism-2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc-absenteeism-2013-14?api_key=DEMO_KEY1</a><p>
+                      <div class="tabs tabs-style-line">
+                      <nav>
+                        <ul>
+                          <li><a href="#section-line-1"><span>Overview</span></a></li>
+                          <li><a href="#section-line-2"><span>Queries</span></a></li>
+                          <li><a href="#section-line-3"><span>Fields</span></a></li>
+                        </ul>
+                      </nav>
+                      <div class="content-wrap">
+                        <section id="section-line-1"><p>Public school and district-level information on the number of students who were chronically absent (missed 15 days or more of the school year) by race/ethnicity and gender.</p></section>
+                        <section id="section-line-2"><table class="table-code">
+
+                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+                          font-size: 17px;">
+                        <tr>
+                        <td><code>?per_page=</code></td>
+                        <td>Select number of results per page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?page=</code></td>
+                        <td>Select results page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
+                        <td>Sort by Columnx.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>/_index_number_</code></td>
+                        <td>Return a single record.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx and Columny. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=[]&amp;ColumnX=</code></td>
+                        <td>Filter by multiple values in Columnx. </td>
+                        </tr>
+
+                        </tbody>
+                        </table></section>
+                        <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/about/offices/list/ocr/data.html">see here</a>.</p></section>
+                      </div><!-- /content -->
+                    </div><!-- /tabs --></div>
+
+                  </div>
+
+                  <div class="row apiSummary" style="margin-bottom: 200px">
+
+                    <div class="twelve columns">
+
+                      <h3>Out-of-School Suspension in 2013-14</h3>
+                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc-oosuspensions-2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc-oosuspensions-2013-14?api_key=DEMO_KEY1</a><p>
+                      <div class="tabs tabs-style-line">
+                      <nav>
+                        <ul>
+                          <li><a href="#section-line-1"><span>Overview</span></a></li>
+                          <li><a href="#section-line-2"><span>Queries</span></a></li>
+                          <li><a href="#section-line-3"><span>Fields</span></a></li>
+                        </ul>
+                      </nav>
+                      <div class="content-wrap">
+                        <section id="section-line-1"><p>Public school and district-level information on the number of students who received out-of-school suspensions by race/ethnicity and gender.</p></section>
+                        <section id="section-line-2"><table class="table-code">
+
+                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+                          font-size: 17px;">
+                        <tr>
+                        <td><code>?per_page=</code></td>
+                        <td>Select number of results per page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?page=</code></td>
+                        <td>Select results page.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
+                        <td>Sort by Columnx.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>/_index_number_</code></td>
+                        <td>Return a single record.</td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=</code></td>
+                        <td>Filter by Columnx and Columny. </td>
+                        </tr>
+
+                        <tr>
+                        <td><code>?Columnx=[]&amp;ColumnX=</code></td>
+                        <td>Filter by multiple values in Columnx.</td>
+                        </tr>
+
+                        </tbody>
+                        </table></section>
+                        <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/about/offices/list/ocr/data.html">see here</a>.</p></section>
+                      </div><!-- /content -->
+                    </div><!-- /tabs --></div>
+
+
+                </div>
+              </section>
+            </div>
+        </main>
+    </section>
+    <script src="assets/js/site.js"></script>
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+    <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 100) {
+                $("#menu-main").addClass("slideOutLeft");
+            } else {
+                $("#menu-main").removeClass("slideOutLeft");
+            }
+        });
+    });
+
+    $(function() {
+      $('#menu-main').addClass('slideInLeft');
+    });
+
+
+    </script>
+
+
+
+
+<div><div style="font-family: CFPB_Icons, sans-serif; position: absolute; top: 0px; left: -9999px; font-size: 48px;">AxmTYklsjo190QW</div><div style="font-family: CFPB_Icons, serif; position: absolute; top: 0px; left: -9999px; font-size: 48px;">AxmTYklsjo190QW</div></div><script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script></body></html>
