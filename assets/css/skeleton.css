@@ -141,9 +141,9 @@ code {
   margin: 0 .2rem;
   font-size: 90%;
   white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  background: #F3F6F9;
+  border-radius: 3px; }
+
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
@@ -156,7 +156,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px solid #E3E6E9; }
 th:first-child,
 td:first-child {
   padding-left: 0; }

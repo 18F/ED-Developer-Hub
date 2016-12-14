@@ -5,13 +5,13 @@
 	overflow: hidden;
 	margin: 0 auto;
 	width: 100%;
-	font-weight: 300;
-	font-size: 1.25em;
+	font-weight: normal;
+	font-size: 10px;
 }
 
 /* Nav */
 .tabs nav {
-	text-align: center;
+	text-align: left;
 }
 
 .tabs nav ul {
@@ -42,7 +42,7 @@
 	z-index: 1;
 	display: block;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 	-webkit-flex: 1;
 	-moz-flex: 1;
 	-ms-flex: 1;
@@ -136,9 +136,9 @@
 .content-wrap section {
 	display: none;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 0;
 	max-width: 1200px;
-	text-align: center;
+	text-align: left;
 }
 
 .content-wrap section.content-current {
@@ -146,12 +146,13 @@
 }
 
 .content-wrap section p {
-	margin: 0;
-	padding: 0.75em 0;
-	color: rgba(40,44,42,0.05);
-	font-weight: 900;
-	font-size: 4em;
-	line-height: 1;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	color: #1C1F2D;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 29px;
+	font-family: "Source Serif Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 }
 
 /* Fallback */
@@ -188,7 +189,6 @@
 .tabs-style-line nav ul {
 	padding: 0;
 	max-width: none;
-	box-shadow: inset 0 -2px #F3F6F9;
 }
 
 .tabs-style-line nav a {
@@ -200,7 +200,10 @@
 	font-size: 22px;
 	letter-spacing: 1.98px;
 	line-height: .3;
-	border-bottom: 2px solid #E3E6E9;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #E3E6E9;
+	border-top: 3px solid #1C1F2D;
 	-webkit-transition: color 0.3s, box-shadow 0.3s;
 	transition: color 0.3s, box-shadow 0.3s;
 }
@@ -208,22 +211,33 @@
 .tabs-style-line nav a:hover,
 .tabs-style-line nav a:focus {
 	color: #1C1F2D;
-	border-bottom: 2px solid #1FC97E;
+	border-bottom: 1px solid #1FC97E;
 }
 
 .tabs-style-line nav li.tab-current a {
 	color: #1C1F2D;
-	border-bottom: 2px solid #1C1F2D;
+	border-bottom: 1px solid #1C1F2D;
 }
 
-@media screen and (max-width: 58em) {
-	.tabs-style-line nav ul {
-		display: block;
-		box-shadow: none;
-	}
-	.tabs-style-line nav ul li {
-		display: block;
-		-webkit-flex: none;
-		flex: none;
-	}
+/* Overall API summary section styling */
+
+.apiSummary h3 {
+	font-family: "Oswald","Helvetica Neue","Helvetica","Arial",sans-serif;
+		font-size: 24px;
+		margin-bottom: 8px;
+}
+
+.apiSummary p {
+	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+		font-size: 17px;
+}
+
+.apiSummary .endpoint a {
+		color: #1FC97E;
+		text-decoration: none;
+		border: none;
+}
+
+.apiSummary .endpoint i {
+		margin-right: 8px;
 }

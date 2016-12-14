@@ -161,11 +161,19 @@ samp {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  	font-size: 13px;
 }
 
 th {
     text-align: left;
+    font-family: 'Teko', Arial, Sans serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 tr,
@@ -431,20 +439,17 @@ dt {
 /* HYPERLINKS */
 
 a {
-    color:#05090E;
+    color:#909BA9;
     text-decoration: none;
-    border-bottom: 1px solid #48BB6C;
 }
 
 main p a:visited {
-    border-bottom: 1px solid #005E5D;
-    color: #005E5D;
     text-decoration: none;
 }
 
 a:hover {
     background-color: none;
-    color: #4A87E8;
+    color: #1C1F2D;
     text-decoration: none;
     border-bottom: none;
     -o-transition:.15s;
@@ -1032,6 +1037,21 @@ hr {
             line-height: auto;
             font-size: 48px;
             color: #1C1F2D;
+        }
+
+        @media (max-width: 1023px) {
+          .hero-project p {
+            margin-top: 100px;
+            line-height: 64px;
+          }
+        }
+
+        @media (max-width: 474px) {
+          .hero-project p {
+            margin-top: 100px;
+            line-height: auto;
+            font-size: 32px;
+          }
         }
 
 
