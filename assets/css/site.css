@@ -824,6 +824,10 @@ hr {
     color: #909BA9;
 }
 
+.usa-disclaimer a {
+    color: #1C1F2D;
+}
+
 .usa-disclaimer-official {
     display: inline-block;
 }
