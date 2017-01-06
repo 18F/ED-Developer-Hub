@@ -10,7 +10,7 @@
 
       <link rel="stylesheet" href="/assets/css/site.css">
       <link rel="stylesheet" href="/assets/css/animate.css">
-      <link rel="stylesheet" href="/assets/css/skele.css">
+      <link rel="stylesheet" href="/assets/css/skeleton.css">
       <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
       <link rel="canonical" href="https://usedgov.github.io/">
       <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro|Oswald" rel="stylesheet">
@@ -20,6 +20,8 @@
       <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
       <link rel="manifest" href="/manifest.json">
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="stylesheet" type="text/css" href="/assets/css/rotator.css" />
+      <script src="assets/js/modernizr.custom.js"></script>
       <meta name="theme-color" content="#ffffff">
 
 </head>
@@ -42,16 +44,16 @@
             <section class="hero">
 
 
-              <div id="homeButton">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+              <div id="homeButton" class="colorChange">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
         </div>
               <ul id="menu-main" class="hub-menu-main animated">
-                <li class="hub-trigger">
+                <li class="hub-trigger colorChange">
                   <a class="hub-icon"></a>
                 </li>
 
-                <li><a class="" href="#APIs">APIs</a></li>
-                <li><a href="http://github.com/usedgov" target="_blank">Repos</a></li>
-                <li><a href="https://usedgov.github.io/">News</a></li>
+                <li><span><a class="" href="#APIs">APIs</a></span></li>
+                <li><span><a href="http://github.com/usedgov" target="_blank">Repos</a></span></li>
+                <li><span><a href="https://usedgov.github.io/">News</a></span></li>
 
               </ul>
 
@@ -79,10 +81,25 @@
 
                     </section>
                     <section style="margin-top: 140px; float: right;" class="sidebar openQuestion">
-                        <h2 class="sidebar_head">Open Question<span class="blinking-cursor">_</span></h2>
-                        <p>What is the next API we should build?</p>
-                        <a href="https://github.com/usedgov/API-Program/issues/1" target="_blank" id="tellUs">Tell us</a>
+                        <h2 class="sidebar_head" style="color: #fff;">Open Question</h2>
+                          <div id="cbp-qtrotator" class="cbp-qtrotator" style="margin: auto;">
+                          <div class="cbp-qtcontent">
+                              <p style="color: #fff;">What is the next API we should offer?</p>
+                              <a href="https://github.com/usedgov/API-Program/issues/1" target="_blank" id="tellUs">Tell us</a>
+
+                          </div>
+                          <div class="cbp-qtcontent">
+
+                              <p style="color: #fff;">What are your ideas for improving ED's datasets?</p>
+                              <a href="https://github.com/usedgov/API-Program/issues/1" target="_blank" id="tellUs">Tell us</a>
+
+                          </div>
+                        </div>
+                        <div><p style="font-family: Source Sans Pro; font-size: 16px; color: #fff; bottom: 0; margin-bottom: 1.5em; position: absolute; text-align: right;">Build a better world for students.</p>
+
                     </section>
+
+
                 </div>
             </section> <!-- /.hero -->
 
@@ -90,36 +107,34 @@
 
 
                 <ul style="margin-top: 1.5em;" class="wrap nav-list">
-                  <h2>Featured<span class="blinking-cursor">_</span></h2>
+                  <h2 style="padding: 0; margin: 20px; opacity: 0;"></h2>
 
 
 
                     <li class="featured-project">
                         <div class="featured-project_img__mbk"></div>
                         <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                            <a class="link link--mallki" href="https://usedgov.github.io/mbk-api/">MBK APIs<span data-letters="MBK APIs"></span><span data-letters="MBK APIs"></span></a>
+                            <a class="link link--mallki" href="https://usedgov.github.io/mbk-api/">MBK APIs</a>
 
 
                         </h3>
                         <p class="featured-project_desc">View youth outcomes by race/ethnicity and sex. Data compiled by the My Brother's Keeper Initiative.</p>
                             <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://usedgov.github.io/mbk-api/">Docs</a>
-                                <a class="call-to-action" href="https://github.com/usedgov/mbk-api" target="_blank">Repo</a>
-
+                                <a class="call-to-action stub" href="https://usedgov.github.io/mbk-api/">Docs</a>
                             </div>
                     </li>
 
                     <li class="featured-project">
                         <div class="featured-project_img__scorecard"></div>
                         <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                            <a class="link link--mallki" href="https://collegescorecard.ed.gov/data/documentation/">College Scorecard API<span data-letters="College Scorecard API"></span><span data-letters="College Scorecard API"></span></a>
+                            <a class="link link--mallki" href="https://collegescorecard.ed.gov/data/documentation/">College Scorecard API</a>
 
 
                         </h3>
                         <p class="featured-project_desc">Access 20 years of data on U.S. colleges, including information about student costs and earnings.</p>
                             <div class="featured-project_links">
-                                <a class="call-to-action outline" href="https://collegescorecard.ed.gov/data/documentation/">Docs</a>
-                                <a class="call-to-action" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
+                                <a class="call-to-action stub" href="https://collegescorecard.ed.gov/data/documentation/">Docs</a>
+                                <a class="call-to-action stub" href="https://github.com/RTICWDT/college-scorecard" target="_blank">Repo</a>
 
                             </div>
                     </li>
@@ -127,27 +142,39 @@
                     <li class="featured-project .thirdfeature">
                         <div class="featured-project_img__crdc"></div>
                         <h3 class="featured-project_head" style="margin-bottom: 0px;">
-                          <a class="link link--mallki" href="https://usedgov.github.io/crdc-api.html">CRDC APIs<span data-letters="CRDC APIs"></span><span data-letters="CRDC APIs"></span></a>
+                          <a class="link link--mallki" href="https://usedgov.github.io/crdc-api.html">CRDC APIs</a>
 
                         </h3>
                         <p class="featured-project_desc">Access slices of the Civil Rights Data Collection, which includes equity data from all public schools.</p>
                         <div class="featured-project_links">
-                          <a class="call-to-action outline" href="https://usedgov.github.io/crdc-api.html">Docs</a>
-                            <a class="call-to-action" href="https://github.com/usedgov">Repo</a>
-                                    </div>
+                          <a class="call-to-action stub" href="https://usedgov.github.io/crdc-api.html">Docs</a>
+            </div>
                     </li>
                 </ul>
             </section>
 
-            <section class="articles wrap" style="margin-top: 5.5em; margin-bottom: 5.5em;">
-                </section>
 
 
+    <footer class="footer cf" role="contentinfo" style="margin-top: 50px;">
+        <div class="wrap">
+
+            <section class="footer-links">
+                <ul class="footer-links_social cf">
+                  <ul style="margin-left: 0;">
+                  <li><a href="https://www.facebook.com/ED.gov/"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://twitter.com/usedgov"><i class="fa fa-twitter"></i></a></li>
+                  </ul>
+                    <!-- <li>
+                        <a href="#"><i class="icon-rss-alt">RSS Feed</i></a>
+                    </li> -->
+                </ul>
+            </section>
 
 
+        </div>
 
-        </main>
-    </section>
+    </footer>
+
     <script src="assets/js/site.js"></script>
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script>
@@ -169,6 +196,30 @@
     </script>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/assets/js/jquery.cbpQTRotator.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpQTRotator( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 700,
+					// default transition easing
+					easing : 'ease',
+					// rotator interval (ms)
+					interval : 8000
+				}
+				- destroy:
+				$( selector ).cbpQTRotator( 'destroy' );
+				*/
+
+				$( '#cbp-qtrotator' ).cbpQTRotator();
+
+			} );
+		</script>
 
 
 <div><div style="font-family: CFPB_Icons, sans-serif; position: absolute; top: 0px; left: -9999px; font-size: 48px;">AxmTYklsjo190QW</div><div style="font-family: CFPB_Icons, serif; position: absolute; top: 0px; left: -9999px; font-size: 48px;">AxmTYklsjo190QW</div></div><script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script></body></html>

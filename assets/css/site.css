@@ -23,10 +23,10 @@ body {
 /* BASE TYPOGRAPHY */
 
 body {
-    color: #05090E; /* PPSS Black */
-    font-family: 'Source Serif Pro', "Times New Roman", serif;
+    color: #1C1F2D; /* PPSS Black, PPSS gray: F3F6F9*/
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     line-height: 1.375;
-    background-color: #F3F6F9;
+    background-color: #fff;
 
     /* Improve default text rendering, handling of kerning pairs and ligatures */
     -webkit-font-smoothing: antialiased;
@@ -65,7 +65,7 @@ h6 {
     margin-bottom: 20px;
 }
 p {
-    color: #05090E;
+    color: #1C1F2D;
     line-height: 29px;
     font-size: 17px;
     margin-bottom: 35px;
@@ -76,8 +76,9 @@ p {
 
 h1,
 h3 {
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Source Serif Pro', Arial, sans-serif;
     font-weight: normal;
+    color: #1C1F2D;
 }
 
 h1 {
@@ -87,7 +88,7 @@ h1 {
 
 h2 {
       padding-bottom: 0.25em;
-      border-bottom: 3px solid #1C1F2D;
+      border-bottom: 1px solid #1C1F2D;
       margin-bottom: 1.25em;
       color: #1C1F2D;
       font-family: 'Teko', Arial, Sans serif;
@@ -97,6 +98,12 @@ h2 {
       letter-spacing: 2.73px;
       text-align: left;
       margin-bottom: 44px;
+}
+
+.sidebar h2 {
+  border-bottom: none;
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 
@@ -335,6 +342,8 @@ dt {
 .hub-menu-main a:hover,
 .hub-menu li.hub-search-item:hover,
 .hub-menu li.hub-search-item:hover a {
+    background-color: #fff;
+    color: #1C1F2D;
 }
 
 .hub-menu-main > li {
@@ -352,13 +361,22 @@ dt {
     background-color: #48BB6C;
 }
 
-.hub-menu-main > li > a {
+
+.hub-menu-main li {
+		width: 90px;
+    margin: 0;
     padding: 0;
-    padding-left: 30px;
+}
+
+.hub-menu-main a {
+    margin: 0;
+    padding: 0;
     text-transform: uppercase;
+    text-align: center;
     color: #fff;
     letter-spacing: 2.45px;
 }
+
 
 /*
 
@@ -379,7 +397,7 @@ dt {
   height: 74px;
   padding: 0;
   width: 74px;
-  background-color: #1FC97E;
+  background-color: none;
   padding-top: 18px;
   padding-left: 18px;
   color: #fff;
@@ -394,15 +412,15 @@ dt {
 }
 
 .colorChange {
-    background-color:#1FC97E;
-    -webkit-transition: background-color 700ms linear;
-    -moz-transition: background-color 700ms linear;
-    -o-transition: background-color 700ms linear;
-    -ms-transition: background-color 700ms linear;
-    transition: background-color 700ms linear;
+    background-color: #1FC97E;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
 }
 
-.colorChange .scrolled {
+.scrolled {
     background-color: #378FEE;
 }
 
@@ -410,11 +428,6 @@ dt {
   width:55px;
   height:55px;
 }
-
-.hub-menu-main > li:last-child > a {
-		padding-right: 30px;
-}
-
 
 .hub-icon::before {
     display: inline-block;
@@ -439,7 +452,7 @@ dt {
 /* HYPERLINKS */
 
 a {
-    color:#909BA9;
+    color:#1C1F2D;
     text-decoration: none;
 }
 
@@ -473,7 +486,7 @@ a:active {
 }
 
 a.home {
-    color: #05090E;
+    color: #1C1F2D;
     border: 0;
 }
 a.home:hover,
@@ -588,15 +601,15 @@ del {
 }
 
 #tellUs:hover {
-  background-color: #378FEE;
-  border-color: #378FEE;
-  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  color: #1C1F2D;
 
 }
 
 #viewSourceCodePolicy {
   background-image: none;
-  font-family: Montserrat;
+  font-family: Source Serif Pro;
   font-weight: 400;
   text-transform: uppercase !important;
   text-align: center;
@@ -615,7 +628,7 @@ del {
 
 #viewSourceCodePolicy:hover {
   background-color: #fff;
-  color: #05090E;
+  color: #1C1F2D;
 }
 
 .btn,
@@ -774,20 +787,18 @@ hr {
 /* Author Byline Styles */
 
 .by {
-  font-family: 'Source Serif Pro';
-  font-style: italic;
-  font-weight: bold;
+  font-family: 'SourceSansPro-Light', Arial, sans-serif;
   font-size: 14px;
   margin-right: .2em;
 }
 
 .featured-entries a {
-  font-family: 'Source Serif Pro';
+  font-family: 'Source Serif Pro', Arial, sans-serif;
   font-size: 24px;
 }
 
 .entry_meta .author {
-      font-family: "Montserrat", Arial, sans-serif;
+      font-family: "Source Sans Pro", Arial, sans-serif;
       font-weight: 300;
 }
 
@@ -817,7 +828,7 @@ hr {
 
 .usa-disclaimer {
     height: 29px;
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
     background-color: #fff;
     font-size: 12px;
     text-align: right;
@@ -875,7 +886,7 @@ hr {
 }
 
 .beta-disclaimer p {
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
     font-size: 15px;
     color: #909BA9;
 }
@@ -893,7 +904,7 @@ hr {
 }
 
 .informed-disclaimer p {
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
     font-size: 15px;
 }
 
@@ -916,7 +927,7 @@ hr {
 .link--mallki:hover {
 	-webkit-transition: none;
 	transition: none;
-	color: transparent;
+	color: #1FC97E;
 }
 
 .link--mallki::before {
@@ -924,7 +935,7 @@ hr {
 	width: 100%;
 	height: 1.5px;
 	margin: -1px 0 0 0;
-	background: #1FC97E;
+	background: #1C1F2D;
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -991,7 +1002,6 @@ hr {
       padding-bottom: 200px;
       background-image: url('../img/hero.jpg');
       background-color: #D3DAE4;
-      background-blend-mode: soft-light;
       height: 634px;
 
 /*
@@ -1007,7 +1017,9 @@ hr {
         -webkit-background-size: cover;
         background-position: 50% 50%;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+/* When image needs to be parallax
+
+        background-attachment: fixed; */
     }
 
     .hero-project {
@@ -1037,7 +1049,7 @@ hr {
             margin-top: 148px;
             left: 50%;
             transform: translate(-50%,0);
-            font-family: 'Oswald', Arial, sans-serif;
+            font-family: 'Source Serif Pro', Arial, sans-serif;
             line-height: auto;
             font-size: 48px;
             color: #1C1F2D;
@@ -1142,24 +1154,22 @@ hr {
 }
 
 .call-to-action:hover {
-	background: #378FEE;
-	border: 1px solid #378FEE;
+	background: #1C1F2D;
+	border: 1px solid #1C1F2D;
 	color: #FFF;
 }
 
 [class*="call-to-action"] {
     background-image: none;
-    background-color: #1C1F2D;
+    background-color: #fff;
     font-family: 'Teko', Arial, Sans serif;
     font-size: 14.5px;
     text-transform: uppercase !important;
     text-align: center;
     width: 114px;
-    margin-left: -2px;
-    margin-right: -2px;
     padding: 0;
-    border: 1px solid #1C1F2D;
-    color: #fff;
+    color: #1C1F2D;
+    border: 1px solid #BCC2C8;
     display: inline-block;
     letter-spacing: 1.98px;
     line-height: 44px;
@@ -1170,14 +1180,12 @@ hr {
     border-right: none;
 }
 
-.featured-project .outline {
-  background-color: #fff;
-  color: #1C1F2D;
-  border-right: none;
-}
 
-.featured-project .outline:hover {
-  color: #378FEE;
+.stub {
+  width: 90px;
+  margin-left: -3px;
+  margin-right: -3px;
+  border: 1px solid #BCC2C8;
 }
 
 .call-to-action__icon,
@@ -1198,7 +1206,7 @@ hr {
 .intro h1 {
     margin-bottom: 0.79411764705882em; /* 27/34 */
     margin-top: 75px;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Source Serif Pro", Arial, sans-serif;
     font-size: 58px;
     color: #fff;
 }
@@ -1218,8 +1226,8 @@ hr {
     list-style: none;
 }
 .sidebar_list .author {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 300;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: normal;
 }
 .sidebar_list_item {
     margin-bottom: 1.5em;
@@ -1286,8 +1294,8 @@ hr {
 }
 .featured-project_head a {
     margin-bottom: 0em;
-    font-family: 'Oswald', Arial, sans-serif;
-    color: #909BA9;
+    font-family: 'Source Serif Pro', Arial, sans-serif;
+    color: #1C1F2D;
     border-bottom: none;
     font-size: 24px;
     margin-bottom: 10px;
@@ -1314,20 +1322,18 @@ hr {
 
 .section-head {
     padding: 0 0 0.5em;
-    border-bottom: 1px solid #D0D0CE;
+    border-bottom: 3px solid #1C1F2D;
     margin: 1.5em 0 1em;
-    font-family: "Abel", Arial, sans-serif;
-    opacity: .5;
+    font-family: "Teko", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 /*    font-size: 2.125em;*/
     line-height: 1;
-    font-weight: 400;
 }
 
 .entry_title,
 .repo_name {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Source Serif Pro", Arial, sans-serif;
     font-weight: 400;
 }
 .entry_title {
@@ -1349,9 +1355,8 @@ hr {
 }
 .entry_meta time {
     opacity: .8;
-    font-family: "Abel", Arial, sans-serif;
-    font-size: 13px;
-    letter-spacing: 0.1em;
+    font-family: "SourceSansPro-Light", Arial, sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .tags_head {
@@ -1412,29 +1417,29 @@ hr {
 }
 .footer {
     padding: 2em 0;
-    background: #05090E;
-    font-family: "Montserrat", Arial, sans-serif;
+    background: #1C1F2D;
+    font-family: "SourceSansPro-Light", Arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
 }
 .footer-links ul {
     padding-left: 0;
     list-style: none;
+        opacity: .7;
 }
 .footer-links li:first-child {
     margin-left: 0;
 }
 .footer-links_primary a {
-    border-bottom-color: #101820;
     margin-bottom: 1em;
-    color: #101820;
-    font-family: "Avenir Next W01", Arial, sans-serif;
-    font-size: 1.125em;
+    color: #fff;
+    font-family: "SourceSansPro-Light", Arial, sans-serif;
     line-height: 1;
     font-weight: 500;
 }
 .footer-links_secondary a {
-    border-bottom-color: #75787B;
-    color: #75787B;
-    font-family: "Avenir Next W01", Arial, sans-serif;
+    color: #fff;
+    font-family: "SourceSansPro-Light", Arial, sans-serif;
     font-weight: 400;
 }
 .footer-links_social li {
@@ -1444,16 +1449,17 @@ hr {
 
 .footer-links_social a {
     border-bottom-width: 0;
-    color: #101820;
+    color: #fff;
     font-size: 1.625em;
     line-height: 1;
 }
 .footer h4 {
     margin-bottom: 1em;
-    font-family: "Avenir Next W01", Arial, sans-serif;
-    font-size: 1.125em;
+    font-family: "SourceSansPro", Arial, sans-serif;
+    color: #fff;
     line-height: 1;
-    font-weight: 500;
+    font-size: 14px;
+    opacity: .7;
 }
 
 
@@ -1501,7 +1507,7 @@ hr {
 }
 
 .recruit-form label {
-  font-family: Montserrat;
+  font-family: Source Serif Pro;
   font-weight: 400;
   text-transform: uppercase !important;
   margin-bottom: 8px;

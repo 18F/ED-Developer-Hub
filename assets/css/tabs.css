@@ -152,7 +152,7 @@
 	font-weight: normal;
 	font-size: 17px;
 	line-height: 29px;
-	font-family: "Source Serif Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
 }
 
 /* Fallback */
@@ -222,7 +222,7 @@
 /* Overall API summary section styling */
 
 .apiSummary h3 {
-	font-family: "Oswald","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-family: "Source Serif Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 		font-size: 24px;
 		margin-bottom: 8px;
 }
