@@ -3,10 +3,7 @@
 @import "icons.min.css";
 @import "afontgarde.css";
 
-@font-face {
-  font-family: 'Teko-Light-Light';
-  src: url('Teko-Light-Light.ttf');
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Teko:300,400');
 
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -24,9 +21,10 @@ body {
 
 body {
     color: #1C1F2D; /* PPSS Black, PPSS gray: F3F6F9*/
-    font-family: 'Roboto-Light', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.375;
     background-color: #fff;
+    font-weight: 300;
 
     /* Improve default text rendering, handling of kerning pairs and ligatures */
     -webkit-font-smoothing: antialiased;
@@ -91,8 +89,8 @@ h2 {
       border-bottom: 1px solid #1C1F2D;
       margin-bottom: 1.25em;
       color: #1C1F2D;
-      font-family: 'Teko-Light', Arial, Sans serif;
-      font-weight: 400;
+      font-family: 'Teko';
+      font-weight: 300;
       font-size: 20px;
       text-transform: uppercase;
       letter-spacing: 2.73px;
@@ -170,7 +168,7 @@ table {
     border-spacing: 0;
     margin: 0 auto;
     margin-top: 25px;
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
   	font-size: 13px;
 }
 
@@ -315,7 +313,8 @@ dt {
     color: #fff;
     list-style: none;
     text-transform: uppercase;
-    font-family: 'Teko-Light', Arial, sans-serif;
+    font-family: 'Teko';
+    font-weight: 300;
     line-height: 74px;
     z-index: 200;
 }
@@ -587,7 +586,8 @@ del {
 #tellUs {
   background-image: none;
   background-color: #1C1F2D;
-  font-family: 'Teko-Light', Arial, Sans serif;
+  font-family: 'Teko';
+  font-weight: 300;
   font-size: 14.5px;
   text-transform: uppercase !important;
   text-align: center;
@@ -800,7 +800,7 @@ hr {
 }
 
 .entry_meta .author {
-      font-family: "Source Sans Pro", Arial, sans-serif;
+      font-family: "Roboto", Arial, sans-serif;
       font-weight: 300;
 }
 
@@ -830,9 +830,9 @@ hr {
 
 .usa-disclaimer {
     height: 29px;
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
+    font-family: "Roboto","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
     background-color: #fff;
-    font-size: 12px;
+    font-size: 11px;
     text-align: right;
     color: #909BA9;
 }
@@ -888,7 +888,7 @@ hr {
 }
 
 .beta-disclaimer p {
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
+    font-family: "Roboto","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
     font-size: 15px;
     color: #909BA9;
 }
@@ -906,7 +906,7 @@ hr {
 }
 
 .informed-disclaimer p {
-    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Source Sans Pro","Arial",sans-serif;
+    font-family: "Roboto","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
     font-size: 15px;
 }
 
@@ -1163,7 +1163,8 @@ hr {
 [class*="call-to-action"] {
     background-image: none;
     background-color: #fff;
-    font-family: 'Teko-Light', Arial, Sans serif;
+    font-family: 'Teko';
+    font-weight: 300;
     font-size: 14.5px;
     text-transform: uppercase !important;
     text-align: center;
@@ -1227,7 +1228,7 @@ hr {
     list-style: none;
 }
 .sidebar_list .author {
-    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: normal;
 }
 .sidebar_list_item {
@@ -1238,7 +1239,7 @@ hr {
     border-bottom: 3px solid #1C1F2D;
     margin-bottom: 1.25em;
     color: #1C1F2D;
-    font-family: 'Teko-Light', Arial, Sans serif;
+    font-family: 'Teko', Arial, Sans serif;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2.73px;
@@ -1246,7 +1247,7 @@ hr {
 
 .hero .openQuestion p {
     margin-bottom: 0.5em;
-    font-family: "Roboto-Light", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 35px;
     font-size: 24px;
     margin-bottom: 35px;
@@ -1326,7 +1327,7 @@ hr {
     padding: 0 0 0.5em;
     border-bottom: 3px solid #1C1F2D;
     margin: 1.5em 0 1em;
-    font-family: "Teko-Light", Arial, sans-serif;
+    font-family: "Teko", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 /*    font-size: 2.125em;*/
