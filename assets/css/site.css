@@ -4,8 +4,8 @@
 @import "afontgarde.css";
 
 @font-face {
-  font-family: 'Teko-Light';
-  src: url('Teko-Light.ttf');
+  font-family: 'Teko-Light-Light';
+  src: url('Teko-Light-Light.ttf');
 }
 
 
@@ -24,7 +24,7 @@ body {
 
 body {
     color: #1C1F2D; /* PPSS Black, PPSS gray: F3F6F9*/
-    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-family: 'Roboto-Light', Arial, sans-serif;
     line-height: 1.375;
     background-color: #fff;
 
@@ -66,8 +66,8 @@ h6 {
 }
 p {
     color: #1C1F2D;
-    line-height: 29px;
-    font-size: 17px;
+    line-height: 27px;
+    font-size: 16px;
     margin-bottom: 35px;
 }
 p {
@@ -76,7 +76,7 @@ p {
 
 h1,
 h3 {
-    font-family: 'Source Serif Pro', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: normal;
     color: #1C1F2D;
 }
@@ -91,7 +91,7 @@ h2 {
       border-bottom: 1px solid #1C1F2D;
       margin-bottom: 1.25em;
       color: #1C1F2D;
-      font-family: 'Teko', Arial, Sans serif;
+      font-family: 'Teko-Light', Arial, Sans serif;
       font-weight: 400;
       font-size: 20px;
       text-transform: uppercase;
@@ -176,7 +176,7 @@ table {
 
 th {
     text-align: left;
-    font-family: 'Teko', Arial, Sans serif;
+    font-family: 'Teko-Light', Arial, Sans serif;
     font-size: 15px;
     letter-spacing: 1.5px;
     font-weight: normal;
@@ -315,7 +315,7 @@ dt {
     color: #fff;
     list-style: none;
     text-transform: uppercase;
-    font-family: 'Teko', Arial, sans-serif;
+    font-family: 'Teko-Light', Arial, sans-serif;
     line-height: 74px;
     z-index: 200;
 }
@@ -344,6 +344,7 @@ dt {
 .hub-menu li.hub-search-item:hover a {
     background-color: #fff;
     color: #1C1F2D;
+    opacity: 1;
 }
 
 .hub-menu-main > li {
@@ -363,7 +364,7 @@ dt {
 
 
 .hub-menu-main li {
-		width: 90px;
+		width: 95px;
     margin: 0;
     padding: 0;
 }
@@ -462,7 +463,7 @@ main p a:visited {
 
 a:hover {
     background-color: none;
-    color: #1C1F2D;
+    opacity: .6;
     text-decoration: none;
     border-bottom: none;
     -o-transition:.15s;
@@ -586,7 +587,7 @@ del {
 #tellUs {
   background-image: none;
   background-color: #1C1F2D;
-  font-family: 'Teko', Arial, Sans serif;
+  font-family: 'Teko-Light', Arial, Sans serif;
   font-size: 14.5px;
   text-transform: uppercase !important;
   text-align: center;
@@ -598,6 +599,7 @@ del {
   display: inline-block;
   letter-spacing: 1.98px;
   line-height: 44px;
+    opacity: 1;
 }
 
 #tellUs:hover {
@@ -609,7 +611,7 @@ del {
 
 #viewSourceCodePolicy {
   background-image: none;
-  font-family: Source Serif Pro;
+  font-family: Roboto;
   font-weight: 400;
   text-transform: uppercase !important;
   text-align: center;
@@ -793,7 +795,7 @@ hr {
 }
 
 .featured-entries a {
-  font-family: 'Source Serif Pro', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 24px;
 }
 
@@ -1004,12 +1006,9 @@ hr {
       background-color: #D3DAE4;
       height: 634px;
 
-/*
 
-/*
       background-image: linear-gradient(rgba(0, 75, 140, 0.6), rgba(0, 75, 140, 0.6)),
                      url('../img/hero.jpg');
-*/
         background-size: cover;
         -o-background-size: cover;
         -ms-background-size: cover;
@@ -1049,7 +1048,7 @@ hr {
             margin-top: 148px;
             left: 50%;
             transform: translate(-50%,0);
-            font-family: 'Source Serif Pro', Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             line-height: auto;
             font-size: 48px;
             color: #1C1F2D;
@@ -1130,6 +1129,7 @@ hr {
   position: absolute;
   bottom: 0;
   margin-bottom: 0em;
+  opacity: .25;
 }
 
 @media (max-width: 1023px) {
@@ -1157,12 +1157,13 @@ hr {
 	background: #1C1F2D;
 	border: 1px solid #1C1F2D;
 	color: #FFF;
+  opacity: 1;
 }
 
 [class*="call-to-action"] {
     background-image: none;
     background-color: #fff;
-    font-family: 'Teko', Arial, Sans serif;
+    font-family: 'Teko-Light', Arial, Sans serif;
     font-size: 14.5px;
     text-transform: uppercase !important;
     text-align: center;
@@ -1206,7 +1207,7 @@ hr {
 .intro h1 {
     margin-bottom: 0.79411764705882em; /* 27/34 */
     margin-top: 75px;
-    font-family: "Source Serif Pro", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 58px;
     color: #fff;
 }
@@ -1237,7 +1238,7 @@ hr {
     border-bottom: 3px solid #1C1F2D;
     margin-bottom: 1.25em;
     color: #1C1F2D;
-    font-family: 'Teko', Arial, Sans serif;
+    font-family: 'Teko-Light', Arial, Sans serif;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2.73px;
@@ -1245,7 +1246,7 @@ hr {
 
 .hero .openQuestion p {
     margin-bottom: 0.5em;
-    font-family: "Source Serif Pro", Arial, sans-serif;
+    font-family: "Roboto-Light", Arial, sans-serif;
     line-height: 35px;
     font-size: 24px;
     margin-bottom: 35px;
@@ -1294,10 +1295,10 @@ hr {
 }
 .featured-project_head a {
     margin-bottom: 0em;
-    font-family: 'Source Serif Pro', Arial, sans-serif;
-    color: #1C1F2D;
+    font-family: 'Teko', Arial, sans-serif;
+    color: #7AB8ED;
     border-bottom: none;
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
@@ -1324,7 +1325,7 @@ hr {
     padding: 0 0 0.5em;
     border-bottom: 3px solid #1C1F2D;
     margin: 1.5em 0 1em;
-    font-family: "Teko", Arial, sans-serif;
+    font-family: "Teko-Light", Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 /*    font-size: 2.125em;*/
@@ -1333,7 +1334,7 @@ hr {
 
 .entry_title,
 .repo_name {
-    font-family: "Source Serif Pro", Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 400;
 }
 .entry_title {
@@ -1507,7 +1508,7 @@ hr {
 }
 
 .recruit-form label {
-  font-family: Source Serif Pro;
+  font-family: Roboto;
   font-weight: 400;
   text-transform: uppercase !important;
   margin-bottom: 8px;
