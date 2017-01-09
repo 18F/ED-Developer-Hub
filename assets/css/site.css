@@ -834,7 +834,7 @@ hr {
     background-color: #fff;
     font-size: 11px;
     text-align: right;
-    color: #909BA9;
+    color: #1C1F2D;
 }
 
 .usa-disclaimer a {
@@ -853,8 +853,6 @@ hr {
 }
 
 .usa-disclaimer-official a:hover {
-    background-image: none;
-    color: #378FEE;
 }
 
 .usa-grid {
@@ -894,7 +892,7 @@ hr {
 }
 
 .beta-disclaimer span {
-  color: ##909BA9;
+  color: #909BA9;
 }
 
 .informed-disclaimer {
@@ -1298,7 +1296,7 @@ hr {
 .featured-project_head a {
     margin-bottom: 0em;
     font-family: 'Teko', Arial, sans-serif;
-    color: #77B9F2;
+    color: #6EBCFF;
     border-bottom: none;
     font-size: 36px;
     margin-bottom: 10px;
