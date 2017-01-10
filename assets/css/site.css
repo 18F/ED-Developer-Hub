@@ -472,6 +472,10 @@ a:hover {
     transition:.15s;
 }
 
+#integrations a:hover {
+    opacity: 1;
+}
+
 a:focus {
     border-bottom: 1px solid #0072CE;
     outline: thin dotted;
@@ -862,18 +866,16 @@ hr {
 
 .usa-disclaimer-official img {
     text-align: right;
-    margin-top: 6px;
-    margin-left: 10px;
     float: right;
-    height: 17px;
+    height: 29px;
 }
 
 .usa-disclaimer-official img {
     text-align: right;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: 10px;
     float: right;
-    height: 17px;
+    height: 20px;
 }
 
 .beta-disclaimer {
