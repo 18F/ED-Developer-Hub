@@ -80,7 +80,7 @@ h3 {
 }
 
 h1 {
-    font-size: 2.125em;
+    font-size: 49px;
     line-height: 1.23529411764706;
 }
 
@@ -1027,6 +1027,16 @@ hr {
         background-attachment: fixed; */
     }
 
+
+.articleHero {
+
+          margin-bottom: 100px;
+          background-color: #F6F6F6;
+          height: 148px;
+
+        }
+
+
     .hero-project {
 
           background-color: #F3F6F9;
@@ -1157,6 +1167,12 @@ hr {
     margin-bottom: 1.5em;
     font-size: 1.125em;
     line-height: 1.5;
+}
+
+.subtitle {
+  font-size: 11px;
+  opacity: .6;
+  margin-top: 0;
 }
 
 .call-to-action:hover {
