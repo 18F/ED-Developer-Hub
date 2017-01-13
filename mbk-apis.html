@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class=" supports-js supports-fontface supports-generatedcontent CFPB_Icons"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>U.S. Department of Education: Developer Hub | Home</title>
+    <title>U.S. Department of Education: Developer Hub | CRDC APIs</title>
 
     <meta name="description" content="Learn about the U.S. Department of Education's developer resources and technology work.">
 
@@ -14,8 +14,9 @@
       <link rel="stylesheet" href="/assets/css/skeleton.css">
       <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
       <link rel="canonical" href="https://usedgov.github.io/">
-      <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro|Oswald" rel="stylesheet">
-
+      <link href="https://fonts.googleapis.com/css?family=Teko:300,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
       <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -31,50 +32,44 @@
     <section id="content" class="content">
         <main role="main">
 
-            <section class="hero-project">
+          <section class="articleHero">
 
 
-              <div id="homeButton">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
-        </div>
-              <ul id="menu-main" class="hub-menu-main animated">
-                <li class="hub-trigger">
-                  <a class="hub-icon"></a>
-                </li>
+            <div id="homeButton" class="colorChange">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+      </div>
+            <ul id="menu-main" class="hub-menu-main animated">
+              <li class="hub-trigger colorChange">
+                <a class="hub-icon"></a>
+              </li>
 
-                <li><span><a class="" href="https://usedgov.github.io/#APIs">APIs</a></span></li>
-                <li><span><a href="http://github.com/usedgov" target="_blank">Repos</a></span></li>
-                <li><span><a href="https://usedgov.github.io/#news">News</a></span></li>
+              <li><span><a class="" href="https://usedgov.github.io/#APIs">APIs</a></span></li>
+              <li><span><a href="http://github.com/usedgov" target="_blank">Repos</a></span></li>
+              <li><span><a href="https://usedgov.github.io/#news">News</a></span></li>
 
-              </ul>
+            </ul>
 
 
-              <div class="usa-disclaimer">
-            <div class="wrap">
-            <div class="usa-grid">
-              <span class="usa-disclaimer-official">
-                Official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a> (BETA)
-              <a href="http://www.ed.gov/" target="_blank"><img alt="U.S. flag" src="./assets/img/usflag.svg"></a>
-              </span>
-            </div>
+            <div class="usa-disclaimer">
+          <div class="wrap">
+          <div class="usa-grid">
+            <span class="usa-disclaimer-official">
+              Official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a> <span style="color: #DA3E1F;">(BETA)</span>
+            <a href="http://www.ed.gov/" target="_blank"><img alt="U.S. flag" src="./assets/img/usflag.svg"></a>
+            </span>
           </div>
         </div>
+      </div>
 
 
-              <p>My Brother's Keeper APIs</p>
-
-
-          <center><img class="seal" style="height: 294px; padding-top: 54px; position: relative;" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal"></center>
-
-
-            </section> <!-- /.hero -->
+          </section> <!-- /.hero -->
 
             <section class="featured-projects">
 
-                <ul style="margin-top: 1.5em;" class="wrap nav-list">
-                  <h2>Introduction<span class="blinking-cursor">_</span></h2>
+                <ul class="wrap nav-list">
+                  <h3 style="font-size: 36px;">My Brother's Keeper (MBK) APIs</h3>
 
 <p>The U.S. Department of Education's My Brother’s Keeper APIs provide access to several datasets compiled by the My Brother's Keeper Task Force, who gathered indicators from a range of federal data sources to support analyses of important life outcomes for all youth, including boys and young men of color. Specifically, these APIs provide information on 18- to 24-year-olds by race/ethnicity and sex, including high school dropout rates; college enrollment and graduation rates; rates of disconnected youth (who are neither working nor in school); imprisonment rates; and labor force participation rates.</p>
-<p>Sign up for an API key <a href="https://api.data.gov/signup/" target="_blank">here.</a></p>
+<p>You'll need an API key to use them. Sign up for one <a href="https://api.data.gov/signup/" target="_blank">here.</a></p>
             </section>
 <div style="background-color: #fff;">
 
@@ -92,59 +87,59 @@
                       <h3>High School Dropout Rates</h3>
                       <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/mbk-highschool-dropout?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/mbk-highschool-dropout?api_key=DEMO_KEY1</a><p>
                       <div class="tabs tabs-style-line">
-            					<nav>
-            						<ul>
-            							<li><a href="#section-line-1"><span>Overview</span></a></li>
-            							<li><a href="#section-line-2"><span>Queries</span></a></li>
-            							<li><a href="#section-line-3"><span>Fields</span></a></li>
-            						</ul>
-            					</nav>
-            					<div class="content-wrap">
-            						<section id="section-line-1"><p>Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014.</p></section>
-            						<section id="section-line-2"><table class="table-code">
+                      <nav>
+                        <ul>
+                          <li><a href="#section-line-1"><span>Overview</span></a></li>
+                          <li><a href="#section-line-2"><span>Queries</span></a></li>
+                          <li><a href="#section-line-3"><span>Fields</span></a></li>
+                        </ul>
+                      </nav>
+                      <div class="content-wrap">
+                        <section id="section-line-1"><p>Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014.</p></section>
+                        <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
                         </table></section>
-            						<section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.</p></section>
-            					</div><!-- /content -->
-            				</div><!-- /tabs --></div>
+                        <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.</p></section>
+                      </div><!-- /content -->
+                    </div><!-- /tabs --></div>
                   </div>
 
                   <div class="row apiSummary" style="margin-bottom: 50px">
@@ -153,59 +148,59 @@
                       <h3>College Enrollment Rates</h3>
                       <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/mbk-college-enrollment?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/mbk-college-enrollment?api_key=DEMO_KEY1</a><p>
                       <div class="tabs tabs-style-line">
-            					<nav>
-            						<ul>
-            							<li><a href="#section-line-1"><span>Overview</span></a></li>
-            							<li><a href="#section-line-2"><span>Queries</span></a></li>
-            							<li><a href="#section-line-3"><span>Fields</span></a></li>
-            						</ul>
-            					</nav>
-            					<div class="content-wrap">
-            						<section id="section-line-1"><p>Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014.</p></section>
-            						<section id="section-line-2"><table class="table-code">
+                      <nav>
+                        <ul>
+                          <li><a href="#section-line-1"><span>Overview</span></a></li>
+                          <li><a href="#section-line-2"><span>Queries</span></a></li>
+                          <li><a href="#section-line-3"><span>Fields</span></a></li>
+                        </ul>
+                      </nav>
+                      <div class="content-wrap">
+                        <section id="section-line-1"><p>Percentage of 18- to 24-year-olds who have not completed high school by sex and race/ethnicity, 2000–2014.</p></section>
+                        <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
                         </table></section>
-            						<section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.</p></section>
-            					</div><!-- /content -->
-            				</div><!-- /tabs --></div>
+                        <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.</p></section>
+                      </div><!-- /content -->
+                    </div><!-- /tabs --></div>
                   </div>
 
                   <div class="row apiSummary" style="margin-bottom: 50px">
@@ -226,40 +221,40 @@
                         <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
@@ -287,40 +282,40 @@
                         <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
@@ -348,40 +343,40 @@
                         <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
@@ -409,40 +404,40 @@
                         <section id="section-line-2"><table class="table-code">
 
                         <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                        	font-size: 17px;">
+                          font-size: 17px;">
                         <tr>
                         <td><code>?per_page=</code></td>
-                        <td>Select number of results per page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;per_page=30">here</a>.</td>
+                        <td>Select number of results per page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?page=</code></td>
-                        <td>Select results page. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;page=2">here</a>.</td>
+                        <td>Select results page.</td>
                         </tr>
 
                         <tr>
                         <td><code>?sort=Columnx</code> or <code>?sort=-Columnx</code></td>
-                        <td>Sort by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?api_key=DEMO_KEY1&amp;sort=Year">here</a>.</td>
+                        <td>Sort by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>/_index_number_</code></td>
-                        <td>Return a single record. Example <a href="https://api.ed.gov/data/less-than-highschool_2015/15?api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Return a single record.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=</code></td>
-                        <td>Filter by Columnx and Columny. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Year=2004&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by Columnx and Columny.</td>
                         </tr>
 
                         <tr>
                         <td><code>?Columnx=[]&amp;ColumnX=</code></td>
-                        <td>Filter by multiple values in Columnx. Example <a href="https://api.ed.gov/data/less-than-highschool_2015?Sex=Males&amp;Sex=Females&amp;api_key=DEMO_KEY1">here</a>.</td>
+                        <td>Filter by multiple values in Columnx.</td>
                         </tr>
 
                         </tbody>
@@ -450,13 +445,48 @@
                         <section id="section-line-3"><p>For more information and the raw dataset, <a href="http://www2.ed.gov/rschstat/statistics/surveys/mbk/index.html">see here</a>.</p></section>
                       </div><!-- /content -->
                     </div><!-- /tabs --></div>
-                  </div>
 
                 </div>
               </section>
             </div>
         </main>
     </section>
+
+    <footer class="footer cf" role="contentinfo">
+        <div class="wrap">
+
+            <section class="footer-links">
+                <ul class="footer-links_primary cf">
+                    <li>
+                        <a href="http://www.ed.gov/">ed.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/usedgov">github.com/usedgov</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-links_social cf">
+                  <li><a href="https://www.facebook.com/ED.gov/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                  <li><a href="https://twitter.com/usedgov"><i class="fa fa-twitter fa-lg"></i></a></li>
+                  <li><a href="mailto:developers@ed.gov"><i class="fa fa-envelope fa-lg"></i></a></li>
+                    <!-- <li>
+                        <a href="#"><i class="icon-rss-alt">RSS Feed</i></a>
+                    </li> -->
+                </ul>
+            </section>
+
+            <section class="footer-oss">
+                <h4>Open Source</h4>
+                <p>
+                    As a work of the United States Government, source code for this developer hub is in the public domain.
+                </p>
+
+            </section>
+
+        </div>
+
+    </footer>
+
     <script src="assets/js/site.js"></script>
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/cbpFWTabs.js"></script>
@@ -494,7 +524,7 @@
 
 <!--DAP CODE-->
   <script language="javascript" id="_fed_an_ua_tag" src="https://www2.ed.gov/style/Universal-Federated-Analytics.1.0.js?ver=true&agency=ED"></script>
-<!--END DAP CODE-->    
+<!--END DAP CODE-->
 <!--GOOGLE ANALYTICS CODE-->
 <script type="text/javascript">
   var _gaq = _gaq || [];
