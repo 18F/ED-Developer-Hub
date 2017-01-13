@@ -3,7 +3,7 @@
 @import "icons.min.css";
 @import "afontgarde.css";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Teko:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Teko:300,400|Roboto+Mono:300,400');
 
 
 /* Paul Irish's Universal border-box -- http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
@@ -157,7 +157,7 @@ samp {
     margin-bottom: 10px;
     font-size: 1em;
     line-height: 1.375;
-    font-family: Source Code Pro, Consolas, Monaco, 'Andale Mono', monospace, serif;
+    font-family: 'Roboto Mono', monospace, serif;
 }
 
 

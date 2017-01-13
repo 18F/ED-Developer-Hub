@@ -149,10 +149,10 @@
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	color: #1C1F2D;
-	font-weight: normal;
-	font-size: 17px;
+	font-weight: 300;
+	font-size: 14px;
 	line-height: 29px;
-	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 /* Fallback */
@@ -186,6 +186,12 @@
 /* Line */
 /*****************************/
 
+.tabs h3 {
+	color: #1C1F2D;
+	font-size: 12px;
+	font-weight: 400;
+}
+
 .tabs-style-line nav ul {
 	padding: 0;
 	max-width: none;
@@ -193,17 +199,18 @@
 
 .tabs-style-line nav a {
 	padding: 0.7em 0em;
+	background-color: #F6F6F6;
 	color: #909BA9;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Teko', Arial, Sans serif;
+	font-weight: 300;
 	font-size: 22px;
 	letter-spacing: 1.98px;
 	line-height: .3;
 	padding-top: 15px;
 	padding-bottom: 12px;
 	border-bottom: 1px solid #E3E6E9;
-	border-top: 3px solid #1C1F2D;
 	-webkit-transition: color 0.3s, box-shadow 0.3s;
 	transition: color 0.3s, box-shadow 0.3s;
 }
@@ -212,6 +219,7 @@
 .tabs-style-line nav a:focus {
 	color: #1C1F2D;
 	border-bottom: 1px solid #1FC97E;
+	opacity: 1;
 }
 
 .tabs-style-line nav li.tab-current a {
@@ -222,14 +230,15 @@
 /* Overall API summary section styling */
 
 .apiSummary h3 {
-	font-family: "Source Serif Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-		font-size: 24px;
-		margin-bottom: 8px;
+	font-family: "Roboto",sans-serif;
+		font-size: 16px;
+		font-weight: 300;
 }
 
 .apiSummary p {
-	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-		font-size: 17px;
+	font-family: "Roboto",sans-serif;
+		font-size: 14px;
+		font-weight: 300;
 }
 
 .apiSummary .endpoint a {

@@ -14,8 +14,9 @@
       <link rel="stylesheet" href="/assets/css/skeleton.css">
       <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
       <link rel="canonical" href="https://usedgov.github.io/">
-      <link href="https://fonts.googleapis.com/css?family=Teko|Source+Serif+Pro|Source+Sans+Pro|Oswald" rel="stylesheet">
-
+      <link href="https://fonts.googleapis.com/css?family=Teko:300,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet">
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
       <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -31,50 +32,44 @@
     <section id="content" class="content">
         <main role="main">
 
-            <section class="hero-project">
+          <section class="articleHero">
 
 
-              <div id="homeButton" class="colorChange">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
-              </div>
-              <ul id="menu-main" class="hub-menu-main animated">
-                <li class="hub-trigger colorChange">
-                  <a class="hub-icon"></a>
-                </li>
+            <div id="homeButton" class="colorChange">  <a class="hub-icon" href="https://usedgov.github.io/">  <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+      </div>
+            <ul id="menu-main" class="hub-menu-main animated">
+              <li class="hub-trigger colorChange">
+                <a class="hub-icon"></a>
+              </li>
 
-                <li><span><a class="" href="https://usedgov.github.io/#APIs">APIs</a></span></li>
-                <li><span><a href="http://github.com/usedgov" target="_blank">Repos</a></span></li>
-                <li><span><a href="https://usedgov.github.io/#news">News</a></span></li>
+              <li><span><a class="" href="#APIs">APIs</a></span></li>
+              <li><span><a href="http://github.com/usedgov" target="_blank">Repos</a></span></li>
+              <li><span><a href="https://usedgov.github.io/">News</a></span></li>
 
-              </ul>
+            </ul>
 
 
-              <div class="usa-disclaimer">
-            <div class="wrap">
-            <div class="usa-grid">
-              <span class="usa-disclaimer-official">
-                Official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a> (BETA)
-              <a href="http://www.ed.gov/" target="_blank"><img alt="U.S. flag" src="./assets/img/usflag.svg"></a>
-              </span>
-            </div>
+            <div class="usa-disclaimer">
+          <div class="wrap">
+          <div class="usa-grid">
+            <span class="usa-disclaimer-official">
+              Official developer hub of the <a href="http://www.ed.gov/" target="_blank">U.S. Department of Education</a> <span style="color: #DA3E1F;">(BETA)</span>
+            <a href="http://www.ed.gov/" target="_blank"><img alt="U.S. flag" src="./assets/img/usflag.svg"></a>
+            </span>
           </div>
         </div>
+      </div>
 
 
-              <p>CRDC APIs</p>
-
-
-          <center><img class="seal" style="height: 294px; padding-top: 54px; position: relative;" src="./assets/img/edlogohalf.svg"  alt="U.S. Department of Education Seal"></center>
-
-
-            </section> <!-- /.hero -->
+          </section> <!-- /.hero -->
 
             <section class="featured-projects">
 
-                <ul style="margin-top: 1.5em;" class="wrap nav-list">
-                  <h2>Overview</h2>
+                <ul class="wrap nav-list">
+                  <h3 style="font-size: 36px;">Civil Rights Data Collection (CRDC) APIs</h3>
 
 <p>Since 1968, the U.S. Department of Education (ED) has conducted the Civil Rights Data Collection (CRDC) to collect data on key education and civil rights issues in our nation's public schools. The 2013-14 collection includes equity data from every public school and public school district in the nation. The following APIs provide access to several CRDC indicators.</p>
-<p>Sign up for an API key <a href="https://api.data.gov/signup/" target="_blank">here.</a></p>
+<p>You'll need an API key to use them. Sign up for one <a href="https://api.data.gov/signup/" target="_blank">here.</a></p>
             </section>
 <div style="background-color: #fff;">
 
@@ -90,9 +85,11 @@
 
                     <div class="twelve columns">
 
-                      <h3>Public School Enrollment in 2013-14</h3>
-                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_enrollment_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_enrollment_2013-14?api_key=DEMO_KEY1</a><p>
                       <div class="tabs tabs-style-line">
+
+                        <h3>Public School Enrollment in 2013-14</h3>
+                        <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_enrollment_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_enrollment_2013-14?api_key=DEMO_KEY1</a><p>
+
                       <nav>
                         <ul>
                           <li><a href="#section-line-1"><span>Overview</span></a></li>
@@ -104,8 +101,7 @@
                         <section id="section-line-1"><p>Public school and district-level information on the number of students enrolled in public education in 2013-14 by race/ethnicity and sex.</p></section>
                         <section id="section-line-2"><table class="table-code">
 
-                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                          font-size: 17px;">
+                        <tbody>
                         <tr>
                         <td><code>?per_page=</code></td>
                         <td>Select number of results per page.</td>
@@ -153,9 +149,10 @@
 
                     <div class="twelve columns">
 
-                      <h3>Chronic Absenteeism in 2013-14</h3>
-                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_absenteeism_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_absenteeism_2013-14?api_key=DEMO_KEY1</a><p>
-                      <div class="tabs tabs-style-line">
+                        <div class="tabs tabs-style-line">
+                          <h3>Chronic Absenteeism in 2013-14</h3>
+                          <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_absenteeism_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_absenteeism_2013-14?api_key=DEMO_KEY1</a><p>
+                      
                       <nav>
                         <ul>
                           <li><a href="#section-line-1"><span>Overview</span></a></li>
@@ -167,8 +164,7 @@
                         <section id="section-line-1"><p>Public school and district-level information on the number of students who were chronically absent (missed 15 days or more of the school year) by race/ethnicity and gender.</p></section>
                         <section id="section-line-2"><table class="table-code">
 
-                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                          font-size: 17px;">
+                        <tbody>
                         <tr>
                         <td><code>?per_page=</code></td>
                         <td>Select number of results per page.</td>
@@ -216,9 +212,10 @@
 
                     <div class="twelve columns">
 
-                      <h3>Out-of-School Suspension in 2013-14</h3>
-                      <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_oosuspensions_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_oosuspensions_2013-14?api_key=DEMO_KEY1</a><p>
                       <div class="tabs tabs-style-line">
+                        <h3>Out-of-School Suspension in 2013-14</h3>
+                        <p class="endpoint"><i class="fa fa-external-link" aria-hidden="true"></i><a href="https://api.ed.gov/data/crdc_oosuspensions_2013-14?api_key=DEMO_KEY1" target="_blank">api.ed.gov/data/crdc_oosuspensions_2013-14?api_key=DEMO_KEY1</a><p>
+
                       <nav>
                         <ul>
                           <li><a href="#section-line-1"><span>Overview</span></a></li>
@@ -230,8 +227,7 @@
                         <section id="section-line-1"><p>Public school and district-level information on the number of students who received out-of-school suspensions by race/ethnicity and gender.</p></section>
                         <section id="section-line-2"><table class="table-code">
 
-                        <tbody   style="font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
-                          font-size: 17px;">
+                        <tbody>
                         <tr>
                         <td><code>?per_page=</code></td>
                         <td>Select number of results per page.</td>
@@ -279,6 +275,42 @@
             </div>
         </main>
     </section>
+
+    <footer class="footer cf" role="contentinfo">
+        <div class="wrap">
+
+            <section class="footer-links">
+                <ul class="footer-links_primary cf">
+                    <li>
+                        <a href="http://www.ed.gov/">ed.gov</a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/usedgov">github.com/usedgov</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-links_social cf">
+                  <li><a href="https://www.facebook.com/ED.gov/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                  <li><a href="https://twitter.com/usedgov"><i class="fa fa-twitter fa-lg"></i></a></li>
+                  <li><a href="mailto:developers@ed.gov"><i class="fa fa-envelope fa-lg"></i></a></li>
+                    <!-- <li>
+                        <a href="#"><i class="icon-rss-alt">RSS Feed</i></a>
+                    </li> -->
+                </ul>
+            </section>
+
+            <section class="footer-oss">
+                <h4>Open Source</h4>
+                <p>
+                    As a work of the United States Government, source code for this developer hub is in the public domain.
+                </p>
+
+            </section>
+
+        </div>
+
+    </footer>
+
     <script src="assets/js/site.js"></script>
     <script src="assets/js/jquery-3.1.1.min.js"></script>
     <script src="assets/js/cbpFWTabs.js"></script>
@@ -316,7 +348,7 @@
 
 <!--DAP CODE-->
   <script language="javascript" id="_fed_an_ua_tag" src="https://www2.ed.gov/style/Universal-Federated-Analytics.1.0.js?ver=true&agency=ED"></script>
-<!--END DAP CODE-->    
+<!--END DAP CODE-->
 <!--GOOGLE ANALYTICS CODE-->
 <script type="text/javascript">
   var _gaq = _gaq || [];
