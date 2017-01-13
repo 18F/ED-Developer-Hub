@@ -433,6 +433,10 @@ dt {
     display: inline-block;
 }
 
+.hub-icon:hover {
+    opacity: 1;
+}
+
 
 @media screen and (max-width: 422px) {
   .hub-menu-wrapper.hub-open-all {
