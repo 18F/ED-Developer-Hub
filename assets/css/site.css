@@ -406,6 +406,12 @@ dt {
   letter-spacing: 2.45;
 }
 
+@media (max-width: 750px) {
+  .hub-menu-main {
+    display: none;
+  }
+}
+
 .hub-menu-main a {
     display: block;
     background-color: #1C1F2D;
@@ -487,6 +493,12 @@ dt {
   color: #fff;
   font-size: 30px;
   margin: auto;
+}
+
+@media (max-width: 750px) {
+  #homeButton {
+    display: none;
+  }
 }
 
 .colorChange {
@@ -1314,6 +1326,12 @@ hr {
     font-family: Teko;
     font-weight: 400;
     line-height: 90px;
+}
+
+@media (max-width: 767px) {
+  .intro h1 {
+    display: none;
+  }
 }
 
 .intro a,
