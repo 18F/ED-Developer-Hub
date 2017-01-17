@@ -38,7 +38,6 @@ blockquote,
 q,
 pre,
 address,
-hr,
 code,
 samp,
 dl,
@@ -68,6 +67,19 @@ p {
     font-size: 16px;
     margin-bottom: 35px;
 }
+
+p a {
+    color: #1C1F2D;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #BCC2C8;
+}
+
+p a:hover {
+    color: #1C1F2D;
+    border-bottom: 1px solid #1FC97E;
+    opacity: 1;
+}
+
 p {
     margin: 0 0 10px;
 }
@@ -295,6 +307,72 @@ dl dd {
 
 dt {
     font-weight: bold;
+}
+
+/* Articles */
+
+.articles h1 {
+  margin-bottom: 0px;
+}
+
+.articles .content {
+  width: 73%;
+  display: inline-block;
+  padding: 0;
+  margin: 0 -0.26em 1em 0;
+  vertical-align: top;
+  margin-bottom: 125px;
+}
+
+.articles .content .subtitle {
+    font-size: 12px;
+    opacity: .6;
+    margin-top: 0;
+}
+
+.articles .content p {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .articles .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles .sidebar .call-to-action {
+    margin-bottom: 100px;
+  }
+}
+
+.articles .content h3 {
+  font-size: 36px;
+  margin-top: 30px;
+  color: #FF926E;
+}
+
+.articles .content img {
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.articles hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #BCC2C8;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+.news {
+  width: 100%;
+}
+
+.content .news h3 {
+  font-size: 29px;
 }
 
 /* Unstyled nav lists */
@@ -709,9 +787,13 @@ sub {
 }
 
 hr {
-    border: 0;
+    display: block;
     height: 1px;
-    background: #babbbc;
+    border: 0;
+    border-top: 1px solid #BCC2C8;
+    margin-top: 2.5em;
+    margin-bottom: 2.3em;
+    padding: 0;
 }
 
 
@@ -1034,9 +1116,9 @@ hr {
 
 .articleHero {
 
-          margin-bottom: 100px;
+          margin-bottom: 75px;
           background-color: #F6F6F6;
-          height: 148px;
+          height: 119px;
 
         }
 
@@ -1173,12 +1255,6 @@ hr {
     line-height: 1.5;
 }
 
-.subtitle {
-  font-size: 11px;
-  opacity: .6;
-  margin-top: 0;
-}
-
 .call-to-action:hover {
 	background: #1C1F2D;
 	border: 1px solid #1C1F2D;
@@ -1232,12 +1308,14 @@ hr {
 }
 
 .intro h1 {
-    margin-bottom: 0.79411764705882em; /* 27/34 */
-    margin-top: 75px;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 58px;
+    padding-top: 120px;
     color: #fff;
+    font-size: 90px;
+    font-family: Teko;
+    font-weight: 400;
+    line-height: 90px;
 }
+
 .intro a,
 .content-header a {
     color: #002D72;
@@ -1354,17 +1432,6 @@ hr {
 
 .featured-project p {
     color: #1C1F2D;
-}
-
-.section-head {
-    padding: 0 0 0.5em;
-    border-bottom: 1px solid #BCC2C8;
-    margin: 1.5em 0 1em;
-    font-family: "Teko", Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-/*    font-size: 2.125em;*/
-    line-height: 1;
 }
 
 .entry_title,
@@ -1636,7 +1703,10 @@ hr {
         margin: 2em 5%;
     }
     .featured-projects {
-        padding: 2em 0;
+        padding-top: 3em;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 1em;
     }
     .featured-project {
         display: inline-block;

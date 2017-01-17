@@ -131,6 +131,13 @@
 /* Content */
 .content-wrap {
 	position: relative;
+	border-left: 1px solid #BCC2C8;
+	border-right: 1px solid #BCC2C8;
+	border-bottom: 1px solid #BCC2C8;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	padding: 3em 3em;
 }
 
 .content-wrap section {
@@ -146,20 +153,21 @@
 }
 
 .content-wrap section p {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin: 0;
 	color: #1C1F2D;
 	font-weight: 300;
 	font-size: 14px;
-	line-height: 29px;
+	line-height: 1.8;
 	font-family: "Roboto", sans-serif;
 }
+
+/* Tab Header */
+
 
 /* Fallback */
 .no-js .content-wrap section {
 	display: block;
 	padding-bottom: 2em;
-	border-bottom: 1px solid rgba(255,255,255,0.6);
 }
 
 .no-flexbox nav ul {
@@ -186,12 +194,6 @@
 /* Line */
 /*****************************/
 
-.tabs h3 {
-	color: #1C1F2D;
-	font-size: 12px;
-	font-weight: 400;
-}
-
 .tabs-style-line nav ul {
 	padding: 0;
 	max-width: none;
@@ -199,7 +201,8 @@
 
 .tabs-style-line nav a {
 	padding: 0.7em 0em;
-	background-color: #F6F6F6;
+	background-color: #fff;
+	border-bottom: 1px solid #BCC2C8;
 	color: #909BA9;
 	text-align: center;
 	text-transform: uppercase;
@@ -210,43 +213,44 @@
 	line-height: .3;
 	padding-top: 15px;
 	padding-bottom: 12px;
-	border-bottom: 1px solid #E3E6E9;
 	-webkit-transition: color 0.3s, box-shadow 0.3s;
 	transition: color 0.3s, box-shadow 0.3s;
 }
 
 .tabs-style-line nav a:hover,
 .tabs-style-line nav a:focus {
-	color: #1C1F2D;
-	border-bottom: 1px solid #1FC97E;
+	color: #6EBCFF;
 	opacity: 1;
 }
 
 .tabs-style-line nav li.tab-current a {
 	color: #1C1F2D;
-	border-bottom: 1px solid #1C1F2D;
+	background-color: #fff;
+	border-top: 1px solid #BCC2C8;
+	border-right: 1px solid #BCC2C8;
+	border-left: 1px solid #BCC2C8;
+	border-bottom: none;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
-/* Overall API summary section styling */
-
-.apiSummary h3 {
-	font-family: "Roboto",sans-serif;
-		font-size: 16px;
-		font-weight: 300;
+.tabs .endpoint {
+	font-weight: 300;
+	font-size: 14px;
 }
 
-.apiSummary p {
-	font-family: "Roboto",sans-serif;
-		font-size: 14px;
-		font-weight: 300;
+.tabs h3 {
+	color: #1C1F2D;
+	font-size: 15px;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-family: Roboto;
+	font-weight: 400;
+	margin-bottom: 5px;
+	border-left: 2px solid #6EBCFF;
 }
 
-.apiSummary .endpoint a {
-		color: #1FC97E;
-		text-decoration: none;
-		border: none;
-}
-
-.apiSummary .endpoint i {
-		margin-right: 8px;
+.tabs p {
+	padding-left: 1em;
+	padding-right: 1em;
 }

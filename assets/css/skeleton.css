@@ -152,6 +152,11 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+table {
+  margin: auto;
+}
+
 th,
 td {
   padding: 12px 15px;
@@ -164,7 +169,10 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
-
+tbody {
+  font-family: Roboto;
+  font-weight: 300;
+}
 
 
 /* Utilities
